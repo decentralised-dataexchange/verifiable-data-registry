@@ -1,0 +1,63 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "legalForm": {
+      "type": "string"
+    },
+    "activity": {
+      "type": "string"
+    },
+    "registrationDate": {
+      "type": "string"
+    },
+    "legalStatus": {
+      "type": "string"
+    },
+    "registeredAddress": {
+      "type": "object",
+      "properties": {
+        "fullAddress": {
+          "type": "string"
+        },
+        "thoroughFare": {
+          "type": "string"
+        },
+        "locatorDesignator": {
+          "type": "string"
+        },
+        "postCode": {
+          "type": "string"
+        },
+        "postName": {
+          "type": "string"
+        },
+        "adminUnitLevel1": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "fullAddress",
+        "thoroughFare",
+        "locatorDesignator",
+        "postCode",
+        "postName",
+        "adminUnitLevel1"
+      ]
+    },
+    "orgNumber": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "name",
+    "legalForm",
+    "activity",
+    "registrationDate",
+    "legalStatus",
+    "registeredAddress",
+    "orgNumber"
+  ]
+}

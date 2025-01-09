@@ -1,0 +1,8 @@
+{
+  "id": "9055289d-ea2b-4096-920f-278d433a518e",
+  "title": "Legal Person Identification Data (LPID)",
+  "credentialType": "LegalPersonIdentificationData",
+  "isSdJwt": true,
+  "isJwt": true,
+  "isMsoMdoc": true
+}

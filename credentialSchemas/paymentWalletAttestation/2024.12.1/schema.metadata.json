@@ -1,0 +1,8 @@
+{
+  "id": "9055289d-ea2b-4096-920f-278d433a518e",
+  "title": "Payment Wallet Attestation",
+  "credentialType": "PaymentWalletAttestation",
+  "isSdJwt": true,
+  "isJwt": false,
+  "isMsoMdoc": false
+}
