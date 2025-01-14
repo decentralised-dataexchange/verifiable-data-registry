@@ -1,7 +1,7 @@
 {
   "id": "9055289d-ea2b-4096-920f-278d433a518e",
   "title": "Legal Person Identification Data (LPID)",
-  "credentialType": "LegalPersonIdentificationData",
+  "credentialType": "LegalPersonalIdentificationData",
   "namespace": "org.iso.18013.5.1.lpid",
   "isSdJwt": true,
   "isJwt": true,
