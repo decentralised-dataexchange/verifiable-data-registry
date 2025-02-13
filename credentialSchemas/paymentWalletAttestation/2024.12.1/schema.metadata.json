@@ -1,6 +1,6 @@
 {
   "id": "bbfb8d38-2e11-49fe-9743-03ee3ebbaa7c",
-  "title": "Payment Wallet Attestation",
+  "title": "Payment Authenticator",
   "credentialType": "PaymentWalletAttestation",
   "isSdJwt": true,
   "isJwt": false,
