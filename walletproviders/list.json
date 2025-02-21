@@ -8,6 +8,11 @@
     {
       "id": 1,
       "iss": "https://oid4vc.igrant.io/organisation/445f2b74-cc27-44ef-bed7-4809c13699cf/service",
+      "name": "iGrant.io (Demo)"
+    },
+    {
+      "id": 3,
+      "iss": "https://ow.igrant.io/organisation/2bd50451-ad41-4836-ad24-4f12194af215/service",
       "name": "iGrant.io (Production)"
     }
   ]
