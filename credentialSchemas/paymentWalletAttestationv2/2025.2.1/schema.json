@@ -3,40 +3,45 @@
   "properties": {
     "fundingSource": {
       "type": "object",
+      "limitDisclosure": true,
       "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "card"
-          ],
-          "description": "Type of funding source."
-        },
-        "panLastFour": {
-          "type": "string",
-          "pattern": "^[0-9]{4}$",
-          "description": "Last four digits of the card number."
-        },
-        "iin": {
-          "type": "string",
-          "pattern": "^[0-9]{6,8}$",
-          "description": "Issuer Identification Number (IIN)."
-        },
-        "parLastFour": {
-          "type": "string",
-          "maxLength": 4,
-          "description": "Last four characters of the Payment Account Reference (PAR)."
-        },
         "aliasId": {
+          "description": "Unique identifier assigned for the funding source.",
           "type": "string",
-          "description": "Unique identifier assigned for the funding source."
+          "limitDisclosure": true
         },
         "currency": {
-          "type": "string",
+          "description": "Currency code (ISO 4217, e.g., EUR, USD).",
           "pattern": "^[A-Z]{3}$",
-          "description": "Currency code (ISO 4217, e.g., EUR, USD)."
+          "type": "string",
+          "limitDisclosure": true
+        },
+        "icon": {
+          "description": "URI to card logo.",
+          "format": "uri",
+          "type": "string",
+          "limitDisclosure": true
+        },
+        "iin": {
+          "description": "Issuer Identification Number (IIN).",
+          "pattern": "^[0-9]{6,8}$",
+          "type": "string",
+          "limitDisclosure": true
+        },
+        "panLastFour": {
+          "description": "Last four digits of the card number.",
+          "pattern": "^[0-9]{4}$",
+          "type": "string",
+          "limitDisclosure": true
+        },
+        "parLastFour": {
+          "description": "Last four characters of the Payment Account Reference (PAR).",
+          "maxLength": 4,
+          "type": "string",
+          "limitDisclosure": true
         },
         "scheme": {
-          "type": "string",
+          "description": "Card scheme.",
           "enum": [
             "Visa",
             "American Express",
@@ -45,26 +50,26 @@
             "Mastercard",
             "UnionPay"
           ],
-          "description": "Card scheme."
-        },
-        "icon": {
           "type": "string",
-          "format": "uri",
-          "description": "URI to card logo."
+          "limitDisclosure": true
+        },
+        "type": {
+          "description": "Type of funding source.",
+          "enum": ["card"],
+          "type": "string",
+          "limitDisclosure": true
         }
       },
       "required": [
-        "type",
-        "panLastFour",
-        "iin",
         "aliasId",
         "currency",
+        "icon",
+        "iin",
+        "panLastFour",
         "scheme",
-        "icon"
+        "type"
       ]
     }
   },
-  "required": [
-    "fundingSource"
-  ]
+  "required": ["fundingSource"]
 }

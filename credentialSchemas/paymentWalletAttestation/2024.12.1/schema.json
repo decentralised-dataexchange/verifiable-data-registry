@@ -2,26 +2,28 @@
   "type": "object",
   "properties": {
     "account_holder_id": {
-      "type": "string"
+      "type": "string",
+      "limitDisclosure": true
     },
     "accounts": {
       "type": "array",
+      "limitDisclosure": true,
       "items": {
         "properties": {
           "card": {
-            "type": "string"
+            "type": "string",
+            "limitDisclosure": true
           },
           "iban": {
-            "type": "string"
+            "type": "string",
+            "limitDisclosure": true
           }
         },
         "required": [],
-        "type": "object"
+        "type": "object",
+        "limitDisclosure": true
       }
     }
   },
-  "required": [
-    "account_holder_id",
-    "accounts"
-  ]
+  "required": ["account_holder_id", "accounts"]
 }
