@@ -2,14 +2,13 @@
   "type": "object",
   "properties": {
     "identifier": {
-      "type": "string"
+      "type": "string",
+      "limitDisclosure": true
     },
     "legalName": {
-      "type": "string"
+      "type": "string",
+      "limitDisclosure": true
     }
   },
-  "required": [
-    "identifier",
-    "legalName"
-  ]
+  "required": ["identifier", "legalName"]
 }

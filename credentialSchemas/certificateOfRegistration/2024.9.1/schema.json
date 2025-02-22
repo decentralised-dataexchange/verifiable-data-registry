@@ -1,63 +1,76 @@
 {
   "type": "object",
   "properties": {
-    "name": {
-      "type": "string"
+    "activity": {
+      "type": "string",
+      "limitDisclosure": true
     },
     "legalForm": {
-      "type": "string"
-    },
-    "activity": {
-      "type": "string"
-    },
-    "registrationDate": {
-      "type": "string"
+      "type": "string",
+      "limitDisclosure": true
     },
     "legalStatus": {
-      "type": "string"
+      "type": "string",
+      "limitDisclosure": true
+    },
+    "name": {
+      "type": "string",
+      "limitDisclosure": true
+    },
+    "orgNumber": {
+      "type": "string",
+      "limitDisclosure": true
     },
     "registeredAddress": {
       "type": "object",
+      "limitDisclosure": true,
       "properties": {
-        "fullAddress": {
-          "type": "string"
+        "adminUnitLevel1": {
+          "type": "string",
+          "limitDisclosure": true
         },
-        "thoroughFare": {
-          "type": "string"
+        "fullAddress": {
+          "type": "string",
+          "limitDisclosure": true
         },
         "locatorDesignator": {
-          "type": "string"
+          "type": "string",
+          "limitDisclosure": true
         },
         "postCode": {
-          "type": "string"
+          "type": "string",
+          "limitDisclosure": true
         },
         "postName": {
-          "type": "string"
+          "type": "string",
+          "limitDisclosure": true
         },
-        "adminUnitLevel1": {
-          "type": "string"
+        "thoroughFare": {
+          "type": "string",
+          "limitDisclosure": true
         }
       },
       "required": [
+        "adminUnitLevel1",
         "fullAddress",
-        "thoroughFare",
         "locatorDesignator",
         "postCode",
         "postName",
-        "adminUnitLevel1"
+        "thoroughFare"
       ]
     },
-    "orgNumber": {
-      "type": "string"
+    "registrationDate": {
+      "type": "string",
+      "limitDisclosure": true
     }
   },
   "required": [
-    "name",
-    "legalForm",
     "activity",
-    "registrationDate",
+    "legalForm",
     "legalStatus",
+    "name",
+    "orgNumber",
     "registeredAddress",
-    "orgNumber"
+    "registrationDate"
   ]
 }
