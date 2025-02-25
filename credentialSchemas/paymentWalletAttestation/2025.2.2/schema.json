@@ -1,0 +1,79 @@
+{
+  "type": "object",
+  "properties": {
+    "fundingSource": {
+      "limitDisclosure": false,
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "card"
+          ],
+          "description": "Type of funding source.",
+          "limitDisclosure": true
+        },
+        "panLastFour": {
+          "type": "string",
+          "pattern": "^[0-9]{4}$",
+          "description": "Last four digits of the card number.",
+          "limitDisclosure": true
+        },
+        "iin": {
+          "type": "string",
+          "pattern": "^[0-9]{6,8}$",
+          "description": "Issuer Identification Number (IIN).",
+          "limitDisclosure": true
+        },
+        "parLastFour": {
+          "type": "string",
+          "maxLength": 4,
+          "description": "Last four characters of the Payment Account Reference (PAR).",
+          "limitDisclosure": true
+        },
+        "aliasId": {
+          "type": "string",
+          "description": "Unique identifier assigned for the funding source.",
+          "limitDisclosure": true
+        },
+        "currency": {
+          "type": "string",
+          "pattern": "^[A-Z]{3}$",
+          "description": "Currency code (ISO 4217, e.g., EUR, USD).",
+          "limitDisclosure": true
+        },
+        "scheme": {
+          "type": "string",
+          "enum": [
+            "Visa",
+            "American Express",
+            "Discover",
+            "JCB",
+            "Mastercard",
+            "UnionPay"
+          ],
+          "description": "Card scheme.",
+          "limitDisclosure": true
+        },
+        "icon": {
+          "type": "string",
+          "format": "uri",
+          "description": "URI to card logo.",
+          "limitDisclosure": true
+        }
+      },
+      "required": [
+        "type",
+        "panLastFour",
+        "iin",
+        "aliasId",
+        "currency",
+        "scheme",
+        "icon"
+      ]
+    }
+  },
+  "required": [
+    "fundingSource"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "type": "object",
+  "properties": {
+    "is_over_18": {
+      "type": "boolean",
+      "limitDisclosure": true
+    },
+    "is_over_21": {
+      "type": "boolean",
+      "limitDisclosure": true
+    },
+    "is_over_65": {
+      "type": "boolean",
+      "limitDisclosure": true
+    },
+    "address": {
+      "type": "object",
+      "limitDisclosure": true,
+      "properties": {
+        "street_address": {
+          "type": "string",
+          "limitDisclosure": false
+        },
+        "locality": {
+          "type": "string",
+          "limitDisclosure": false
+        },
+        "region": {
+          "type": "string",
+          "limitDisclosure": false
+        },
+        "country": {
+          "type": "string",
+          "limitDisclosure": false
+        }
+      },
+      "required": [
+        "street_address",
+        "locality",
+        "region",
+        "country"
+      ]
+    },
+    "email": {
+      "type": "string",
+      "format": "email",
+      "limitDisclosure": true
+    },
+    "phone_number": {
+      "type": "string",
+      "limitDisclosure": true
+    },
+    "family_name": {
+      "type": "string",
+      "limitDisclosure": true
+    },
+    "birthdate": {
+      "type": "string",
+      "format": "date",
+      "limitDisclosure": true
+    },
+    "given_name": {
+      "type": "string",
+      "limitDisclosure": true
+    }
+  },
+  "required": [
+    "is_over_18",
+    "is_over_21",
+    "is_over_65",
+    "address",
+    "email",
+    "phone_number",
+    "family_name",
+    "birthdate",
+    "given_name"
+  ]
+}
