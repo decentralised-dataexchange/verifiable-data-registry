@@ -1,0 +1,49 @@
+{
+    "constraints": {
+        "fields": [
+            {
+                "intent_to_retain": false,
+                "path": [
+                    "$['org.iso.18013.5.1.cor']['name']"
+                ]
+            },
+            {
+                "intent_to_retain": false,
+                "path": [
+                    "$['org.iso.18013.5.1.cor']['legalForm']"
+                ]
+            },
+            {
+                "intent_to_retain": false,
+                "path": [
+                    "$['org.iso.18013.5.1.cor']['activity']"
+                ]
+            },
+            {
+                "intent_to_retain": false,
+                "path": [
+                    "$['org.iso.18013.5.1.cor']['registrationDate']"
+                ]
+            },
+            {
+                "intent_to_retain": false,
+                "path": [
+                    "$['org.iso.18013.5.1.cor']['legalStatus']"
+                ]
+            },
+            {
+                "intent_to_retain": false,
+                "path": [
+                    "$['org.iso.18013.5.1.cor']['registeredAddress']"
+                ]
+            },
+            {
+                "intent_to_retain": false,
+                "path": [
+                    "$['org.iso.18013.5.1.cor']['orgNumber']"
+                ]
+            }
+        ],
+        "limit_disclosure": "required"
+    }
+}

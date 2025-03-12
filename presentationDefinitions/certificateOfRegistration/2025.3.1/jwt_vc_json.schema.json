@@ -1,0 +1,82 @@
+{
+    "constraints": {
+        "fields": [
+            {
+                "filter": {
+                    "contains": {
+                        "const": "CertificateOfRegistration"
+                    },
+                    "type": "array"
+                },
+                "path": [
+                    "$.type"
+                ]
+            },
+            {
+                "path": [
+                    "$.credentialSubject.name"
+                ]
+            },
+            {
+                "path": [
+                    "$.credentialSubject.legalForm"
+                ]
+            },
+            {
+                "path": [
+                    "$.credentialSubject.activity"
+                ]
+            },
+            {
+                "path": [
+                    "$.credentialSubject.registrationDate"
+                ]
+            },
+            {
+                "path": [
+                    "$.credentialSubject.legalStatus"
+                ]
+            },
+            {
+                "path": [
+                    "$.credentialSubject.registeredAddress"
+                ]
+            },
+            {
+                "path": [
+                    "$.credentialSubject.registeredAddress.adminUnitLevel1"
+                ]
+            },
+            {
+                "path": [
+                    "$.credentialSubject.registeredAddress.fullAddress"
+                ]
+            },
+            {
+                "path": [
+                    "$.credentialSubject.registeredAddress.locatorDesignator"
+                ]
+            },
+            {
+                "path": [
+                    "$.credentialSubject.registeredAddress.postCode"
+                ]
+            },
+            {
+                "path": [
+                    "$.credentialSubject.registeredAddress.postName"
+                ]
+            },
+            {
+                "path": [
+                    "$.credentialSubject.registeredAddress.thoroughFare"
+                ]
+            },
+            {
+                "path": [
+                    "$.credentialSubject.orgNumber"
+                ]
+            }
+        ]
+    }
+}
