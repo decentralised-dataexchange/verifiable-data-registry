@@ -1,0 +1,242 @@
+{
+  "constraints": {
+    "fields": [
+      {
+        "path": [
+          "$.vc.type"
+        ],
+        "filter": {
+          "type": "array",
+          "contains": {
+            "const": "PortableDocumentA1"
+          }
+        }
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section1"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section1.dateBirth"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section1.forenames"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section1.nationalities"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section1.personalIdentificationNumber"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section1.placeBirth"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section1.sex"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section1.stateOfResidenceAddress"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section1.stateOfStayAddress"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section1.surname"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section1.surnameAtBirth"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section2"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section2.endingDate"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section2.memberStateWhichLegislationApplies"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section2.startingDate"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section3"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section3.civilAndEmployedSelfEmployed"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section3.civilServant"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section3.contractStaff"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section3.employedAndSelfEmployed"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section3.employedTwoOrMoreStates"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section3.exception"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section3.exceptionDescription"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section3.flightCrewMember"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section3.mariner"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section3.postedEmployedPerson"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section3.postedSelfEmployedPerson"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section3.selfEmployedTwoOrMoreStates"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section3.workingInStateUnder21"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section4"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section4.employerSelfEmployedActivityCodes"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section4.nameBusinessName"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section4.registeredAddress"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section5"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section5.workPlaceAddresses"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section5.workPlaceNames"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section6"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section6.address"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section6.date"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section6.email"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section6.institutionID"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section6.name"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section6.officeFaxNo"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section6.officePhoneNo"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.section6.signature"
+        ]
+      }
+    ]
+  }
+}

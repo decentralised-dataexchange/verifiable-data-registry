@@ -1,0 +1,46 @@
+{
+  "constraints": {
+    "fields": [
+      {
+        "path": [
+          "$.vct"
+        ],
+        "filter": {
+          "type": "string",
+          "const": "PaymentWalletAttestation"
+        }
+      },
+      {
+        "path": [
+          "$.fundingSource.aliasId"
+        ]
+      },
+      {
+        "path": [
+          "$.fundingSource.currency"
+        ]
+      },
+      {
+        "path": [
+          "$.fundingSource.iin"
+        ]
+      },
+      {
+        "path": [
+          "$.fundingSource.panLastFour"
+        ]
+      },
+      {
+        "path": [
+          "$.fundingSource.scheme"
+        ]
+      },
+      {
+        "path": [
+          "$.fundingSource.type"
+        ]
+      }
+    ],
+    "limit_disclosure": "required"
+  }
+}

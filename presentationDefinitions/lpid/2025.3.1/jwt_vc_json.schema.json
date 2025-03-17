@@ -1,0 +1,27 @@
+{
+    "constraints": {
+      "fields": [
+        {
+          "path": [
+            "$.vc.type"
+          ],
+          "filter": {
+            "type": "array",
+            "contains": {
+              "const": "LegalPersonIdentificationData"
+            }
+          }
+        },
+        {
+          "path": [
+            "$.vc.credentialSubject.identifier"
+          ]
+        },
+        {
+          "path": [
+            "$.vc.credentialSubject.legalName"
+          ]
+        }
+      ]
+    }
+  }
