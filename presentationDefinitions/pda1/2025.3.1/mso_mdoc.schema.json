@@ -1,0 +1,37 @@
+{
+  "constraints": {
+    "fields": [
+      {
+        "path": [
+        "$['org.iso.18013.5.1.pda1']['section1']"  
+        ]
+      },
+      {
+        "path": [
+        "$['org.iso.18013.5.1.pda1']['section2']"  
+        ]
+      },
+      {
+        "path": [
+        "$['org.iso.18013.5.1.pda1']['section3']"  
+        ]
+      },
+      {
+        "path": [
+        "$['org.iso.18013.5.1.pda1']['section4']"  
+        ]
+      },
+      {
+        "path": [
+        "$['org.iso.18013.5.1.pda1']['section5']"  
+        ]
+      },
+      {
+        "path": [
+        "$['org.iso.18013.5.1.pda1']['section6']"  
+        ]
+      }
+    ],
+    "limit_disclosure": "required"
+  }
+}
