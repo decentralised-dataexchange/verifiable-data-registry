@@ -1,0 +1,82 @@
+{
+  "constraints": {
+    "fields": [
+      {
+        "path": [
+          "$['eu.europa.ec.eudi.studentid.1']['identifier']"
+        ]
+      },
+      {
+        "path": [
+          "$['eu.europa.ec.eudi.studentid.1']['schacPersonalUniqueCode']"
+        ]
+      },
+      {
+        "path": [
+          "$['eu.europa.ec.eudi.studentid.1']['schacPersonalUniqueID']"
+        ]
+      },
+      {
+        "path": [
+          "$['eu.europa.ec.eudi.studentid.1']['schacHomeOrganization']"
+        ]
+      },
+      {
+        "path": [
+          "$['eu.europa.ec.eudi.studentid.1']['familyName']"
+        ]
+      },
+      {
+        "path": [
+          "$['eu.europa.ec.eudi.studentid.1']['firstName']"
+        ]
+      },
+      {
+        "path": [
+          "$['eu.europa.ec.eudi.studentid.1']['displayName']"
+        ]
+      },
+      {
+        "path": [
+          "$['eu.europa.ec.eudi.studentid.1']['dateOfBirth']"
+        ]
+      },
+      {
+        "path": [
+          "$['eu.europa.ec.eudi.studentid.1']['commonName']"
+        ]
+      },
+      {
+        "path": [
+          "$['eu.europa.ec.eudi.studentid.1']['mail']"
+        ]
+      },
+      {
+        "path": [
+          "$['eu.europa.ec.eudi.studentid.1']['eduPersonPrincipalName']"
+        ]
+      },
+      {
+        "path": [
+          "$['eu.europa.ec.eudi.studentid.1']['eduPersonPrimaryAffiliation']"
+        ]
+      },
+      {
+        "path": [
+          "$['eu.europa.ec.eudi.studentid.1']['eduPersonAffiliation']"
+        ]
+      },
+      {
+        "path": [
+          "$['eu.europa.ec.eudi.studentid.1']['eduPersonScopedAffiliation']"
+        ]
+      },
+      {
+        "path": [
+          "$['eu.europa.ec.eudi.studentid.1']['eduPersonAssurance']"
+        ]
+      }
+    ],
+    "limit_disclosure": "required"
+  }
+}
