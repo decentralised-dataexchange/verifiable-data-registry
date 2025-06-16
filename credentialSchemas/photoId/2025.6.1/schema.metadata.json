@@ -1,0 +1,9 @@
+{
+  "id": "photo-id-2025-6-1",
+  "title": "Photo ID Credential",
+  "credentialType": "PhotoID",
+  "namespace": "org.iso.photo.id",
+  "isSdJwt": true,
+  "isJwt": true,
+  "isMsoMdoc": true
+} 
