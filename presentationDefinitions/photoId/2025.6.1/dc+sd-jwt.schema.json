@@ -1,0 +1,266 @@
+{
+    "constraints": {
+        "fields": [
+            {
+                "path": [
+                    "$.dtc.dg_content_info"
+                ]
+            },
+            {
+                "path": [
+                    "$.dtc.dtc_dg1"
+                ]
+            },
+            {
+                "path": [
+                    "$.dtc.dtc_dg10"
+                ]
+            },
+            {
+                "path": [
+                    "$.dtc.dtc_dg11"
+                ]
+            },
+            {
+                "path": [
+                    "$.dtc.dtc_dg12"
+                ]
+            },
+            {
+                "path": [
+                    "$.dtc.dtc_dg13"
+                ]
+            },
+            {
+                "path": [
+                    "$.dtc.dtc_dg14"
+                ]
+            },
+            {
+                "path": [
+                    "$.dtc.dtc_dg15"
+                ]
+            },
+            {
+                "path": [
+                    "$.dtc.dtc_dg16"
+                ]
+            },
+            {
+                "path": [
+                    "$.dtc.dtc_dg2"
+                ]
+            },
+            {
+                "path": [
+                    "$.dtc.dtc_dg3"
+                ]
+            },
+            {
+                "path": [
+                    "$.dtc.dtc_dg4"
+                ]
+            },
+            {
+                "path": [
+                    "$.dtc.dtc_dg5"
+                ]
+            },
+            {
+                "path": [
+                    "$.dtc.dtc_dg6"
+                ]
+            },
+            {
+                "path": [
+                    "$.dtc.dtc_dg7"
+                ]
+            },
+            {
+                "path": [
+                    "$.dtc.dtc_dg8"
+                ]
+            },
+            {
+                "path": [
+                    "$.dtc.dtc_dg9"
+                ]
+            },
+            {
+                "path": [
+                    "$.dtc.dtc_sod"
+                ]
+            },
+            {
+                "path": [
+                    "$.dtc.dtc_version"
+                ]
+            },
+            {
+                "path": [
+                    "$.iso23220.age_birth_year"
+                ]
+            },
+            {
+                "path": [
+                    "$.iso23220.age_in_years"
+                ]
+            },
+            {
+                "path": [
+                    "$.iso23220.age_over_18"
+                ]
+            },
+            {
+                "path": [
+                    "$.iso23220.family_name_latin1"
+                ]
+            },
+            {
+                "path": [
+                    "$.iso23220.given_name_latin1"
+                ]
+            },
+            {
+                "path": [
+                    "$.iso23220.issue_date"
+                ]
+            },
+            {
+                "path": [
+                    "$.iso23220.issuing_authority_unicode"
+                ]
+            },
+            {
+                "path": [
+                    "$.iso23220.name_at_birth"
+                ]
+            },
+            {
+                "path": [
+                    "$.iso23220.nationality"
+                ]
+            },
+            {
+                "path": [
+                    "$.iso23220.birthplace"
+                ]
+            },
+            {
+                "path": [
+                    "$.iso23220.given_name_unicode"
+                ]
+            },
+            {
+                "path": [
+                    "$.iso23220.family_name_unicode"
+                ]
+            },
+            {
+                "path": [
+                    "$.iso23220.birth_date"
+                ]
+            },
+            {
+                "path": [
+                    "$.iso23220.sex"
+                ]
+            },
+            {
+                "path": [
+                    "$.iso23220.portrait"
+                ]
+            },
+            {
+                "path": [
+                    "$.iso23220.portrait_capture_date"
+                ]
+            },
+            {
+                "path": [
+                    "$.iso23220.resident_address_unicode"
+                ]
+            },
+            {
+                "path": [
+                    "$.iso23220.resident_city_unicode"
+                ]
+            },
+            {
+                "path": [
+                    "$.iso23220.resident_postal_code"
+                ]
+            },
+            {
+                "path": [
+                    "$.iso23220.issuing_country"
+                ]
+            },
+            {
+                "path": [
+                    "$.iso23220.expiry_date"
+                ]
+            },
+            {
+                "path": [
+                    "$.iso23220.resident_country"
+                ]
+            },
+            {
+                "path": [
+                    "$.photoid.birth_city"
+                ]
+            },
+            {
+                "path": [
+                    "$.photoid.birth_country"
+                ]
+            },
+            {
+                "path": [
+                    "$.photoid.birth_state"
+                ]
+            },
+            {
+                "path": [
+                    "$.photoid.travel_document_number"
+                ]
+            },
+            {
+                "path": [
+                    "$.photoid.person_id"
+                ]
+            },
+            {
+                "path": [
+                    "$.photoid.resident_house_number"
+                ]
+            },
+            {
+                "path": [
+                    "$.photoid.administrative_number"
+                ]
+            },
+            {
+                "path": [
+                    "$.photoid.resident_street"
+                ]
+            },
+            {
+                "path": [
+                    "$.photoid.resident_state"
+                ]
+            },
+            {
+                "path": [
+                    "$.vct"
+                ],
+                "filter": {
+                    "type": "string",
+                    "const": "eu.europa.ec.eudi.photoid.1"
+                }
+            }
+        ],
+        "limit_disclosure": "required"
+    }
+}
