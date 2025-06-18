@@ -1,6 +1,6 @@
 {
   "id": "e6d54cc3-1a98-457e-8d4a-26ee593b05c2",
-  "name": "Student ID",
-  "purpose": "Student ID",
+  "name": "Student ID Credential",
+  "purpose": "Student ID Credential",
   "credentialType": "VerifiableStudentIDSDJWT"
 }
