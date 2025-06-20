@@ -233,11 +233,6 @@
             },
             {
                 "path": [
-                    "$.photoid.resident_house_number"
-                ]
-            },
-            {
-                "path": [
                     "$.photoid.administrative_number"
                 ]
             },
