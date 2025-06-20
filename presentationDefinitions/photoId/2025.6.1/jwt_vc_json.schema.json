@@ -244,11 +244,6 @@
       },
       {
         "path": [
-          "$.vc.credentialSubject.photoid.resident_house_number"
-        ]
-      },
-      {
-        "path": [
           "$.vc.credentialSubject.photoid.administrative_number"
         ]
       },
