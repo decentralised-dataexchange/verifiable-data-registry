@@ -1,0 +1,32 @@
+{
+  "constraints": {
+    "fields": [
+      {
+        "path": [
+          "$['eu.europa.ec.eudi.loyaltycard']['customer']"
+        ]
+      },
+      {
+        "path": [
+          "$['eu.europa.ec.eudi.loyaltycard']['loyalty_card']"
+        ]
+      },
+      {
+        "path": [
+          "$['eu.europa.ec.eudi.loyaltycard']['portfolio']"
+        ]
+      },
+      {
+        "path": [
+          "$['eu.europa.ec.eudi.loyaltycard']['organization']"
+        ]
+      },
+      {
+        "path": [
+          "$['eu.europa.ec.eudi.loyaltycard']['credential']"
+        ]
+      }
+    ],
+    "limit_disclosure": "required"
+  }
+}

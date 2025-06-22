@@ -1,0 +1,9 @@
+{
+  "id": "b1901148-18ba-43d7-afa5-d1938f3ba067",
+  "title": "Loyalty Card Credential",
+  "credentialType": "LoyaltyCard",
+  "namespace": "eu.europa.ec.eudi.loyaltycard",
+  "isSdJwt": true,
+  "isJwt": true,
+  "isMsoMdoc": true
+} 

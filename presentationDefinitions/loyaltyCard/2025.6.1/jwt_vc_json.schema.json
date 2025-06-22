@@ -1,0 +1,131 @@
+{
+  "constraints": {
+    "fields": [
+      {
+        "path": [
+          "$.vc.customer.first_name"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.customer.last_name"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.customer.nationality"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.customer.address"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.customer.city"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.customer.zip_code"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.customer.phone"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.customer.mobile"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.customer.birth_date"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.customer.email"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.loyalty_card.issue_date"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.loyalty_card.status"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.loyalty_card.type"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.portfolio.available_points"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.portfolio.available_miles"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.portfolio.available_wallet"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.portfolio.last_updated"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.organization.name"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.organization.country"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credential.type"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credential.issuer"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credential.issuance_date"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credential.expiry_date"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.vc.type"
+        ],
+        "filter": {
+          "type": "string",
+          "const": "LoyaltyCard"
+        }
+      }
+    ],
+    "limit_disclosure": "required"
+  }
+}

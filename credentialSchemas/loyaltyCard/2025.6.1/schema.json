@@ -1,0 +1,211 @@
+{
+  "type": "object",
+  "properties": {
+    "customer": {
+      "type": "object",
+      "limitDisclosure": false,
+      "properties": {
+        "first_name": {
+          "limitDisclosure": true,
+          "type": "string",
+          "description": "Customer's first name."
+        },
+        "last_name": {
+          "limitDisclosure": true,
+          "type": "string",
+          "description": "Customer's last name."
+        },
+        "nationality": {
+          "limitDisclosure": true,
+          "type": "string",
+          "description": "Customer's nationality (e.g., country code)."
+        },
+        "address": {
+          "limitDisclosure": true,
+          "type": "string",
+          "description": "Customer's address."
+        },
+        "city": {
+          "limitDisclosure": true,
+          "type": "string",
+          "description": "Customer's city."
+        },
+        "zip_code": {
+          "limitDisclosure": true,
+          "type": "integer",
+          "description": "Customer's zip code."
+        },
+        "phone": {
+          "limitDisclosure": true,
+          "type": "string",
+          "description": "Customer's phone number.",
+          "pattern": "^\\+?[0-9]*$"
+        },
+        "mobile": {
+          "limitDisclosure": true,
+          "type": "integer",
+          "description": "Customer's mobile number."
+        },
+        "birth_date": {
+          "limitDisclosure": true,
+          "type": "string",
+          "format": "date-time",
+          "description": "Customer's birth date and time (ISO 8601 format)."
+        },
+        "email": {
+          "limitDisclosure": true,
+          "type": "string",
+          "format": "email",
+          "description": "Customer's email address."
+        }
+      },
+      "required": [
+        "first_name",
+        "last_name",
+        "nationality",
+        "address",
+        "city",
+        "zip_code",
+        "mobile",
+        "birth_date",
+        "email"
+      ]
+    },
+    "loyalty_card": {
+      "type": "object",
+      "limitDisclosure": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "limitDisclosure": true,
+          "description": "Loyalty card ID."
+        },
+        "issue_date": {
+          "type": "string",
+          "limitDisclosure": true,
+          "format": "date-time",
+          "description": "Loyalty card issue date and time (ISO 8601 format)."
+        },
+        "status": {
+          "type": "string",
+          "limitDisclosure": true,
+          "enum": [
+            "ACTIVE",
+            "INACTIVE",
+            "EXPIRED"
+          ],
+          "description": "Loyalty card status."
+        },
+        "type": {
+          "type": "string",
+          "limitDisclosure": true,
+          "description": "Loyalty card type (e.g., STANDARD, PREMIUM)."
+        }
+      },
+      "required": [
+        "issue_date",
+        "status",
+        "type"
+      ]
+    },
+    "portfolio": {
+      "type": "object",
+      "limitDisclosure": false,
+      "properties": {
+        "available_points": {
+          "limitDisclosure": true,
+          "type": "integer",
+          "description": "Number of available loyalty points."
+        },
+        "available_miles": {
+          "limitDisclosure": true,
+          "type": "integer",
+          "description": "Number of available loyalty miles."
+        },
+        "available_wallet": {
+          "limitDisclosure": true,
+          "type": "integer",
+          "description": "Available amount in loyalty wallet."
+        },
+        "last_updated": {
+          "limitDisclosure": true,
+          "type": "string",
+          "format": "date-time",
+          "description": "Last update date and time for portfolio (ISO 8601 format)."
+        }
+      },
+      "required": [
+        "available_points",
+        "available_miles",
+        "available_wallet",
+        "last_updated"
+      ]
+    },
+    "organization": {
+      "type": "object",
+      "limitDisclosure": false,
+      "properties": {
+        "name": {
+          "limitDisclosure": true,
+          "type": "string",
+          "description": "Name of the organization."
+        },
+        "id": {
+          "type": "string",
+          "limitDisclosure": true,
+          "description": "ID of the organization."
+        },
+        "country": {
+          "type": "string",
+          "limitDisclosure": true,
+          "description": "Country of the organization (e.g., country code)."
+        }
+      },
+      "required": [
+        "name",
+        "country"
+      ]
+    },
+    "credential": {
+      "type": "object",
+      "limitDisclosure": false,
+      "properties": {
+        "type": {
+          "type": "string",
+          "limitDisclosure": true,
+          "description": "Type of credential (e.g., LoyaltyCard)."
+        },
+        "issuer": {
+          "type": "string",
+          "limitDisclosure": true,
+          "description": "Issuer of the credential."
+        },
+        "issuance_date": {
+          "type": "string",
+          "format": "date-time",
+          "limitDisclosure": true,
+          "description": "Credential issuance date and time (ISO 8601 format)."
+        },
+        "expiry_date": {
+          "type": "string",
+          "format": "date-time",
+          "limitDisclosure": true,
+          "description": "Credential expiry date and time (ISO 8601 format)."
+        }
+      },
+      "required": [
+        "type",
+        "issuer",
+        "issuance_date",
+        "expiry_date"
+      ]
+    }
+  },
+  "required": [
+    "customer",
+    "loyalty_card",
+    "portfolio",
+    "organization",
+    "credential"
+  ]
+}

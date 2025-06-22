@@ -1,0 +1,131 @@
+{
+    "constraints": {
+        "fields": [
+            {
+                "path": [
+                    "$.customer.first_name"
+                ]
+            },
+            {
+                "path": [
+                    "$.customer.last_name"
+                ]
+            },
+            {
+                "path": [
+                    "$.customer.nationality"
+                ]
+            },
+            {
+                "path": [
+                    "$.customer.address"
+                ]
+            },
+            {
+                "path": [
+                    "$.customer.city"
+                ]
+            },
+            {
+                "path": [
+                    "$.customer.zip_code"
+                ]
+            },
+            {
+                "path": [
+                    "$.customer.phone"
+                ]
+            },
+            {
+                "path": [
+                    "$.customer.mobile"
+                ]
+            },
+            {
+                "path": [
+                    "$.customer.birth_date"
+                ]
+            },
+            {
+                "path": [
+                    "$.customer.email"
+                ]
+            },
+            {
+                "path": [
+                    "$.loyalty_card.issue_date"
+                ]
+            },
+            {
+                "path": [
+                    "$.loyalty_card.status"
+                ]
+            },
+            {
+                "path": [
+                    "$.loyalty_card.type"
+                ]
+            },
+            {
+                "path": [
+                    "$.portfolio.available_points"
+                ]
+            },
+            {
+                "path": [
+                    "$.portfolio.available_miles"
+                ]
+            },
+            {
+                "path": [
+                    "$.portfolio.available_wallet"
+                ]
+            },
+            {
+                "path": [
+                    "$.portfolio.last_updated"
+                ]
+            },
+            {
+                "path": [
+                    "$.organization.name"
+                ]
+            },
+            {
+                "path": [
+                    "$.organization.country"
+                ]
+            },
+            {
+                "path": [
+                    "$.credential.type"
+                ]
+            },
+            {
+                "path": [
+                    "$.credential.issuer"
+                ]
+            },
+            {
+                "path": [
+                    "$.credential.issuance_date"
+                ]
+            },
+            {
+                "path": [
+                    "$.credential.expiry_date"
+                ]
+            },
+            {
+                "path": [
+                    "$.vct"
+                ],
+                "filter": {
+                    "type": "string",
+                    "const": "LoyaltyCard"
+                }
+            }
+        ],
+        "limit_disclosure": "required"
+    }
+}
