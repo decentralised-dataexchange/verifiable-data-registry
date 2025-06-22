@@ -1,6 +1,6 @@
 {
   "id": "b1901148-18ba-43d7-afa5-d1938f3ba067",
-  "title": "Photo ID Credential",
+  "title": "Photo ID",
   "credentialType": "eu.europa.ec.eudi.photoid.1",
   "namespace": "eu.europa.ec.eudi.photoid.1",
   "isSdJwt": true,

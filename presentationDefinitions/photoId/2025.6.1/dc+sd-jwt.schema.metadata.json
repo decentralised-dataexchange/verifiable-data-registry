@@ -1,6 +1,6 @@
 {
   "id": "e85cff77-e7ca-4a89-b7fc-2f3e8b62bb79",
-  "name": "Photo ID Credential",
-  "purpose": "Photo ID Credential",
+  "name": "Photo ID",
+  "purpose": "Photo ID",
   "credentialType": "eu.europa.ec.eudi.photoid.1"
 }
