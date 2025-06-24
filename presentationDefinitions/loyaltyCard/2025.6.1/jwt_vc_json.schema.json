@@ -3,128 +3,130 @@
     "fields": [
       {
         "path": [
-          "$.vc.customer.first_name"
+          "$.vc.credentialSubject.customer.first_name"
         ]
       },
       {
         "path": [
-          "$.vc.customer.last_name"
+          "$.vc.credentialSubject.customer.last_name"
         ]
       },
       {
         "path": [
-          "$.vc.customer.nationality"
+          "$.vc.credentialSubject.customer.nationality"
         ]
       },
       {
         "path": [
-          "$.vc.customer.address"
+          "$.vc.credentialSubject.customer.address"
         ]
       },
       {
         "path": [
-          "$.vc.customer.city"
+          "$.vc.credentialSubject.customer.city"
         ]
       },
       {
         "path": [
-          "$.vc.customer.zip_code"
+          "$.vc.credentialSubject.customer.zip_code"
         ]
       },
       {
         "path": [
-          "$.vc.customer.phone"
+          "$.vc.credentialSubject.customer.phone"
         ]
       },
       {
         "path": [
-          "$.vc.customer.mobile"
+          "$.vc.credentialSubject.customer.mobile"
         ]
       },
       {
         "path": [
-          "$.vc.customer.birth_date"
+          "$.vc.credentialSubject.customer.birth_date"
         ]
       },
       {
         "path": [
-          "$.vc.customer.email"
+          "$.vc.credentialSubject.customer.email"
         ]
       },
       {
         "path": [
-          "$.vc.loyalty_card.issue_date"
+          "$.vc.credentialSubject.loyalty_card.issue_date"
         ]
       },
       {
         "path": [
-          "$.vc.loyalty_card.status"
+          "$.vc.credentialSubject.loyalty_card.status"
         ]
       },
       {
         "path": [
-          "$.vc.loyalty_card.type"
+          "$.vc.credentialSubject.loyalty_card.type"
         ]
       },
       {
         "path": [
-          "$.vc.portfolio.available_points"
+          "$.vc.credentialSubject.portfolio.available_points"
         ]
       },
       {
         "path": [
-          "$.vc.portfolio.available_miles"
+          "$.vc.credentialSubject.portfolio.available_miles"
         ]
       },
       {
         "path": [
-          "$.vc.portfolio.available_wallet"
+          "$.vc.credentialSubject.portfolio.available_wallet"
         ]
       },
       {
         "path": [
-          "$.vc.portfolio.last_updated"
+          "$.vc.credentialSubject.portfolio.last_updated"
         ]
       },
       {
         "path": [
-          "$.vc.organization.name"
+          "$.vc.credentialSubject.organization.name"
         ]
       },
       {
         "path": [
-          "$.vc.organization.country"
+          "$.vc.credentialSubject.organization.country"
         ]
       },
       {
         "path": [
-          "$.vc.credential.type"
+          "$.vc.credentialSubject.credential.type"
         ]
       },
       {
         "path": [
-          "$.vc.credential.issuer"
+          "$.vc.credentialSubject.credential.issuer"
         ]
       },
       {
         "path": [
-          "$.vc.credential.issuance_date"
+          "$.vc.credentialSubject.credential.issuance_date"
         ]
       },
       {
         "path": [
-          "$.vc.credential.expiry_date"
+          "$.vc.credentialSubject.credential.expiry_date"
         ]
       },
       {
         "path": [
-          "$.vc.vc.type"
+            "$.vc.type"
         ],
         "filter": {
-          "type": "string",
-          "const": "LoyaltyCard"
+            "type": "array",
+            "contains": {
+                "const": "LoyaltyCard"
+            }
         }
-      }
+    }
     ],
     "limit_disclosure": "required"
   }
