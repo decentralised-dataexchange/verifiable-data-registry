@@ -1,0 +1,46 @@
+{
+  "claims": [
+    {
+      "path": ["name"]
+    },
+    {
+      "path": ["legalForm"]
+    },
+    {
+      "path": ["activity"]
+    },
+    {
+      "path": ["legalForm"]
+    },
+    {
+      "path": ["registrationDate"]
+    },
+    {
+      "path": ["legalStatus"]
+    },
+    {
+      "path": ["registeredAddress"]
+    },
+    {
+      "path": ["registeredAddress", "adminUnitLevel1"]
+    },
+    {
+      "path": ["registeredAddress", "fullAddress"]
+    },
+    {
+      "path": ["registeredAddress", "locatorDesignator"]
+    },
+    {
+      "path": ["registeredAddress", "postCode"]
+    },
+    {
+      "path": ["registeredAddress", "postName"]
+    },
+    {
+      "path": ["registeredAddress", "thoroughFare"]
+    },
+    {
+      "path": ["orgNumber"]
+    }
+  ]
+}

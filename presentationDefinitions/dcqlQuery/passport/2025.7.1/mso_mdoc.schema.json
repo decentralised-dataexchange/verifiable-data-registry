@@ -1,0 +1,16 @@
+{
+  "claims": [
+    { "namespace": "org.iso.18013.5.1", "claim_name": "serialNumber" },
+    { "namespace": "org.iso.18013.5.1", "claim_name": "firstName" },
+    { "namespace": "org.iso.18013.5.1", "claim_name": "signature" },
+    { "namespace": "org.iso.18013.5.1", "claim_name": "personalNumber" },
+    { "namespace": "org.iso.18013.5.1", "claim_name": "id" },
+    { "namespace": "org.iso.18013.5.1", "claim_name": "image" },
+    { "namespace": "org.iso.18013.5.1", "claim_name": "birthDate" },
+    { "namespace": "org.iso.18013.5.1", "claim_name": "lastName" },
+    { "namespace": "org.iso.18013.5.1", "claim_name": "gender" },
+    { "namespace": "org.iso.18013.5.1", "claim_name": "expiryDate" },
+    { "namespace": "org.iso.18013.5.1", "claim_name": "nationality" },
+    { "namespace": "org.iso.18013.5.1", "claim_name": "issuerAuthority" }
+  ]
+}

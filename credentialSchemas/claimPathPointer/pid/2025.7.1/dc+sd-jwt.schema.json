@@ -1,0 +1,68 @@
+{
+  "claims": [
+      {
+          "path": [
+              "address",
+              "country"
+          ]
+      },
+      {
+          "path": [
+              "address",
+              "locality"
+          ]
+      },
+      {
+          "path": [
+              "address",
+              "region"
+          ]
+      },
+      {
+          "path": [
+              "address",
+              "street_address"
+          ]
+      },
+      {
+          "path": [
+              "birthdate"
+          ]
+      },
+      {
+          "path": [
+              "email"
+          ]
+      },
+      {
+          "path": [
+              "family_name"
+          ]
+      },
+      {
+          "path": [
+              "given_name"
+          ]
+      },
+      {
+          "path": [
+              "is_over_18"
+          ]
+      },
+      {
+          "path": [
+              "is_over_21"
+          ]
+      },
+      {
+          "path": [
+              "is_over_65"
+          ]
+      },
+      {
+          "path": [
+              "phone_number"
+          ]
+      }
+  ]
+}

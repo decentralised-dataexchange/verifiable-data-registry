@@ -1,0 +1,9 @@
+{
+  "claims": [
+    { "namespace": "eu.europa.ec.eudi", "claim_name": "customer" },
+    { "namespace": "eu.europa.ec.eudi", "claim_name": "loyalty_card" },
+    { "namespace": "eu.europa.ec.eudi", "claim_name": "portfolio" },
+    { "namespace": "eu.europa.ec.eudi", "claim_name": "organization" },
+    { "namespace": "eu.europa.ec.eudi", "claim_name": "credential" }
+  ]
+}

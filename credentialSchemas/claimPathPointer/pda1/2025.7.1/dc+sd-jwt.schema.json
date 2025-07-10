@@ -1,0 +1,427 @@
+{
+  "claims": [
+    {
+      "path": [
+        "section1",
+        "dateBirth"
+      ]
+    },
+    {
+      "path": [
+        "section1",
+        "forenames"
+      ]
+    },
+    {
+      "path": [
+        "section1",
+        "nationalities",
+        null
+      ]
+    },
+    {
+      "path": [
+        "section1",
+        "personalIdentificationNumber"
+      ]
+    },
+    {
+      "path": [
+        "section1",
+        "placeBirth",
+        "countryCode"
+      ]
+    },
+    {
+      "path": [
+        "section1",
+        "placeBirth",
+        "region"
+      ]
+    },
+    {
+      "path": [
+        "section1",
+        "placeBirth",
+        "town"
+      ]
+    },
+    {
+      "path": [
+        "section1",
+        "sex"
+      ]
+    },
+    {
+      "path": [
+        "section1",
+        "stateOfResidenceAddress",
+        "countryCode"
+      ]
+    },
+    {
+      "path": [
+        "section1",
+        "stateOfResidenceAddress",
+        "postCode"
+      ]
+    },
+    {
+      "path": [
+        "section1",
+        "stateOfResidenceAddress",
+        "streetNo"
+      ]
+    },
+    {
+      "path": [
+        "section1",
+        "stateOfResidenceAddress",
+        "town"
+      ]
+    },
+    {
+      "path": [
+        "section1",
+        "stateOfStayAddress",
+        "countryCode"
+      ]
+    },
+    {
+      "path": [
+        "section1",
+        "stateOfStayAddress",
+        "postCode"
+      ]
+    },
+    {
+      "path": [
+        "section1",
+        "stateOfStayAddress",
+        "streetNo"
+      ]
+    },
+    {
+      "path": [
+        "section1",
+        "stateOfStayAddress",
+        "town"
+      ]
+    },
+    {
+      "path": [
+        "section1",
+        "surname"
+      ]
+    },
+    {
+      "path": [
+        "section1",
+        "surnameAtBirth"
+      ]
+    },
+    {
+      "path": [
+        "section2",
+        "certificateForDurationActivity"
+      ]
+    },
+    {
+      "path": [
+        "section2",
+        "determinationProvisional"
+      ]
+    },
+    {
+      "path": [
+        "section2",
+        "endingDate"
+      ]
+    },
+    {
+      "path": [
+        "section2",
+        "memberStateWhichLegislationApplies"
+      ]
+    },
+    {
+      "path": [
+        "section2",
+        "startingDate"
+      ]
+    },
+    {
+      "path": [
+        "section2",
+        "transitionRulesApplyAsEC8832004"
+      ]
+    },
+    {
+      "path": [
+        "section3",
+        "civilAndEmployedSelfEmployed"
+      ]
+    },
+    {
+      "path": [
+        "section3",
+        "civilServant"
+      ]
+    },
+    {
+      "path": [
+        "section3",
+        "contractStaff"
+      ]
+    },
+    {
+      "path": [
+        "section3",
+        "employedAndSelfEmployed"
+      ]
+    },
+    {
+      "path": [
+        "section3",
+        "employedTwoOrMoreStates"
+      ]
+    },
+    {
+      "path": [
+        "section3",
+        "exception"
+      ]
+    },
+    {
+      "path": [
+        "section3",
+        "exceptionDescription"
+      ]
+    },
+    {
+      "path": [
+        "section3",
+        "flightCrewMember"
+      ]
+    },
+    {
+      "path": [
+        "section3",
+        "mariner"
+      ]
+    },
+    {
+      "path": [
+        "section3",
+        "postedEmployedPerson"
+      ]
+    },
+    {
+      "path": [
+        "section3",
+        "postedSelfEmployedPerson"
+      ]
+    },
+    {
+      "path": [
+        "section3",
+        "selfEmployedTwoOrMoreStates"
+      ]
+    },
+    {
+      "path": [
+        "section3",
+        "workingInStateUnder21"
+      ]
+    },
+    {
+      "path": [
+        "section4",
+        "employee"
+      ]
+    },
+    {
+      "path": [
+        "section4",
+        "employerSelfEmployedActivityCodes",
+        null
+      ]
+    },
+    {
+      "path": [
+        "section4",
+        "nameBusinessName"
+      ]
+    },
+    {
+      "path": [
+        "section4",
+        "registeredAddress",
+        "countryCode"
+      ]
+    },
+    {
+      "path": [
+        "section4",
+        "registeredAddress",
+        "postCode"
+      ]
+    },
+    {
+      "path": [
+        "section4",
+        "registeredAddress",
+        "streetNo"
+      ]
+    },
+    {
+      "path": [
+        "section4",
+        "registeredAddress",
+        "town"
+      ]
+    },
+    {
+      "path": [
+        "section4",
+        "selfEmployedActivity"
+      ]
+    },
+    {
+      "path": [
+        "section5",
+        "noFixedAddress"
+      ]
+    },
+    {
+      "path": [
+        "section5",
+        "workPlaceAddresses",
+        null,
+        "address",
+        "countryCode"
+      ]
+    },
+    {
+      "path": [
+        "section5",
+        "workPlaceAddresses",
+        null,
+        "address",
+        "postCode"
+      ]
+    },
+    {
+      "path": [
+        "section5",
+        "workPlaceAddresses",
+        null,
+        "address",
+        "streetNo"
+      ]
+    },
+    {
+      "path": [
+        "section5",
+        "workPlaceAddresses",
+        null,
+        "address",
+        "town"
+      ]
+    },
+    {
+      "path": [
+        "section5",
+        "workPlaceAddresses",
+        null,
+        "seqno"
+      ]
+    },
+    {
+      "path": [
+        "section5",
+        "workPlaceNames",
+        null,
+        "companyNameVesselName"
+      ]
+    },
+    {
+      "path": [
+        "section5",
+        "workPlaceNames",
+        null,
+        "seqno"
+      ]
+    },
+    {
+      "path": [
+        "section6",
+        "address",
+        "countryCode"
+      ]
+    },
+    {
+      "path": [
+        "section6",
+        "address",
+        "postCode"
+      ]
+    },
+    {
+      "path": [
+        "section6",
+        "address",
+        "streetNo"
+      ]
+    },
+    {
+      "path": [
+        "section6",
+        "address",
+        "town"
+      ]
+    },
+    {
+      "path": [
+        "section6",
+        "date"
+      ]
+    },
+    {
+      "path": [
+        "section6",
+        "email"
+      ]
+    },
+    {
+      "path": [
+        "section6",
+        "institutionID"
+      ]
+    },
+    {
+      "path": [
+        "section6",
+        "name"
+      ]
+    },
+    {
+      "path": [
+        "section6",
+        "officeFaxNo"
+      ]
+    },
+    {
+      "path": [
+        "section6",
+        "officePhoneNo"
+      ]
+    },
+    {
+      "path": [
+        "section6",
+        "signature"
+      ]
+    }
+  ]
+}

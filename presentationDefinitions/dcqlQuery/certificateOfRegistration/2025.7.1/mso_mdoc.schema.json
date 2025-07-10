@@ -1,0 +1,11 @@
+{
+  "claims": [
+    { "namespace": "org.iso.18013.5.1", "claim_name": "name" },
+    { "namespace": "org.iso.18013.5.1", "claim_name": "legalForm" },
+    { "namespace": "org.iso.18013.5.1", "claim_name": "activity" },
+    { "namespace": "org.iso.18013.5.1", "claim_name": "registrationDate" },
+    { "namespace": "org.iso.18013.5.1", "claim_name": "legalStatus" },
+    { "namespace": "org.iso.18013.5.1", "claim_name": "registeredAddress" },
+    { "namespace": "org.iso.18013.5.1", "claim_name": "orgNumber" }
+  ]
+}

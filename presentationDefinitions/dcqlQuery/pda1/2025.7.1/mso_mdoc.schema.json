@@ -1,0 +1,10 @@
+{
+  "claims": [
+    { "namespace": "org.iso.18013.5.1", "claim_name": "section1" },
+    { "namespace": "org.iso.18013.5.1", "claim_name": "section2" },
+    { "namespace": "org.iso.18013.5.1", "claim_name": "section3" },
+    { "namespace": "org.iso.18013.5.1", "claim_name": "section4" },
+    { "namespace": "org.iso.18013.5.1", "claim_name": "section5" },
+    { "namespace": "org.iso.18013.5.1", "claim_name": "section6" }
+  ]
+}

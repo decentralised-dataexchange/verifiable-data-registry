@@ -1,0 +1,14 @@
+{
+  "claims": [
+    {
+      "path": [
+        "identifier"
+      ]
+    },
+    {
+      "path": [
+        "legalName"
+      ]
+    }
+  ]
+}

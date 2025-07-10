@@ -1,0 +1,19 @@
+{
+  "claims": [
+    { "namespace": "eu.europa.ec.eudi", "claim_name": "identifier" },
+    { "namespace": "eu.europa.ec.eudi", "claim_name": "schacPersonalUniqueCode" },
+    { "namespace": "eu.europa.ec.eudi", "claim_name": "schacPersonalUniqueID" },
+    { "namespace": "eu.europa.ec.eudi", "claim_name": "schacHomeOrganization" },
+    { "namespace": "eu.europa.ec.eudi", "claim_name": "familyName" },
+    { "namespace": "eu.europa.ec.eudi", "claim_name": "firstName" },
+    { "namespace": "eu.europa.ec.eudi", "claim_name": "displayName" },
+    { "namespace": "eu.europa.ec.eudi", "claim_name": "dateOfBirth" },
+    { "namespace": "eu.europa.ec.eudi", "claim_name": "commonName" },
+    { "namespace": "eu.europa.ec.eudi", "claim_name": "mail" },
+    { "namespace": "eu.europa.ec.eudi", "claim_name": "eduPersonPrincipalName" },
+    { "namespace": "eu.europa.ec.eudi", "claim_name": "eduPersonPrimaryAffiliation" },
+    { "namespace": "eu.europa.ec.eudi", "claim_name": "eduPersonAffiliation" },
+    { "namespace": "eu.europa.ec.eudi", "claim_name": "eduPersonScopedAffiliation" },
+    { "namespace": "eu.europa.ec.eudi", "claim_name": "eduPersonAssurance" }
+  ]
+}
