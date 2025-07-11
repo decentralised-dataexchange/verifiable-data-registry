@@ -1,0 +1,293 @@
+{
+  "claims": [
+    {
+      "path": ["org.iso.18013.5.1", "section1", "dateBirth"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section1", "forenames"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section1", "nationalities", null]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section1", "personalIdentificationNumber"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section1", "placeBirth", "countryCode"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section1", "placeBirth", "region"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section1", "placeBirth", "town"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section1", "sex"]
+    },
+    {
+      "path": [
+        "org.iso.18013.5.1",
+        "section1",
+        "stateOfResidenceAddress",
+        "countryCode"
+      ]
+    },
+    {
+      "path": [
+        "org.iso.18013.5.1",
+        "section1",
+        "stateOfResidenceAddress",
+        "postCode"
+      ]
+    },
+    {
+      "path": [
+        "org.iso.18013.5.1",
+        "section1",
+        "stateOfResidenceAddress",
+        "streetNo"
+      ]
+    },
+    {
+      "path": [
+        "org.iso.18013.5.1",
+        "section1",
+        "stateOfResidenceAddress",
+        "town"
+      ]
+    },
+    {
+      "path": [
+        "org.iso.18013.5.1",
+        "section1",
+        "stateOfStayAddress",
+        "countryCode"
+      ]
+    },
+    {
+      "path": [
+        "org.iso.18013.5.1",
+        "section1",
+        "stateOfStayAddress",
+        "postCode"
+      ]
+    },
+    {
+      "path": [
+        "org.iso.18013.5.1",
+        "section1",
+        "stateOfStayAddress",
+        "streetNo"
+      ]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section1", "stateOfStayAddress", "town"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section1", "surname"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section1", "surnameAtBirth"]
+    },
+    {
+      "path": [
+        "org.iso.18013.5.1",
+        "section2",
+        "certificateForDurationActivity"
+      ]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section2", "determinationProvisional"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section2", "endingDate"]
+    },
+    {
+      "path": [
+        "org.iso.18013.5.1",
+        "section2",
+        "memberStateWhichLegislationApplies"
+      ]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section2", "startingDate"]
+    },
+    {
+      "path": [
+        "org.iso.18013.5.1",
+        "section2",
+        "transitionRulesApplyAsEC8832004"
+      ]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section3", "civilAndEmployedSelfEmployed"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section3", "civilServant"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section3", "contractStaff"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section3", "employedAndSelfEmployed"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section3", "employedTwoOrMoreStates"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section3", "exception"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section3", "exceptionDescription"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section3", "flightCrewMember"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section3", "mariner"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section3", "postedEmployedPerson"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section3", "postedSelfEmployedPerson"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section3", "selfEmployedTwoOrMoreStates"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section3", "workingInStateUnder21"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section4", "employee"]
+    },
+    {
+      "path": [
+        "org.iso.18013.5.1",
+        "section4",
+        "employerSelfEmployedActivityCodes",
+        null
+      ]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section4", "nameBusinessName"]
+    },
+    {
+      "path": [
+        "org.iso.18013.5.1",
+        "section4",
+        "registeredAddress",
+        "countryCode"
+      ]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section4", "registeredAddress", "postCode"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section4", "registeredAddress", "streetNo"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section4", "registeredAddress", "town"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section4", "selfEmployedActivity"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section5", "noFixedAddress"]
+    },
+    {
+      "path": [
+        "org.iso.18013.5.1",
+        "section5",
+        "workPlaceAddresses",
+        null,
+        "address",
+        "countryCode"
+      ]
+    },
+    {
+      "path": [
+        "org.iso.18013.5.1",
+        "section5",
+        "workPlaceAddresses",
+        null,
+        "address",
+        "postCode"
+      ]
+    },
+    {
+      "path": [
+        "org.iso.18013.5.1",
+        "section5",
+        "workPlaceAddresses",
+        null,
+        "address",
+        "streetNo"
+      ]
+    },
+    {
+      "path": [
+        "org.iso.18013.5.1",
+        "section5",
+        "workPlaceAddresses",
+        null,
+        "address",
+        "town"
+      ]
+    },
+    {
+      "path": [
+        "org.iso.18013.5.1",
+        "section5",
+        "workPlaceAddresses",
+        null,
+        "seqno"
+      ]
+    },
+    {
+      "path": [
+        "org.iso.18013.5.1",
+        "section5",
+        "workPlaceNames",
+        null,
+        "companyNameVesselName"
+      ]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section5", "workPlaceNames", null, "seqno"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section6", "address", "countryCode"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section6", "address", "postCode"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section6", "address", "streetNo"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section6", "address", "town"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section6", "date"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section6", "email"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section6", "institutionID"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section6", "name"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section6", "officeFaxNo"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section6", "officePhoneNo"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section6", "signature"]
+    }
+  ]
+}

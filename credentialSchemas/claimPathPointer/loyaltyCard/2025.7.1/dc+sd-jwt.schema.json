@@ -1,0 +1,154 @@
+{
+  "claims": [
+    {
+      "path": [
+        "credential",
+        "expiry_date"
+      ]
+    },
+    {
+      "path": [
+        "credential",
+        "issuance_date"
+      ]
+    },
+    {
+      "path": [
+        "credential",
+        "issuer"
+      ]
+    },
+    {
+      "path": [
+        "credential",
+        "type"
+      ]
+    },
+    {
+      "path": [
+        "customer",
+        "address"
+      ]
+    },
+    {
+      "path": [
+        "customer",
+        "birth_date"
+      ]
+    },
+    {
+      "path": [
+        "customer",
+        "city"
+      ]
+    },
+    {
+      "path": [
+        "customer",
+        "email"
+      ]
+    },
+    {
+      "path": [
+        "customer",
+        "first_name"
+      ]
+    },
+    {
+      "path": [
+        "customer",
+        "last_name"
+      ]
+    },
+    {
+      "path": [
+        "customer",
+        "mobile"
+      ]
+    },
+    {
+      "path": [
+        "customer",
+        "nationality"
+      ]
+    },
+    {
+      "path": [
+        "customer",
+        "phone"
+      ]
+    },
+    {
+      "path": [
+        "customer",
+        "zip_code"
+      ]
+    },
+    {
+      "path": [
+        "loyalty_card",
+        "id"
+      ]
+    },
+    {
+      "path": [
+        "loyalty_card",
+        "issue_date"
+      ]
+    },
+    {
+      "path": [
+        "loyalty_card",
+        "status"
+      ]
+    },
+    {
+      "path": [
+        "loyalty_card",
+        "type"
+      ]
+    },
+    {
+      "path": [
+        "organization",
+        "country"
+      ]
+    },
+    {
+      "path": [
+        "organization",
+        "id"
+      ]
+    },
+    {
+      "path": [
+        "organization",
+        "name"
+      ]
+    },
+    {
+      "path": [
+        "portfolio",
+        "available_miles"
+      ]
+    },
+    {
+      "path": [
+        "portfolio",
+        "available_points"
+      ]
+    },
+    {
+      "path": [
+        "portfolio",
+        "available_wallet"
+      ]
+    },
+    {
+      "path": [
+        "portfolio",
+        "last_updated"
+      ]
+    }
+  ]
+} 

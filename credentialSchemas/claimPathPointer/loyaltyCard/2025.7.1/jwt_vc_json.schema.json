@@ -1,0 +1,79 @@
+{
+  "claims": [
+    {
+      "path": ["credentialSubject", "credential", "expiry_date"]
+    },
+    {
+      "path": ["credentialSubject", "credential", "issuance_date"]
+    },
+    {
+      "path": ["credentialSubject", "credential", "issuer"]
+    },
+    {
+      "path": ["credentialSubject", "credential", "type"]
+    },
+    {
+      "path": ["credentialSubject", "customer", "address"]
+    },
+    {
+      "path": ["credentialSubject", "customer", "birth_date"]
+    },
+    {
+      "path": ["credentialSubject", "customer", "city"]
+    },
+    {
+      "path": ["credentialSubject", "customer", "email"]
+    },
+    {
+      "path": ["credentialSubject", "customer", "first_name"]
+    },
+    {
+      "path": ["credentialSubject", "customer", "last_name"]
+    },
+    {
+      "path": ["credentialSubject", "customer", "mobile"]
+    },
+    {
+      "path": ["credentialSubject", "customer", "nationality"]
+    },
+    {
+      "path": ["credentialSubject", "customer", "phone"]
+    },
+    {
+      "path": ["credentialSubject", "customer", "zip_code"]
+    },
+    {
+      "path": ["credentialSubject", "loyalty_card", "id"]
+    },
+    {
+      "path": ["credentialSubject", "loyalty_card", "issue_date"]
+    },
+    {
+      "path": ["credentialSubject", "loyalty_card", "status"]
+    },
+    {
+      "path": ["credentialSubject", "loyalty_card", "type"]
+    },
+    {
+      "path": ["credentialSubject", "organization", "country"]
+    },
+    {
+      "path": ["credentialSubject", "organization", "id"]
+    },
+    {
+      "path": ["credentialSubject", "organization", "name"]
+    },
+    {
+      "path": ["credentialSubject", "portfolio", "available_miles"]
+    },
+    {
+      "path": ["credentialSubject", "portfolio", "available_points"]
+    },
+    {
+      "path": ["credentialSubject", "portfolio", "available_wallet"]
+    },
+    {
+      "path": ["credentialSubject", "portfolio", "last_updated"]
+    }
+  ]
+}

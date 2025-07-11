@@ -1,0 +1,219 @@
+{
+  "claims": [
+    {
+      "path": [
+        "address",
+        "city_name"
+      ]
+    },
+    {
+      "path": [
+        "address",
+        "country_identifier"
+      ]
+    },
+    {
+      "path": [
+        "address",
+        "postcode"
+      ]
+    },
+    {
+      "path": [
+        "address",
+        "street_name"
+      ]
+    },
+    {
+      "path": [
+        "delivery",
+        "actual_delivery_date"
+      ]
+    },
+    {
+      "path": [
+        "delivery",
+        "actual_delivery_time"
+      ]
+    },
+    {
+      "path": [
+        "item_property",
+        "item_property_name"
+      ]
+    },
+    {
+      "path": [
+        "item_property",
+        "value"
+      ]
+    },
+    {
+      "path": [
+        "monetary_total",
+        "line_extension_amount"
+      ]
+    },
+    {
+      "path": [
+        "monetary_total",
+        "payable_amount"
+      ]
+    },
+    {
+      "path": [
+        "monetary_total",
+        "tax_inclusive_amount"
+      ]
+    },
+    {
+      "path": [
+        "party_identification",
+        "id"
+      ]
+    },
+    {
+      "path": [
+        "party_name",
+        "name"
+      ]
+    },
+    {
+      "path": [
+        "payment_means",
+        "card_account",
+        "account_number_id"
+      ]
+    },
+    {
+      "path": [
+        "payment_means",
+        "card_account",
+        "network_id"
+      ]
+    },
+    {
+      "path": [
+        "payment_means",
+        "payment_means_code"
+      ]
+    },
+    {
+      "path": [
+        "purchase_receipt",
+        "document_currency_code"
+      ]
+    },
+    {
+      "path": [
+        "purchase_receipt",
+        "id"
+      ]
+    },
+    {
+      "path": [
+        "purchase_receipt",
+        "issue_date"
+      ]
+    },
+    {
+      "path": [
+        "purchase_receipt",
+        "legal_monetary_total"
+      ]
+    },
+    {
+      "path": [
+        "purchase_receipt",
+        "payment",
+        "authorization_id"
+      ]
+    },
+    {
+      "path": [
+        "purchase_receipt",
+        "payment",
+        "paid_amount"
+      ]
+    },
+    {
+      "path": [
+        "purchase_receipt",
+        "payment",
+        "transaction_id"
+      ]
+    },
+    {
+      "path": [
+        "purchase_receipt",
+        "purchase_receipt_line",
+        "id"
+      ]
+    },
+    {
+      "path": [
+        "purchase_receipt",
+        "purchase_receipt_line",
+        "item",
+        "commodity_classification",
+        "item_classification_code"
+      ]
+    },
+    {
+      "path": [
+        "purchase_receipt",
+        "purchase_receipt_line",
+        "quantity"
+      ]
+    },
+    {
+      "path": [
+        "purchase_receipt",
+        "purchase_receipt_line",
+        "tax_inclusive_line_extension_amount"
+      ]
+    },
+    {
+      "path": [
+        "purchase_receipt",
+        "seller_supplier_party",
+        "supplier_party_id"
+      ]
+    },
+    {
+      "path": [
+        "purchase_receipt",
+        "tax_included_indicator"
+      ]
+    },
+    {
+      "path": [
+        "tax_total",
+        "tax_amount"
+      ]
+    },
+    {
+      "path": [
+        "tax_total",
+        "tax_subtotal",
+        "percent"
+      ]
+    },
+    {
+      "path": [
+        "tax_total",
+        "tax_subtotal",
+        "tax_amount"
+      ]
+    },
+    {
+      "path": [
+        "tax_total",
+        "tax_subtotal",
+        "tax_category",
+        "tax_scheme",
+        "name"
+      ]
+    }
+  ]
+} 

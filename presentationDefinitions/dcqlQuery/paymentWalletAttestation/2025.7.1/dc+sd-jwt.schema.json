@@ -1,0 +1,10 @@
+{
+  "claims": [
+    { "path": ["fundingSource", "aliasId"] },
+    { "path": ["fundingSource", "currency"] },
+    { "path": ["fundingSource", "iin"] },
+    { "path": ["fundingSource", "panLastFour"] },
+    { "path": ["fundingSource", "scheme"] },
+    { "path": ["fundingSource", "type"] }
+  ]
+}

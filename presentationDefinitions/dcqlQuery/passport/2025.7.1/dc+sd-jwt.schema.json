@@ -1,0 +1,16 @@
+{
+  "claims": [
+    { "path": ["serialNumber"] },
+    { "path": ["firstName"] },
+    { "path": ["signature"] },
+    { "path": ["personalNumber"] },
+    { "path": ["id"] },
+    { "path": ["image"] },
+    { "path": ["birthDate"] },
+    { "path": ["lastName"] },
+    { "path": ["gender"] },
+    { "path": ["expiryDate"] },
+    { "path": ["nationality"] },
+    { "path": ["issuerAuthority"] }
+  ]
+}

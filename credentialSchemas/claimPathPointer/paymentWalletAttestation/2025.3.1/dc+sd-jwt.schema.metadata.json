@@ -1,0 +1,6 @@
+{
+  "id": "38955198-60ad-43d4-aee8-22715b379ac1",
+  "name": "Payment Wallet Attestation",
+  "purpose": "Payment Wallet Attestation",
+  "credentialType": "PaymentWalletAttestation"
+}

@@ -1,0 +1,293 @@
+{
+  "claims": [
+    {
+      "path": ["credentialSubject", "section1", "dateBirth"]
+    },
+    {
+      "path": ["credentialSubject", "section1", "forenames"]
+    },
+    {
+      "path": ["credentialSubject", "section1", "nationalities", null]
+    },
+    {
+      "path": ["credentialSubject", "section1", "personalIdentificationNumber"]
+    },
+    {
+      "path": ["credentialSubject", "section1", "placeBirth", "countryCode"]
+    },
+    {
+      "path": ["credentialSubject", "section1", "placeBirth", "region"]
+    },
+    {
+      "path": ["credentialSubject", "section1", "placeBirth", "town"]
+    },
+    {
+      "path": ["credentialSubject", "section1", "sex"]
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "section1",
+        "stateOfResidenceAddress",
+        "countryCode"
+      ]
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "section1",
+        "stateOfResidenceAddress",
+        "postCode"
+      ]
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "section1",
+        "stateOfResidenceAddress",
+        "streetNo"
+      ]
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "section1",
+        "stateOfResidenceAddress",
+        "town"
+      ]
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "section1",
+        "stateOfStayAddress",
+        "countryCode"
+      ]
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "section1",
+        "stateOfStayAddress",
+        "postCode"
+      ]
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "section1",
+        "stateOfStayAddress",
+        "streetNo"
+      ]
+    },
+    {
+      "path": ["credentialSubject", "section1", "stateOfStayAddress", "town"]
+    },
+    {
+      "path": ["credentialSubject", "section1", "surname"]
+    },
+    {
+      "path": ["credentialSubject", "section1", "surnameAtBirth"]
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "section2",
+        "certificateForDurationActivity"
+      ]
+    },
+    {
+      "path": ["credentialSubject", "section2", "determinationProvisional"]
+    },
+    {
+      "path": ["credentialSubject", "section2", "endingDate"]
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "section2",
+        "memberStateWhichLegislationApplies"
+      ]
+    },
+    {
+      "path": ["credentialSubject", "section2", "startingDate"]
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "section2",
+        "transitionRulesApplyAsEC8832004"
+      ]
+    },
+    {
+      "path": ["credentialSubject", "section3", "civilAndEmployedSelfEmployed"]
+    },
+    {
+      "path": ["credentialSubject", "section3", "civilServant"]
+    },
+    {
+      "path": ["credentialSubject", "section3", "contractStaff"]
+    },
+    {
+      "path": ["credentialSubject", "section3", "employedAndSelfEmployed"]
+    },
+    {
+      "path": ["credentialSubject", "section3", "employedTwoOrMoreStates"]
+    },
+    {
+      "path": ["credentialSubject", "section3", "exception"]
+    },
+    {
+      "path": ["credentialSubject", "section3", "exceptionDescription"]
+    },
+    {
+      "path": ["credentialSubject", "section3", "flightCrewMember"]
+    },
+    {
+      "path": ["credentialSubject", "section3", "mariner"]
+    },
+    {
+      "path": ["credentialSubject", "section3", "postedEmployedPerson"]
+    },
+    {
+      "path": ["credentialSubject", "section3", "postedSelfEmployedPerson"]
+    },
+    {
+      "path": ["credentialSubject", "section3", "selfEmployedTwoOrMoreStates"]
+    },
+    {
+      "path": ["credentialSubject", "section3", "workingInStateUnder21"]
+    },
+    {
+      "path": ["credentialSubject", "section4", "employee"]
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "section4",
+        "employerSelfEmployedActivityCodes",
+        null
+      ]
+    },
+    {
+      "path": ["credentialSubject", "section4", "nameBusinessName"]
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "section4",
+        "registeredAddress",
+        "countryCode"
+      ]
+    },
+    {
+      "path": ["credentialSubject", "section4", "registeredAddress", "postCode"]
+    },
+    {
+      "path": ["credentialSubject", "section4", "registeredAddress", "streetNo"]
+    },
+    {
+      "path": ["credentialSubject", "section4", "registeredAddress", "town"]
+    },
+    {
+      "path": ["credentialSubject", "section4", "selfEmployedActivity"]
+    },
+    {
+      "path": ["credentialSubject", "section5", "noFixedAddress"]
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "section5",
+        "workPlaceAddresses",
+        null,
+        "address",
+        "countryCode"
+      ]
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "section5",
+        "workPlaceAddresses",
+        null,
+        "address",
+        "postCode"
+      ]
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "section5",
+        "workPlaceAddresses",
+        null,
+        "address",
+        "streetNo"
+      ]
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "section5",
+        "workPlaceAddresses",
+        null,
+        "address",
+        "town"
+      ]
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "section5",
+        "workPlaceAddresses",
+        null,
+        "seqno"
+      ]
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "section5",
+        "workPlaceNames",
+        null,
+        "companyNameVesselName"
+      ]
+    },
+    {
+      "path": ["credentialSubject", "section5", "workPlaceNames", null, "seqno"]
+    },
+    {
+      "path": ["credentialSubject", "section6", "address", "countryCode"]
+    },
+    {
+      "path": ["credentialSubject", "section6", "address", "postCode"]
+    },
+    {
+      "path": ["credentialSubject", "section6", "address", "streetNo"]
+    },
+    {
+      "path": ["credentialSubject", "section6", "address", "town"]
+    },
+    {
+      "path": ["credentialSubject", "section6", "date"]
+    },
+    {
+      "path": ["credentialSubject", "section6", "email"]
+    },
+    {
+      "path": ["credentialSubject", "section6", "institutionID"]
+    },
+    {
+      "path": ["credentialSubject", "section6", "name"]
+    },
+    {
+      "path": ["credentialSubject", "section6", "officeFaxNo"]
+    },
+    {
+      "path": ["credentialSubject", "section6", "officePhoneNo"]
+    },
+    {
+      "path": ["credentialSubject", "section6", "signature"]
+    }
+  ]
+}

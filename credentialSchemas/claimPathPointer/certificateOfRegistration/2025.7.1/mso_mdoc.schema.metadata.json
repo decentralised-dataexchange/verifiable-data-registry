@@ -1,0 +1,7 @@
+{
+  "id": "c2aca504-bf88-40c8-8016-483d35b176f4",
+  "name": "Certificate of Registration",
+  "purpose": "Certificate of Registration",
+  "credentialType" : "org.iso.18013.5.1.cor",
+  "namespace": "org.iso.18013.5.1.cor"
+}

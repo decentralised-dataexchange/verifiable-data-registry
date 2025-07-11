@@ -1,0 +1,16 @@
+{
+  "claims": [
+    {
+      "path": [
+        "credentialSubject",
+        "identifier"
+      ]
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "legalName"
+      ]
+    }
+  ]
+}

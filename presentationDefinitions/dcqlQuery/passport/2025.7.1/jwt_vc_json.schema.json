@@ -1,0 +1,16 @@
+{
+  "claims": [
+    { "path": ["credentialSubject", "serialNumber"] },
+    { "path": ["credentialSubject", "firstName"] },
+    { "path": ["credentialSubject", "signature"] },
+    { "path": ["credentialSubject", "personalNumber"] },
+    { "path": ["credentialSubject", "id"] },
+    { "path": ["credentialSubject", "image"] },
+    { "path": ["credentialSubject", "birthDate"] },
+    { "path": ["credentialSubject", "lastName"] },
+    { "path": ["credentialSubject", "gender"] },
+    { "path": ["credentialSubject", "expiryDate"] },
+    { "path": ["credentialSubject", "nationality"] },
+    { "path": ["credentialSubject", "issuerAuthority"] }
+  ]
+}

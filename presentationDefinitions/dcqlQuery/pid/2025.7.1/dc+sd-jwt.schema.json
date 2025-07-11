@@ -1,0 +1,12 @@
+{
+  "claims": [
+    { "path": ["family_name"] },
+    { "path": ["given_name"] },
+    { "path": ["address"] },
+    { "path": ["email"] },
+    { "path": ["is_over_18"] },
+    { "path": ["is_over_21"] },
+    { "path": ["is_over_65"] },
+    { "path": ["phone_number"] }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "claims": [
+    { "path": ["identifier"] },
+    { "path": ["schacPersonalUniqueCode"] },
+    { "path": ["schacPersonalUniqueID"] },
+    { "path": ["schacHomeOrganization"] },
+    { "path": ["familyName"] },
+    { "path": ["firstName"] },
+    { "path": ["displayName"] },
+    { "path": ["dateOfBirth"] },
+    { "path": ["commonName"] },
+    { "path": ["mail"] },
+    { "path": ["eduPersonPrincipalName"] },
+    { "path": ["eduPersonPrimaryAffiliation"] },
+    { "path": ["eduPersonAffiliation"] },
+    { "path": ["eduPersonScopedAffiliation"] },
+    { "path": ["eduPersonAssurance"] }
+  ]
+}

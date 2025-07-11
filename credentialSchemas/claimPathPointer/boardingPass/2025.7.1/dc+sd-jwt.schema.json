@@ -1,0 +1,74 @@
+{
+    "claims": [
+      {
+        "path": [
+          "arrivalDate"
+        ]
+      },
+      {
+        "path": [
+          "arrivalPort"
+        ]
+      },
+      {
+        "path": [
+          "arrivalTime"
+        ]
+      },
+      {
+        "path": [
+          "departureDate"
+        ]
+      },
+      {
+        "path": [
+          "departureTime"
+        ]
+      },
+      {
+        "path": [
+          "firstName"
+        ]
+      },
+      {
+        "path": [
+          "identifier"
+        ]
+      },
+      {
+        "path": [
+          "lastName"
+        ]
+      },
+      {
+        "path": [
+          "seatNumber"
+        ]
+      },
+      {
+        "path": [
+          "seatType"
+        ]
+      },
+      {
+        "path": [
+          "ticketLet"
+        ]
+      },
+      {
+        "path": [
+          "ticketNumber"
+        ]
+      },
+      {
+        "path": [
+          "ticketQR"
+        ]
+      },
+      {
+        "path": [
+          "vesselDescription"
+        ]
+      }
+    ]
+  } 
