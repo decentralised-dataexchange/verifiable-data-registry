@@ -1,0 +1,324 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "description": "Schema for Photo ID credentials supporting DTC, ISO23220, and additional photo ID formats",
+    "properties": {
+        "dtc": {
+            "description": "Digital Travel Credential data groups.",
+            "limitDisclosure": false,
+            "properties": {
+                "dg_content_info": {
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "dtc_dg1": {
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "dtc_dg10": {
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "dtc_dg11": {
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "dtc_dg12": {
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "dtc_dg13": {
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "dtc_dg14": {
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "dtc_dg15": {
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "dtc_dg16": {
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "dtc_dg2": {
+                    "contentEncoding": "base64",
+                    "contentMediaType": "image/jpeg",
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "dtc_dg3": {
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "dtc_dg4": {
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "dtc_dg5": {
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "dtc_dg6": {
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "dtc_dg7": {
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "dtc_dg8": {
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "dtc_dg9": {
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "dtc_sod": {
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "dtc_version": {
+                    "limitDisclosure": true,
+                    "type": "string"
+                }
+            },
+            "required": [
+                "dg_content_info",
+                "dtc_dg1",
+                "dtc_dg2",
+                "dtc_sod",
+                "dtc_version"
+            ],
+            "type": "object"
+        },
+        "iso23220": {
+            "description": "Data elements as defined by ISO/IEC 23220 for mobile driving licenses and other forms of mobile identification.",
+            "limitDisclosure": false,
+            "properties": {
+                "age_birth_year": {
+                    "description": "The year of birth of the holder.",
+                    "limitDisclosure": true,
+                    "type": "integer"
+                },
+                "age_in_years": {
+                    "description": "The age of the holder in years.",
+                    "limitDisclosure": true,
+                    "minimum": 0,
+                    "type": "integer"
+                },
+                "age_over_18": {
+                    "description": "Indicates if the holder is 18 years of age or older.",
+                    "limitDisclosure": true,
+                    "type": "boolean"
+                },
+                "birth_date": {
+                    "description": "The holder's date of birth in YYYY-MM-DD format.",
+                    "format": "date",
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "birthplace": {
+                    "description": "The place of birth of the holder.",
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "document_number": {
+                    "description": "The unique identification number of the document.",
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "expiry_date": {
+                    "description": "The expiry date of the document in YYYY-MM-DD format.",
+                    "format": "date",
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "family_name_latin1": {
+                    "description": "The family name of the holder in Latin-1 script.",
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "family_name_unicode": {
+                    "description": "The family name of the holder in Unicode.",
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "given_name_latin1": {
+                    "description": "The given name of the holder in Latin-1 script.",
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "given_name_unicode": {
+                    "description": "The given name of the holder in Unicode.",
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "issue_date": {
+                    "description": "The date the document was issued in YYYY-MM-DD format.",
+                    "format": "date",
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "issuing_authority_unicode": {
+                    "description": "The name of the issuing authority in Unicode.",
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "issuing_country": {
+                    "description": "The country that issued the document as a 3-letter country code (ISO 3166-1 alpha-3).",
+                    "limitDisclosure": true,
+                    "pattern": "^[A-Z]{3}$",
+                    "type": "string"
+                },
+                "name_at_birth": {
+                    "description": "The full name of the holder at birth.",
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "nationality": {
+                    "description": "The nationality of the holder as a 3-letter country code (ISO 3166-1 alpha-3).",
+                    "limitDisclosure": true,
+                    "pattern": "^[A-Z]{3}$",
+                    "type": "string"
+                },
+                "portrait": {
+                    "contentEncoding": "base64",
+                    "contentMediaType": "image/jpeg",
+                    "description": "A base64 encoded a JPEG image of the holder's portrait.",
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "portrait_capture_date": {
+                    "description": "The date and time the portrait was captured in ISO 8601 format.",
+                    "format": "date-time",
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "resident_address_unicode": {
+                    "description": "The full resident address of the holder in Unicode.",
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "resident_city_unicode": {
+                    "description": "The city of residence of the holder in Unicode.",
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "resident_country": {
+                    "description": "The country of residence of the holder as a 3-letter country code (ISO 3166-1 alpha-3).",
+                    "limitDisclosure": true,
+                    "pattern": "^[A-Z]{3}$",
+                    "type": "string"
+                },
+                "resident_postal_code": {
+                    "description": "The postal code of the holder's residence.",
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "sex": {
+                    "description": "The sex of the holder (e.g., 0 for not specified, 1 for male, 2 for female).",
+                    "limitDisclosure": true,
+                    "type": "integer"
+                }
+            },
+            "required": [
+                "age_birth_year",
+                "age_in_years",
+                "age_over_18",
+                "birth_date",
+                "birthplace",
+                "document_number",
+                "expiry_date",
+                "family_name_latin1",
+                "family_name_unicode",
+                "given_name_latin1",
+                "given_name_unicode",
+                "issue_date",
+                "issuing_authority_unicode",
+                "issuing_country",
+                "name_at_birth",
+                "nationality",
+                "portrait",
+                "portrait_capture_date",
+                "resident_address_unicode",
+                "resident_city_unicode",
+                "resident_country",
+                "resident_postal_code",
+                "sex"
+            ],
+            "type": "object"
+        },
+        "photoid": {
+            "description": "Additional photo ID-specific details.",
+            "limitDisclosure": false,
+            "properties": {
+                "administrative_number": {
+                    "description": "An administrative number associated with the holder or document.",
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "birth_city": {
+                    "description": "The city of birth of the holder.",
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "birth_country": {
+                    "description": "The country of birth of the holder as a 3-letter country code (ISO 3166-1 alpha-3).",
+                    "limitDisclosure": true,
+                    "pattern": "^[A-Z]{3}$",
+                    "type": "string"
+                },
+                "birth_state": {
+                    "description": "The state of birth of the holder.",
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "person_id": {
+                    "description": "A personal identification number.",
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "resident_house_number": {
+                    "description": "The house number of the holder's residence.",
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "resident_state": {
+                    "description": "The state of residence of the holder.",
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "resident_street": {
+                    "description": "The street of residence of the holder.",
+                    "limitDisclosure": true,
+                    "type": "string"
+                },
+                "travel_document_number": {
+                    "description": "The travel document number.",
+                    "limitDisclosure": true,
+                    "type": "string"
+                }
+            },
+            "required": [
+                "administrative_number",
+                "birth_city",
+                "birth_country",
+                "birth_state",
+                "person_id",
+                "resident_state",
+                "resident_street",
+                "travel_document_number"
+            ],
+            "type": "object"
+        }
+    },
+    "required": [
+        "dtc",
+        "iso23220",
+        "photoid"
+    ]
+} 

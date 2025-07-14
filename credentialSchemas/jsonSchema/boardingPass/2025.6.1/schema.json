@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+      "arrivalDate": {
+          "type": "string"
+      },
+      "arrivalPort": {
+          "type": "string"
+      },
+      "arrivalTime": {
+          "type": "string"
+      },
+      "departureDate": {
+          "type": "string"
+      },
+      "departureTime": {
+          "type": "string"
+      },
+      "firstName": {
+          "type": "string"
+      },
+      "identifier": {
+          "type": "string"
+      },
+      "lastName": {
+          "type": "string"
+      },
+      "seatNumber": {
+          "type": "string"
+      },
+      "seatType": {
+          "type": "string"
+      },
+      "ticketLet": {
+          "type": "string"
+      },
+      "ticketNumber": {
+          "type": "string"
+      },
+      "ticketQR": {
+          "type": "string"
+      },
+      "vesselDescription": {
+          "type": "string"
+      }
+  },
+  "required": [
+      "arrivalDate",
+      "arrivalPort",
+      "arrivalTime",
+      "departureDate",
+      "departureTime",
+      "firstName",
+      "identifier",
+      "lastName",
+      "seatNumber",
+      "seatType",
+      "ticketLet",
+      "ticketNumber",
+      "ticketQR",
+      "vesselDescription"
+  ],
+  "type": "object"
+}

@@ -1,0 +1,92 @@
+{
+    "constraints": {
+        "fields": [
+            {
+                "path": [
+                    "$.vc.type"
+                ],
+                "filter": {
+                    "type": "array",
+                    "contains": {
+                        "const": "VerifiableStudentIDSDJWT"
+                    }
+                }
+            },
+            {
+                "path": [
+                    "$.vc.credentialSubject.identifier"
+                ]
+            },
+            {
+                "path": [
+                    "$.vc.credentialSubject.schacPersonalUniqueCode"
+                ]
+            },
+            {
+                "path": [
+                    "$.vc.credentialSubject.schacPersonalUniqueID"
+                ]
+            },
+            {
+                "path": [
+                    "$.vc.credentialSubject.schacHomeOrganization"
+                ]
+            },
+            {
+                "path": [
+                    "$.vc.credentialSubject.familyName"
+                ]
+            },
+            {
+                "path": [
+                    "$.vc.credentialSubject.firstName"
+                ]
+            },
+            {
+                "path": [
+                    "$.vc.credentialSubject.displayName"
+                ]
+            },
+            {
+                "path": [
+                    "$.vc.credentialSubject.dateOfBirth"
+                ]
+            },
+            {
+                "path": [
+                    "$.vc.credentialSubject.commonName"
+                ]
+            },
+            {
+                "path": [
+                    "$.vc.credentialSubject.mail"
+                ]
+            },
+            {
+                "path": [
+                    "$.vc.credentialSubject.eduPersonPrincipalName"
+                ]
+            },
+            {
+                "path": [
+                    "$.vc.credentialSubject.eduPersonPrimaryAffiliation"
+                ]
+            },
+            {
+                "path": [
+                    "$.vc.credentialSubject.eduPersonAffiliation"
+                ]
+            },
+            {
+                "path": [
+                    "$.vc.credentialSubject.eduPersonScopedAffiliation"
+                ]
+            },
+            {
+                "path": [
+                    "$.vc.credentialSubject.eduPersonAssurance"
+                ]
+            }
+        ]
+    }
+}

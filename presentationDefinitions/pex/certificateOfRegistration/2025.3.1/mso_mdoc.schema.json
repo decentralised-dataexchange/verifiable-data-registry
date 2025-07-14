@@ -1,0 +1,42 @@
+{
+    "constraints": {
+        "fields": [
+            {
+                "path": [
+                    "$['org.iso.18013.5.1.cor']['name']"
+                ]
+            },
+            {
+                "path": [
+                    "$['org.iso.18013.5.1.cor']['legalForm']"
+                ]
+            },
+            {
+                "path": [
+                    "$['org.iso.18013.5.1.cor']['activity']"
+                ]
+            },
+            {
+                "path": [
+                    "$['org.iso.18013.5.1.cor']['registrationDate']"
+                ]
+            },
+            {
+                "path": [
+                    "$['org.iso.18013.5.1.cor']['legalStatus']"
+                ]
+            },
+            {
+                "path": [
+                    "$['org.iso.18013.5.1.cor']['registeredAddress']"
+                ]
+            },
+            {
+                "path": [
+                    "$['org.iso.18013.5.1.cor']['orgNumber']"
+                ]
+            }
+        ],
+        "limit_disclosure": "required"
+    }
+}

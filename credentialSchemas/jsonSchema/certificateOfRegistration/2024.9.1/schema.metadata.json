@@ -1,0 +1,8 @@
+{
+  "id": "c9b149d5-352a-4e46-a623-999c69f55b0f",
+  "title": "Certificate Of Registration",
+  "credentialType": "CertificateOfRegistration",
+  "isSdJwt": true,
+  "isJwt": true,
+  "isMsoMdoc": false
+}

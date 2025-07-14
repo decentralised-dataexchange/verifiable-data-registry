@@ -1,0 +1,81 @@
+{
+    "constraints": {
+        "fields": [
+            {
+                "filter": {
+                    "const": "CertificateOfRegistration",
+                    "type": "string"
+                },
+                "path": [
+                    "$.vct"
+                ]
+            },
+            {
+                "path": [
+                    "$.name"
+                ]
+            },
+            {
+                "path": [
+                    "$.legalForm"
+                ]
+            },
+            {
+                "path": [
+                    "$.activity"
+                ]
+            },
+            {
+                "path": [
+                    "$.registrationDate"
+                ]
+            },
+            {
+                "path": [
+                    "$.legalStatus"
+                ]
+            },
+            {
+                "path": [
+                    "$.registeredAddress"
+                ]
+            },
+            {
+                "path": [
+                    "$.registeredAddress.adminUnitLevel1"
+                ]
+            },
+            {
+                "path": [
+                    "$.registeredAddress.fullAddress"
+                ]
+            },
+            {
+                "path": [
+                    "$.registeredAddress.locatorDesignator"
+                ]
+            },
+            {
+                "path": [
+                    "$.registeredAddress.postCode"
+                ]
+            },
+            {
+                "path": [
+                    "$.registeredAddress.postName"
+                ]
+            },
+            {
+                "path": [
+                    "$.registeredAddress.thoroughFare"
+                ]
+            },
+            {
+                "path": [
+                    "$.orgNumber"
+                ]
+            }
+        ],
+        "limit_disclosure": "required"
+    }
+}

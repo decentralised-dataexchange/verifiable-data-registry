@@ -1,0 +1,91 @@
+{
+    "constraints": {
+        "fields": [
+            {
+                "path": [
+                    "$.identifier"
+                ]
+            },
+            {
+                "path": [
+                    "$.schacPersonalUniqueCode"
+                ]
+            },
+            {
+                "path": [
+                    "$.schacPersonalUniqueID"
+                ]
+            },
+            {
+                "path": [
+                    "$.schacHomeOrganization"
+                ]
+            },
+            {
+                "path": [
+                    "$.familyName"
+                ]
+            },
+            {
+                "path": [
+                    "$.firstName"
+                ]
+            },
+            {
+                "path": [
+                    "$.displayName"
+                ]
+            },
+            {
+                "path": [
+                    "$.dateOfBirth"
+                ]
+            },
+            {
+                "path": [
+                    "$.commonName"
+                ]
+            },
+            {
+                "path": [
+                    "$.mail"
+                ]
+            },
+            {
+                "path": [
+                    "$.eduPersonPrincipalName"
+                ]
+            },
+            {
+                "path": [
+                    "$.eduPersonPrimaryAffiliation"
+                ]
+            },
+            {
+                "path": [
+                    "$.eduPersonAffiliation"
+                ]
+            },
+            {
+                "path": [
+                    "$.eduPersonScopedAffiliation"
+                ]
+            },
+            {
+                "path": [
+                    "$.eduPersonAssurance"
+                ]
+            },
+            {
+                "path": [
+                    "$.vct"
+                ],
+                "filter": {
+                    "type": "string",
+                    "const": "VerifiableStudentIDSDJWT"
+                }
+            }
+        ],
+        "limit_disclosure": "required"
+    }
+}

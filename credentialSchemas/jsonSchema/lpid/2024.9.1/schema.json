@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "properties": {
+    "identifier": {
+      "type": "string"
+    },
+    "legalName": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "identifier",
+    "legalName"
+  ]
+}
