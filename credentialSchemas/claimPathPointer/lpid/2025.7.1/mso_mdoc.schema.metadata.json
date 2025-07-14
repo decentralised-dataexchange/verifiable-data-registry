@@ -1,7 +1,10 @@
+
 {
   "id": "b486ff00-8bd2-42cc-ad5b-4dc84a005fb9",
-  "name": "Legal Person Identification Data",
-  "purpose": "Legal Person Identification Data",
-  "credentialType": "org.iso.18013.5.1.lpid",
-  "namespace": "org.iso.18013.5.1.lpid"
+  "title": "Legal Person Identification Data (LPID)",
+  "credentialType": "LegalPersonIdentificationData",
+  "namespace": "org.iso.18013.5.1",
+  "isSdJwt": false,
+  "isJwt": false,
+  "isMsoMdoc": true
 }

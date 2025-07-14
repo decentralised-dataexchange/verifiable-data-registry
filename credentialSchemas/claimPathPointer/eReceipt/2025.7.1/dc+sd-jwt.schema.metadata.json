@@ -1,5 +1,9 @@
 {
-  "id": "92b8468f-84e3-40ee-a5f2-74bfa9978542",
+  "id": "ad4d4732-085c-4f3f-9651-a93adc60d615",
   "title": "eReceipt (Fast Ferries)",
-  "credentialType": "VerifiablevReceiptSDJWT"
+  "credentialType": "VerifiablevReceiptSDJWT",
+  "namespace": "eu.europa.ec.eudi.verifiablereceipt",
+  "isSdJwt": true,
+  "isJwt": false,
+  "isMsoMdoc": false
 } 

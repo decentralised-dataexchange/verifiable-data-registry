@@ -1,7 +1,9 @@
 {
   "id": "584fbad5-e6ce-4873-bcae-e2342030ddbe",
-  "name": "Photo ID",
-  "purpose": "Photo ID",
+  "title": "Photo ID",
   "credentialType": "eu.europa.ec.eudi.photoid.1",
-  "namespace": "eu.europa.ec.eudi.photoid.1"
+  "namespace": "eu.europa.ec.eudi",
+  "isSdJwt": false,
+  "isJwt": false,
+  "isMsoMdoc": true
 }
