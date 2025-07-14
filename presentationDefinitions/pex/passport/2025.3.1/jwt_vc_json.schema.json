@@ -1,0 +1,77 @@
+{
+  "constraints": {
+    "fields": [
+      {
+        "path": [
+          "$.vc.type"
+        ],
+        "filter": {
+          "type": "array",
+          "contains": {
+            "const": "Passport"
+          }
+        }
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.serialNumber"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.firstName"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.signature"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.personalNumber"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.id"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.image"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.birthDate"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.lastName"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.gender"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.expiryDate"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.nationality"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.issuerAuthority"
+        ]
+      }
+    ]
+  }
+}

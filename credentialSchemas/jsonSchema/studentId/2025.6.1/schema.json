@@ -1,0 +1,122 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "description": "Schema for Student ID credentials",
+    "properties": {
+        "id": {
+            "description": "Unique identifier for the student",
+            "type": "string",
+            "limitDisclosure": true
+        },
+        "identifier": {
+            "description": "Student's email identifier",
+            "type": "string",
+            "format": "email",
+            "limitDisclosure": true
+        },
+        "schacPersonalUniqueCode": {
+            "description": "List of unique codes associated with the student",
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "limitDisclosure": true
+        },
+        "schacPersonalUniqueID": {
+            "description": "Unique ID in SCHAC format",
+            "type": "string",
+            "limitDisclosure": true
+        },
+        "schacHomeOrganization": {
+            "description": "Student's home organization",
+            "type": "string",
+            "limitDisclosure": true
+        },
+        "familyName": {
+            "description": "Student's family name",
+            "type": "string",
+            "limitDisclosure": true
+        },
+        "firstName": {
+            "description": "Student's first name",
+            "type": "string",
+            "limitDisclosure": true
+        },
+        "displayName": {
+            "description": "Student's display name",
+            "type": "string",
+            "limitDisclosure": true
+        },
+        "dateOfBirth": {
+            "description": "Student's date of birth",
+            "type": "string",
+            "format": "date",
+            "limitDisclosure": true
+        },
+        "commonName": {
+            "description": "Student's common name",
+            "type": "string",
+            "limitDisclosure": true
+        },
+        "mail": {
+            "description": "Student's email address",
+            "type": "string",
+            "format": "email",
+            "limitDisclosure": true
+        },
+        "eduPersonPrincipalName": {
+            "description": "Student's eduPerson principal name",
+            "type": "string",
+            "format": "email",
+            "limitDisclosure": true
+        },
+        "eduPersonPrimaryAffiliation": {
+            "description": "Student's primary affiliation",
+            "type": "string",
+            "limitDisclosure": true
+        },
+        "eduPersonAffiliation": {
+            "description": "List of student's affiliations",
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "limitDisclosure": true
+        },
+        "eduPersonScopedAffiliation": {
+            "description": "List of student's scoped affiliations",
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "limitDisclosure": true
+        },
+        "eduPersonAssurance": {
+            "description": "List of assurance frameworks",
+            "type": "array",
+            "items": {
+                "type": "string",
+                "format": "uri"
+            },
+            "limitDisclosure": true
+        }
+    },
+    "required": [
+        "id",
+        "identifier",
+        "schacPersonalUniqueCode",
+        "schacPersonalUniqueID",
+        "schacHomeOrganization",
+        "familyName",
+        "firstName",
+        "displayName",
+        "dateOfBirth",
+        "commonName",
+        "mail",
+        "eduPersonPrincipalName",
+        "eduPersonPrimaryAffiliation",
+        "eduPersonAffiliation",
+        "eduPersonScopedAffiliation",
+        "eduPersonAssurance"
+    ]
+}

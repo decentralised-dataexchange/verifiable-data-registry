@@ -1,0 +1,8 @@
+{
+  "id": "b475fdd4-a934-44bf-9e70-9719c29803c7",
+  "title": "Payment Authenticator (v2)",
+  "credentialType": "PaymentWalletAttestation",
+  "isSdJwt": true,
+  "isJwt": false,
+  "isMsoMdoc": false
+}

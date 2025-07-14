@@ -1,0 +1,22 @@
+{
+  "constraints": {
+    "fields": [
+      {
+        "path": [
+          "$['eu.europa.ec.eudi.photoid.1']['dtc']"
+        ]
+      },
+      {
+        "path": [
+          "$['eu.europa.ec.eudi.photoid.1']['iso23220']"
+        ]
+      },
+      {
+        "path": [
+          "$['eu.europa.ec.eudi.photoid.1']['photoid']"
+        ]
+      }
+    ],
+    "limit_disclosure": "required"
+  }
+}

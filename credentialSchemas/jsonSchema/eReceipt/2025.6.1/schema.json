@@ -1,0 +1,205 @@
+{
+  "properties": {
+    "address": {
+      "properties": {
+        "city_name": {
+          "type": "string"
+        },
+        "country_identifier": {
+          "type": "string"
+        },
+        "postcode": {
+          "type": "string"
+        },
+        "street_name": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "delivery": {
+      "properties": {
+        "actual_delivery_date": {
+          "type": "string"
+        },
+        "actual_delivery_time": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "item_property": {
+      "properties": {
+        "item_property_name": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "monetary_total": {
+      "properties": {
+        "line_extension_amount": {
+          "type": "string"
+        },
+        "payable_amount": {
+          "type": "string"
+        },
+        "tax_inclusive_amount": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "party_identification": {
+      "properties": {
+        "id": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "party_name": {
+      "properties": {
+        "name": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "payment_means": {
+      "properties": {
+        "card_account": {
+          "properties": {
+            "account_number_id": {
+              "type": "string"
+            },
+            "network_id": {
+              "type": "string"
+            }
+          },
+          "type": "object"
+        },
+        "payment_means_code": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "purchase_receipt": {
+      "properties": {
+        "document_currency_code": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "issue_date": {
+          "type": "string"
+        },
+        "legal_monetary_total": {
+          "type": "string"
+        },
+        "payment": {
+          "properties": {
+            "authorization_id": {
+              "type": "string"
+            },
+            "paid_amount": {
+              "type": "string"
+            },
+            "transaction_id": {
+              "type": "string"
+            }
+          },
+          "type": "object"
+        },
+        "purchase_receipt_line": {
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "item": {
+              "properties": {
+                "commodity_classification": {
+                  "properties": {
+                    "item_classification_code": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                }
+              },
+              "type": "object"
+            },
+            "quantity": {
+              "type": "string"
+            },
+            "tax_inclusive_line_extension_amount": {
+              "type": "string"
+            }
+          },
+          "type": "object"
+        },
+        "seller_supplier_party": {
+          "properties": {
+            "supplier_party_id": {
+              "type": "string"
+            }
+          },
+          "type": "object"
+        },
+        "tax_included_indicator": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "tax_total": {
+      "properties": {
+        "tax_amount": {
+          "type": "string"
+        },
+        "tax_subtotal": {
+          "properties": {
+            "percent": {
+              "type": "string"
+            },
+            "tax_amount": {
+              "type": "string"
+            },
+            "tax_category": {
+              "properties": {
+                "tax_scheme": {
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                }
+              },
+              "type": "object"
+            }
+          },
+          "type": "object"
+        }
+      },
+      "type": "object"
+    }
+  },
+  "required": [
+    "address",
+    "delivery",
+    "item_property",
+    "monetary_total",
+    "party_identification",
+    "party_name",
+    "payment_means",
+    "purchase_receipt",
+    "tax_total"
+  ],
+  "type": "object"
+}

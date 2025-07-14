@@ -1,0 +1,70 @@
+{
+  "type": "object",
+  "properties": {
+    "fundingSource": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "card"
+          ],
+          "description": "Type of funding source."
+        },
+        "panLastFour": {
+          "type": "string",
+          "pattern": "^[0-9]{4}$",
+          "description": "Last four digits of the card number."
+        },
+        "iin": {
+          "type": "string",
+          "pattern": "^[0-9]{6,8}$",
+          "description": "Issuer Identification Number (IIN)."
+        },
+        "parLastFour": {
+          "type": "string",
+          "maxLength": 4,
+          "description": "Last four characters of the Payment Account Reference (PAR)."
+        },
+        "aliasId": {
+          "type": "string",
+          "description": "Unique identifier assigned for the funding source."
+        },
+        "currency": {
+          "type": "string",
+          "pattern": "^[A-Z]{3}$",
+          "description": "Currency code (ISO 4217, e.g., EUR, USD)."
+        },
+        "scheme": {
+          "type": "string",
+          "enum": [
+            "Visa",
+            "American Express",
+            "Discover",
+            "JCB",
+            "Mastercard",
+            "UnionPay"
+          ],
+          "description": "Card scheme."
+        },
+        "icon": {
+          "type": "string",
+          "format": "uri",
+          "description": "URI to card logo."
+        }
+      },
+      "required": [
+        "type",
+        "panLastFour",
+        "iin",
+        "aliasId",
+        "currency",
+        "scheme",
+        "icon"
+      ]
+    }
+  },
+  "required": [
+    "fundingSource"
+  ]
+}

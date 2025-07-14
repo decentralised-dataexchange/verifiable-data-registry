@@ -1,0 +1,82 @@
+{
+    "constraints": {
+      "fields": [
+        {
+          "path": [
+            "$.vc.type"
+          ],
+          "filter": {
+            "type": "array",
+            "contains": {
+              "const": "CertificateOfRegistration"
+            }
+          }
+        },
+        {
+          "path": [
+            "$.vc.credentialSubject.name"
+          ]
+        },
+        {
+          "path": [
+            "$.vc.credentialSubject.legalForm"
+          ]
+        },
+        {
+          "path": [
+            "$.vc.credentialSubject.activity"
+          ]
+        },
+        {
+          "path": [
+            "$.vc.credentialSubject.registrationDate"
+          ]
+        },
+        {
+          "path": [
+            "$.vc.credentialSubject.legalStatus"
+          ]
+        },
+        {
+          "path": [
+            "$.vc.credentialSubject.registeredAddress"
+          ]
+        },
+        {
+          "path": [
+            "$.vc.credentialSubject.registeredAddress.adminUnitLevel1"
+          ]
+        },
+        {
+          "path": [
+            "$.vc.credentialSubject.registeredAddress.fullAddress"
+          ]
+        },
+        {
+          "path": [
+            "$.vc.credentialSubject.registeredAddress.locatorDesignator"
+          ]
+        },
+        {
+          "path": [
+            "$.vc.credentialSubject.registeredAddress.postCode"
+          ]
+        },
+        {
+          "path": [
+            "$.vc.credentialSubject.registeredAddress.postName"
+          ]
+        },
+        {
+          "path": [
+            "$.vc.credentialSubject.registeredAddress.thoroughFare"
+          ]
+        },
+        {
+          "path": [
+            "$.vc.credentialSubject.orgNumber"
+          ]
+        }
+      ]
+    }
+  }

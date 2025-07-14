@@ -1,0 +1,8 @@
+{
+  "id": "201bc241-f283-4b70-919e-b71de9fbee5a",
+  "title": "Portable Document A1 (PDA1)",
+  "credentialType": "PortableDocumentA1",
+  "isSdJwt": true,
+  "isJwt": true,
+  "isMsoMdoc": false
+}

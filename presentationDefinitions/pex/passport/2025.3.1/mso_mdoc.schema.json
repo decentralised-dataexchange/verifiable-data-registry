@@ -1,0 +1,67 @@
+{
+  "constraints": {
+    "fields": [
+      {
+        "path": [
+          "$['org.iso.18013.5.1.passport']['serialNumber']"
+        ]
+      },
+      {
+        "path": [
+          "$['org.iso.18013.5.1.passport']['firstName']"
+        ]
+      },
+      {
+        "path": [
+          "$['org.iso.18013.5.1.passport']['signature']"
+        ]
+      },
+      {
+        "path": [
+          "$['org.iso.18013.5.1.passport']['personalNumber']"
+        ]
+      },
+      {
+        "path": [
+          "$['org.iso.18013.5.1.passport']['id']"
+        ]
+      },
+      {
+        "path": [
+          "$['org.iso.18013.5.1.passport']['image']"
+        ]
+      },
+      {
+        "path": [
+          "$['org.iso.18013.5.1.passport']['birthDate']"
+        ]
+      },
+      {
+        "path": [
+          "$['org.iso.18013.5.1.passport']['lastName']"
+        ]
+      },
+      {
+        "path": [
+          "$['org.iso.18013.5.1.passport']['gender']"
+        ]
+      },
+      {
+        "path": [
+          "$['org.iso.18013.5.1.passport']['expiryDate']"
+        ]
+      },
+      {
+        "path": [
+          "$['org.iso.18013.5.1.passport']['nationality']"
+        ]
+      },
+      {
+        "path": [
+          "$['org.iso.18013.5.1.passport']['issuerAuthority']"
+        ]
+      }
+    ],
+    "limit_disclosure": "required"
+  }
+}

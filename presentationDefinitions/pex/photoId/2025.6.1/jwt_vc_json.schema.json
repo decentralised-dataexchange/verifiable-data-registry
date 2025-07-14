@@ -1,0 +1,262 @@
+{
+  "constraints": {
+    "fields": [
+      {
+        "path": [
+          "$.vc.type"
+        ],
+        "filter": {
+          "type": "array",
+          "contains": {
+            "const": "eu.europa.ec.eudi.photoid.1"
+          }
+        }
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.dtc.dg_content_info"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.dtc.dtc_dg1"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.dtc.dtc_dg10"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.dtc.dtc_dg11"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.dtc.dtc_dg12"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.dtc.dtc_dg13"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.dtc.dtc_dg14"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.dtc.dtc_dg15"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.dtc.dtc_dg16"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.dtc.dtc_dg2"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.dtc.dtc_dg3"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.dtc.dtc_dg4"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.dtc.dtc_dg5"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.dtc.dtc_dg6"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.dtc.dtc_dg7"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.dtc.dtc_dg8"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.dtc.dtc_dg9"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.dtc.dtc_sod"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.dtc.dtc_version"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.iso23220.age_birth_year"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.iso23220.age_in_years"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.iso23220.age_over_18"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.iso23220.family_name_latin1"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.iso23220.given_name_latin1"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.iso23220.issue_date"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.iso23220.issuing_authority_unicode"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.iso23220.name_at_birth"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.iso23220.nationality"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.iso23220.birthplace"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.iso23220.given_name_unicode"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.iso23220.family_name_unicode"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.iso23220.birth_date"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.iso23220.sex"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.iso23220.portrait"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.iso23220.portrait_capture_date"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.iso23220.resident_address_unicode"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.iso23220.resident_city_unicode"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.iso23220.resident_postal_code"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.iso23220.issuing_country"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.iso23220.expiry_date"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.iso23220.resident_country"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.photoid.birth_city"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.photoid.birth_country"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.photoid.birth_state"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.photoid.travel_document_number"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.photoid.person_id"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.photoid.administrative_number"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.photoid.resident_street"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.photoid.resident_state"
+        ]
+      }
+    ]
+  }
+}

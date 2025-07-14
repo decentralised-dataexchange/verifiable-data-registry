@@ -1,0 +1,9 @@
+{
+  "id": "c9b149d5-352a-4e46-a623-999c69f55b0f",
+  "title": "Certificate Of Registration",
+  "credentialType": "CertificateOfRegistration",
+  "namespace": "org.iso.18013.5.1.cor",
+  "isSdJwt": true,
+  "isJwt": true,
+  "isMsoMdoc": true
+}
