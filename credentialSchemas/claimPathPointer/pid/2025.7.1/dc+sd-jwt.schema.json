@@ -4,65 +4,77 @@
           "path": [
               "address",
               "country"
-          ]
+          ],
+          "limitDisclosure": true
       },
       {
           "path": [
               "address",
               "locality"
-          ]
+          ],
+          "limitDisclosure": true
       },
       {
           "path": [
               "address",
               "region"
-          ]
+          ],
+          "limitDisclosure": true
       },
       {
           "path": [
               "address",
               "street_address"
-          ]
+          ],
+          "limitDisclosure": true
       },
       {
           "path": [
               "birthdate"
-          ]
+          ],
+          "limitDisclosure": true
       },
       {
           "path": [
               "email"
-          ]
+          ],
+          "limitDisclosure": true
       },
       {
           "path": [
               "family_name"
-          ]
+          ],
+          "limitDisclosure": true
       },
       {
           "path": [
               "given_name"
-          ]
+          ],
+          "limitDisclosure": true
       },
       {
           "path": [
               "is_over_18"
-          ]
+          ],
+          "limitDisclosure": true
       },
       {
           "path": [
               "is_over_21"
-          ]
+          ],
+          "limitDisclosure": true
       },
       {
           "path": [
               "is_over_65"
-          ]
+          ],
+          "limitDisclosure": true
       },
       {
           "path": [
               "phone_number"
-          ]
+          ],
+          "limitDisclosure": true
       }
   ]
 }

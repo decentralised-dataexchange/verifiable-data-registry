@@ -4,294 +4,340 @@
       "path": [
         "section1",
         "dateBirth"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section1",
         "forenames"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section1",
         "nationalities",
         null
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section1",
         "personalIdentificationNumber"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section1",
         "placeBirth",
         "countryCode"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section1",
         "placeBirth",
         "region"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section1",
         "placeBirth",
         "town"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section1",
         "sex"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section1",
         "stateOfResidenceAddress",
         "countryCode"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section1",
         "stateOfResidenceAddress",
         "postCode"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section1",
         "stateOfResidenceAddress",
         "streetNo"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section1",
         "stateOfResidenceAddress",
         "town"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section1",
         "stateOfStayAddress",
         "countryCode"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section1",
         "stateOfStayAddress",
         "postCode"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section1",
         "stateOfStayAddress",
         "streetNo"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section1",
         "stateOfStayAddress",
         "town"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section1",
         "surname"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section1",
         "surnameAtBirth"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section2",
         "certificateForDurationActivity"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section2",
         "determinationProvisional"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section2",
         "endingDate"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section2",
         "memberStateWhichLegislationApplies"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section2",
         "startingDate"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section2",
         "transitionRulesApplyAsEC8832004"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section3",
         "civilAndEmployedSelfEmployed"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section3",
         "civilServant"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section3",
         "contractStaff"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section3",
         "employedAndSelfEmployed"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section3",
         "employedTwoOrMoreStates"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section3",
         "exception"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section3",
         "exceptionDescription"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section3",
         "flightCrewMember"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section3",
         "mariner"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section3",
         "postedEmployedPerson"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section3",
         "postedSelfEmployedPerson"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section3",
         "selfEmployedTwoOrMoreStates"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section3",
         "workingInStateUnder21"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section4",
         "employee"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section4",
         "employerSelfEmployedActivityCodes",
         null
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section4",
         "nameBusinessName"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section4",
         "registeredAddress",
         "countryCode"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section4",
         "registeredAddress",
         "postCode"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section4",
         "registeredAddress",
         "streetNo"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section4",
         "registeredAddress",
         "town"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section4",
         "selfEmployedActivity"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section5",
         "noFixedAddress"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
@@ -300,7 +346,8 @@
         null,
         "address",
         "countryCode"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
@@ -309,7 +356,8 @@
         null,
         "address",
         "postCode"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
@@ -318,7 +366,8 @@
         null,
         "address",
         "streetNo"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
@@ -327,7 +376,8 @@
         null,
         "address",
         "town"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
@@ -335,7 +385,8 @@
         "workPlaceAddresses",
         null,
         "seqno"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
@@ -343,7 +394,8 @@
         "workPlaceNames",
         null,
         "companyNameVesselName"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
@@ -351,77 +403,89 @@
         "workPlaceNames",
         null,
         "seqno"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section6",
         "address",
         "countryCode"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section6",
         "address",
         "postCode"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section6",
         "address",
         "streetNo"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section6",
         "address",
         "town"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section6",
         "date"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section6",
         "email"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section6",
         "institutionID"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section6",
         "name"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section6",
         "officeFaxNo"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section6",
         "officePhoneNo"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "section6",
         "signature"
-      ]
+      ],
+      "limitDisclosure": true
     }
   ]
 }

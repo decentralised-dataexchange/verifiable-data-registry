@@ -1,52 +1,68 @@
 {
   "claims": [
     {
-      "path": ["eu.europa.ec.eudi", "commonName"]
+      "path": ["eu.europa.ec.eudi", "commonName"],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "dateOfBirth"]
+      "path": ["eu.europa.ec.eudi", "dateOfBirth"],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "displayName"]
+      "path": ["eu.europa.ec.eudi", "displayName"],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "eduPersonAffiliation", null]
+      "path": ["eu.europa.ec.eudi", "eduPersonAffiliation", null],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "eduPersonAssurance", null]
+      "path": ["eu.europa.ec.eudi", "eduPersonAssurance", null],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "eduPersonPrimaryAffiliation"]
+      "path": ["eu.europa.ec.eudi", "eduPersonPrimaryAffiliation"],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "eduPersonPrincipalName"]
+      "path": ["eu.europa.ec.eudi", "eduPersonPrincipalName"],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "eduPersonScopedAffiliation", null]
+      "path": ["eu.europa.ec.eudi", "eduPersonScopedAffiliation", null],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "familyName"]
+      "path": ["eu.europa.ec.eudi", "familyName"],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "firstName"]
+      "path": ["eu.europa.ec.eudi", "firstName"],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "id"]
+      "path": ["eu.europa.ec.eudi", "id"],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "identifier"]
+      "path": ["eu.europa.ec.eudi", "identifier"],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "mail"]
+      "path": ["eu.europa.ec.eudi", "mail"],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "schacHomeOrganization"]
+      "path": ["eu.europa.ec.eudi", "schacHomeOrganization"],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "schacPersonalUniqueCode", null]
+      "path": ["eu.europa.ec.eudi", "schacPersonalUniqueCode", null],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "schacPersonalUniqueID"]
+      "path": ["eu.europa.ec.eudi", "schacPersonalUniqueID"],
+      "limitDisclosure": true
     }
   ]
 }
