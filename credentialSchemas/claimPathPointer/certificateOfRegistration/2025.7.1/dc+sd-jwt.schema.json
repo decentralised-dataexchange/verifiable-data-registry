@@ -1,43 +1,56 @@
 {
   "claims": [
     {
-      "path": ["name"]
+      "path": ["name"],
+      "limitDisclosure": true
     },
     {
-      "path": ["legalForm"]
+      "path": ["legalForm"],
+      "limitDisclosure": true
     },
     {
-      "path": ["activity"]
+      "path": ["activity"],
+      "limitDisclosure": true
     },
     {
-      "path": ["registrationDate"]
+      "path": ["registrationDate"],
+      "limitDisclosure": true
     },
     {
-      "path": ["legalStatus"]
+      "path": ["legalStatus"],
+      "limitDisclosure": true
     },
     {
-      "path": ["registeredAddress"]
+      "path": ["registeredAddress"],
+      "limitDisclosure": true
     },
     {
-      "path": ["registeredAddress", "adminUnitLevel1"]
+      "path": ["registeredAddress", "adminUnitLevel1"],
+      "limitDisclosure": true
     },
     {
-      "path": ["registeredAddress", "fullAddress"]
+      "path": ["registeredAddress", "fullAddress"],
+      "limitDisclosure": true
     },
     {
-      "path": ["registeredAddress", "locatorDesignator"]
+      "path": ["registeredAddress", "locatorDesignator"],
+      "limitDisclosure": true
     },
     {
-      "path": ["registeredAddress", "postCode"]
+      "path": ["registeredAddress", "postCode"],
+      "limitDisclosure": true
     },
     {
-      "path": ["registeredAddress", "postName"]
+      "path": ["registeredAddress", "postName"],
+      "limitDisclosure": true
     },
     {
-      "path": ["registeredAddress", "thoroughFare"]
+      "path": ["registeredAddress", "thoroughFare"],
+      "limitDisclosure": true
     },
     {
-      "path": ["orgNumber"]
+      "path": ["orgNumber"],
+      "limitDisclosure": true
     }
   ]
 }

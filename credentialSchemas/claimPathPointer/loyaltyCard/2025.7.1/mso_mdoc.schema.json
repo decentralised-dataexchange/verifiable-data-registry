@@ -1,79 +1,104 @@
 {
   "claims": [
     {
-      "path": ["eu.europa.ec.eudi", "credential", "expiry_date"]
+      "path": ["eu.europa.ec.eudi", "credential", "expiry_date"],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "credential", "issuance_date"]
+      "path": ["eu.europa.ec.eudi", "credential", "issuance_date"],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "credential", "issuer"]
+      "path": ["eu.europa.ec.eudi", "credential", "issuer"],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "credential", "type"]
+      "path": ["eu.europa.ec.eudi", "credential", "type"],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "customer", "address"]
+      "path": ["eu.europa.ec.eudi", "customer", "address"],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "customer", "birth_date"]
+      "path": ["eu.europa.ec.eudi", "customer", "birth_date"],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "customer", "city"]
+      "path": ["eu.europa.ec.eudi", "customer", "city"],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "customer", "email"]
+      "path": ["eu.europa.ec.eudi", "customer", "email"],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "customer", "first_name"]
+      "path": ["eu.europa.ec.eudi", "customer", "first_name"],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "customer", "last_name"]
+      "path": ["eu.europa.ec.eudi", "customer", "last_name"],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "customer", "mobile"]
+      "path": ["eu.europa.ec.eudi", "customer", "mobile"],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "customer", "nationality"]
+      "path": ["eu.europa.ec.eudi", "customer", "nationality"],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "customer", "phone"]
+      "path": ["eu.europa.ec.eudi", "customer", "phone"],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "customer", "zip_code"]
+      "path": ["eu.europa.ec.eudi", "customer", "zip_code"],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "loyalty_card", "id"]
+      "path": ["eu.europa.ec.eudi", "loyalty_card", "id"],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "loyalty_card", "issue_date"]
+      "path": ["eu.europa.ec.eudi", "loyalty_card", "issue_date"],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "loyalty_card", "status"]
+      "path": ["eu.europa.ec.eudi", "loyalty_card", "status"],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "loyalty_card", "type"]
+      "path": ["eu.europa.ec.eudi", "loyalty_card", "type"],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "organization", "country"]
+      "path": ["eu.europa.ec.eudi", "organization", "country"],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "organization", "id"]
+      "path": ["eu.europa.ec.eudi", "organization", "id"],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "organization", "name"]
+      "path": ["eu.europa.ec.eudi", "organization", "name"],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "portfolio", "available_miles"]
+      "path": ["eu.europa.ec.eudi", "portfolio", "available_miles"],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "portfolio", "available_points"]
+      "path": ["eu.europa.ec.eudi", "portfolio", "available_points"],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "portfolio", "available_wallet"]
+      "path": ["eu.europa.ec.eudi", "portfolio", "available_wallet"],
+      "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "portfolio", "last_updated"]
+      "path": ["eu.europa.ec.eudi", "portfolio", "last_updated"],
+      "limitDisclosure": true
     }
   ]
 }

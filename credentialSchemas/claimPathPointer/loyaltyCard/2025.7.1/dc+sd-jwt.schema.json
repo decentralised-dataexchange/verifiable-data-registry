@@ -4,151 +4,176 @@
       "path": [
         "credential",
         "expiry_date"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "credential",
         "issuance_date"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "credential",
         "issuer"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "credential",
         "type"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "customer",
         "address"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "customer",
         "birth_date"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "customer",
         "city"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "customer",
         "email"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "customer",
         "first_name"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "customer",
         "last_name"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "customer",
         "mobile"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "customer",
         "nationality"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "customer",
         "phone"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "customer",
         "zip_code"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "loyalty_card",
         "id"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "loyalty_card",
         "issue_date"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "loyalty_card",
         "status"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "loyalty_card",
         "type"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "organization",
         "country"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "organization",
         "id"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "organization",
         "name"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "portfolio",
         "available_miles"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "portfolio",
         "available_points"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "portfolio",
         "available_wallet"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "portfolio",
         "last_updated"
-      ]
+      ],
+      "limitDisclosure": true
     }
   ]
 } 

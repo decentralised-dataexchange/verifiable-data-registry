@@ -1,43 +1,56 @@
 {
   "claims": [
     {
-      "path": ["org.iso.18013.5.1", "name"]
+      "path": ["org.iso.18013.5.1", "name"],
+      "limitDisclosure": true
     },
     {
-      "path": ["org.iso.18013.5.1", "legalForm"]
+      "path": ["org.iso.18013.5.1", "legalForm"],
+      "limitDisclosure": true
     },
     {
-      "path": ["org.iso.18013.5.1", "activity"]
+      "path": ["org.iso.18013.5.1", "activity"],
+      "limitDisclosure": true
     },
     {
-      "path": ["org.iso.18013.5.1", "registrationDate"]
+      "path": ["org.iso.18013.5.1", "registrationDate"],
+      "limitDisclosure": true
     },
     {
-      "path": ["org.iso.18013.5.1", "legalStatus"]
+      "path": ["org.iso.18013.5.1", "legalStatus"],
+      "limitDisclosure": true
     },
     {
-      "path": ["org.iso.18013.5.1", "registeredAddress"]
+      "path": ["org.iso.18013.5.1", "registeredAddress"],
+      "limitDisclosure": true
     },
     {
-      "path": ["org.iso.18013.5.1", "registeredAddress", "adminUnitLevel1"]
+      "path": ["org.iso.18013.5.1", "registeredAddress", "adminUnitLevel1"],
+      "limitDisclosure": true
     },
     {
-      "path": ["org.iso.18013.5.1", "registeredAddress", "fullAddress"]
+      "path": ["org.iso.18013.5.1", "registeredAddress", "fullAddress"],
+      "limitDisclosure": true
     },
     {
-      "path": ["org.iso.18013.5.1", "registeredAddress", "locatorDesignator"]
+      "path": ["org.iso.18013.5.1", "registeredAddress", "locatorDesignator"],
+      "limitDisclosure": true
     },
     {
-      "path": ["org.iso.18013.5.1", "registeredAddress", "postCode"]
+      "path": ["org.iso.18013.5.1", "registeredAddress", "postCode"],
+      "limitDisclosure": true
     },
     {
-      "path": ["org.iso.18013.5.1", "registeredAddress", "postName"]
+      "path": ["org.iso.18013.5.1", "registeredAddress", "postName"],
+      "limitDisclosure": true
     },
     {
-      "path": ["org.iso.18013.5.1", "registeredAddress", "thoroughFare"]
+      "path": ["org.iso.18013.5.1", "registeredAddress", "thoroughFare"],
+      "limitDisclosure": true
     },
     {
-      "path": ["org.iso.18013.5.1", "orgNumber"]
+      "path": ["org.iso.18013.5.1", "orgNumber"],
+      "limitDisclosure": true
     }
   ]
 }

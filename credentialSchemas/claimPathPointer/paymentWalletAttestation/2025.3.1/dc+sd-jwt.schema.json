@@ -4,49 +4,57 @@
       "path": [
         "fundingSource",
         "aliasId"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "fundingSource",
         "currency"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "fundingSource",
         "icon"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "fundingSource",
         "iin"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "fundingSource",
         "panLastFour"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "fundingSource",
         "parLastFour"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "fundingSource",
         "scheme"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "fundingSource",
         "type"
-      ]
+      ],
+      "limitDisclosure": true
     }
   ]
 } 

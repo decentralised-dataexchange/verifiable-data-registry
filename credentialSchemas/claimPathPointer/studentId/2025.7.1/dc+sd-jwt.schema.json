@@ -3,86 +3,102 @@
     {
       "path": [
         "commonName"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "dateOfBirth"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "displayName"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "eduPersonAffiliation",
         null
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "eduPersonAssurance",
         null
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "eduPersonPrimaryAffiliation"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "eduPersonPrincipalName"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "eduPersonScopedAffiliation",
         null
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "familyName"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "firstName"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "id"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "identifier"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "mail"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "schacHomeOrganization"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "schacPersonalUniqueCode",
         null
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "schacPersonalUniqueID"
-      ]
+      ],
+      "limitDisclosure": true
     }
   ]
 } 

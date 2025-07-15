@@ -3,12 +3,14 @@
     {
       "path": [
         "identifier"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "legalName"
-      ]
+      ],
+      "limitDisclosure": true
     }
   ]
 }

@@ -4,151 +4,175 @@
       "path": [
         "address",
         "city_name"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "address",
         "country_identifier"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "address",
         "postcode"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "address",
         "street_name"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "delivery",
         "actual_delivery_date"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "delivery",
         "actual_delivery_time"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "item_property",
         "item_property_name"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "item_property",
         "value"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "monetary_total",
         "line_extension_amount"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "monetary_total",
         "payable_amount"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "monetary_total",
         "tax_inclusive_amount"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "party_identification",
         "id"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "party_name",
         "name"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "payment_means",
         "card_account",
         "account_number_id"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "payment_means",
         "card_account",
         "network_id"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "payment_means",
         "payment_means_code"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "purchase_receipt",
         "document_currency_code"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "purchase_receipt",
         "id"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "purchase_receipt",
         "issue_date"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "purchase_receipt",
         "legal_monetary_total"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "purchase_receipt",
         "payment",
         "authorization_id"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "purchase_receipt",
         "payment",
         "paid_amount"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "purchase_receipt",
         "payment",
         "transaction_id"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "purchase_receipt",
         "purchase_receipt_line",
         "id"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
@@ -157,54 +181,62 @@
         "item",
         "commodity_classification",
         "item_classification_code"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "purchase_receipt",
         "purchase_receipt_line",
         "quantity"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "purchase_receipt",
         "purchase_receipt_line",
         "tax_inclusive_line_extension_amount"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "purchase_receipt",
         "seller_supplier_party",
         "supplier_party_id"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "purchase_receipt",
         "tax_included_indicator"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "tax_total",
         "tax_amount"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "tax_total",
         "tax_subtotal",
         "percent"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
         "tax_total",
         "tax_subtotal",
         "tax_amount"
-      ]
+      ],
+      "limitDisclosure": true
     },
     {
       "path": [
@@ -213,7 +245,8 @@
         "tax_category",
         "tax_scheme",
         "name"
-      ]
+      ],
+      "limitDisclosure": true
     }
   ]
 } 
