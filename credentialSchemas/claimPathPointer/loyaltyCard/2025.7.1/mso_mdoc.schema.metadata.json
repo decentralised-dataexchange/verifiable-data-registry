@@ -3,6 +3,7 @@
   "title": "Loyalty Card (Fast Ferries)",
   "credentialType": "LoyaltyCard",
   "namespace": "eu.europa.ec.eudi.loyaltycard",
+  "doctype": "eu.europa.ec.eudi.loyaltycard",
   "isSdJwt": false,
   "isJwt": false,
   "isMsoMdoc": true

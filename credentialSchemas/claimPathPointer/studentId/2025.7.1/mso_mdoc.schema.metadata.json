@@ -4,6 +4,7 @@
   "title": "Student ID (UAegean)",
   "credentialType": "VerifiableStudentIDSDJWT",
   "namespace": "eu.europa.ec.eudi.studentid.1",
+  "doctype": "eu.europa.ec.eudi.studentid.1",
   "isSdJwt": false,
   "isJwt": false,
   "isMsoMdoc": true

@@ -3,6 +3,7 @@
   "title": "Person Identification Data (PID)",
   "credentialType": "urn:eu.europa.ec.eudi:pid:1",
   "namespace": "urn:eu.europa.ec.eudi:pid:1",
+  "doctype": "urn:eu.europa.ec.eudi:pid:1",
   "isSdJwt": true,
   "isJwt": true,
   "isMsoMdoc": true

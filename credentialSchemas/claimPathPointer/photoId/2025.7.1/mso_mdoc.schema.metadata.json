@@ -3,6 +3,7 @@
   "title": "Photo ID",
   "credentialType": "eu.europa.ec.eudi.photoid.1",
   "namespace": "eu.europa.ec.eudi.photoid.1",
+  "doctype": "eu.europa.ec.eudi.photoid.1",
   "isSdJwt": false,
   "isJwt": false,
   "isMsoMdoc": true

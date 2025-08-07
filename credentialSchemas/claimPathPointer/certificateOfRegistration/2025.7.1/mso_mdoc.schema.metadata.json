@@ -3,6 +3,7 @@
   "title": "Certificate Of Registration",
   "credentialType": "CertificateOfRegistration",
   "namespace": "org.iso.18013.5.1.cor",
+  "doctype": "org.iso.18013.5.1.cor",
   "isSdJwt": false,
   "isJwt": false,
   "isMsoMdoc": true

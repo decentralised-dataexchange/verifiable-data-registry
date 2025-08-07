@@ -1,0 +1,7 @@
+{
+  "claims": [
+    { "path": ["eu.europa.ec.eudi", "dtc", "dg_content_info"] },
+    { "path": ["eu.europa.ec.eudi", "iso23220", "age_birth_year"] },
+    { "path": ["eu.europa.ec.eudi", "photoid", "birth_city"] }
+  ]
+}
