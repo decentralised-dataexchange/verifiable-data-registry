@@ -1,0 +1,28 @@
+{
+  "claims": [
+    {
+      "path": ["org.iso.18013.5.1", "name"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "legalForm"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "activity"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "legalForm"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "registrationDate"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "legalStatus"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "registeredAddress"]
+    },
+    {
+      "path": ["org.iso.18013.5.1", "orgNumber"]
+    }
+  ]
+}

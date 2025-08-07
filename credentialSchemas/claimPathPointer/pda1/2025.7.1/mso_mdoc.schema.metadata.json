@@ -5,6 +5,7 @@
   "title": "Portable Document A1 (PDA1)",
   "credentialType": "PortableDocumentA1",
   "namespace": "org.iso.18013.5.1.pda1",
+  "doctype": "org.iso.18013.5.1.pda1",
   "isSdJwt": false,
   "isJwt": false,
   "isMsoMdoc": true

@@ -1,0 +1,10 @@
+{
+  "claims": [
+    { "path": ["org.iso.18013.5.1", "section1"] },
+    { "path": ["org.iso.18013.5.1", "section2"] },
+    { "path": ["org.iso.18013.5.1", "section3"] },
+    { "path": ["org.iso.18013.5.1", "section4"] },
+    { "path": ["org.iso.18013.5.1", "section5"] },
+    { "path": ["org.iso.18013.5.1", "section6"] }
+  ]
+}

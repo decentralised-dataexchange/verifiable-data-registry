@@ -4,6 +4,7 @@
   "title": "Legal Person Identification Data (LPID)",
   "credentialType": "LegalPersonIdentificationData",
   "namespace": "org.iso.18013.5.1.lpid",
+  "doctype": "org.iso.18013.5.1.lpid",
   "isSdJwt": false,
   "isJwt": false,
   "isMsoMdoc": true
