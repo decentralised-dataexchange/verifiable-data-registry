@@ -1,0 +1,7 @@
+{
+  "id": "8efca05f-8fbe-403e-8d65-37489da3b7c2",
+  "name": "Photo ID",
+  "purpose": "Photo ID",
+  "credentialType": "eu.europa.ec.eudi.photoid.1",
+  "version": "version_01"
+}
