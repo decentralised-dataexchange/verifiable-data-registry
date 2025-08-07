@@ -1,0 +1,16 @@
+{
+  "claims": [
+    {
+      "path": [
+        "org.iso.18013.5.1",
+        "identifier"
+      ]
+    },
+    {
+      "path": [
+        "org.iso.18013.5.1",
+        "legalName"
+      ]
+    }
+  ]
+}
