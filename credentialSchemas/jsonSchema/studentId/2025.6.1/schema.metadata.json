@@ -1,7 +1,7 @@
 {
   "id": "cdcb53e3-a386-4904-982b-c8a187db0d44",
   "title": "Student ID (UAegean)",
-  "credentialType": "VerifiableStudentIDSDJWT",
+  "credentialType": "VerifiableStudent",
   "namespace": "eu.europa.ec.eudi.studentid.1",
   "doctype": "eu.europa.ec.eudi.studentid.1",
   "isSdJwt": true,
