@@ -1,0 +1,5 @@
+{
+  "claims": [
+    { "path": ["client_uri"] }
+  ]
+}
