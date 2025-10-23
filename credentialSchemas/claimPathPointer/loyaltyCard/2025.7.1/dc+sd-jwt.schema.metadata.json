@@ -1,6 +1,6 @@
 {
   "id": "e066cdff-50e8-4fce-8947-07cab5e47666",
-  "title": "Loyalty Card (Fast Ferries)",
+  "title": "Loyalty Card",
   "credentialType": "LoyaltyCard",
   "namespace": "eu.europa.ec.eudi.loyaltycard",
   "isSdJwt": true,

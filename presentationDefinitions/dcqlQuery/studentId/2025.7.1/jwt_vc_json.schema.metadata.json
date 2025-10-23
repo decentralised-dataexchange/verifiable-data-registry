@@ -1,6 +1,6 @@
 {
   "id": "d7e65479-c60a-4282-b828-724087508a7d",
-  "name": "Student ID (UAegean)",
-  "purpose": "Student ID (UAegean)",
+  "name": "Student ID",
+  "purpose": "Student ID",
   "credentialType": "VerifiableStudentIDJWT"
 }

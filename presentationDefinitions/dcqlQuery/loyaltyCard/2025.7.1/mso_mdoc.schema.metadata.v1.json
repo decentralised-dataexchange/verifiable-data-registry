@@ -1,6 +1,6 @@
 {
   "id": "7b5d9275-0690-4d93-9e89-d3a8265d0ef3",
-  "name": "Loyalty Card (Fast Ferries)",
-  "purpose": "Loyalty Card (Fast Ferries)",
+  "name": "Loyalty Card",
+  "purpose": "Loyalty Card",
   "credentialType": "eu.europa.ec.eudi.loyaltycard"
 }

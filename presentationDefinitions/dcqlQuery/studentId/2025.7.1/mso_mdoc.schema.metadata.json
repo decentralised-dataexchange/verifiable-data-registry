@@ -1,6 +1,6 @@
 {
   "id": "3250a0c9-5cc7-45ca-a48c-9ef2ec82b85c",
-  "name": "Student ID (UAegean)",
-  "purpose": "Student ID (UAegean)",
+  "name": "Student ID",
+  "purpose": "Student ID",
   "credentialType": "eu.europa.ec.eudi.studentid.1"
 }

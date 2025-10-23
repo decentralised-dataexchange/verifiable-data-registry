@@ -1,6 +1,6 @@
 {
   "id": "39af314c-7853-47d4-9a6a-7e42fe37a58e",
-  "title": "Boarding Pass (Fast Ferries)",
+  "title": "Boarding Pass",
   "credentialType": "VerifiableFerryBoardingPassCredentialSDJWT",
   "namespace": "eu.europa.ec.eudi.boardingpass",
   "isSdJwt": true,
