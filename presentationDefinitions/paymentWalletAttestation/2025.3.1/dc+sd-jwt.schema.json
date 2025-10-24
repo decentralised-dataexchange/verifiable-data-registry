@@ -39,6 +39,11 @@
         "path": [
           "$.fundingSource.type"
         ]
+      },
+      {
+        "path": [
+          "$.fundingSource.icon"
+        ]
       }
     ],
     "limit_disclosure": "required"
