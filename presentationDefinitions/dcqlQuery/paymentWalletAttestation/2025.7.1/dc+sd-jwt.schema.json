@@ -5,6 +5,7 @@
     { "path": ["fundingSource", "iin"] },
     { "path": ["fundingSource", "panLastFour"] },
     { "path": ["fundingSource", "scheme"] },
-    { "path": ["fundingSource", "type"] }
+    { "path": ["fundingSource", "type"] },
+    { "path": ["fundingSource", "icon"] }
   ]
 }
