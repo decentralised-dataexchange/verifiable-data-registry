@@ -10,9 +10,6 @@
       "path": ["activity"]
     },
     {
-      "path": ["legalForm"]
-    },
-    {
       "path": ["registrationDate"]
     },
     {
