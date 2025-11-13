@@ -1,6 +1,10 @@
 {
   "claims": [
     {
+      "path": ["org.iso.18013.5.1", "section1"],
+      "limitDisclosure": true
+    },
+    {
       "path": ["org.iso.18013.5.1", "section1", "dateBirth"],
       "limitDisclosure": true
     },
@@ -73,6 +77,10 @@
       "limitDisclosure": true
     },
     {
+      "path": ["org.iso.18013.5.1", "section2"],
+      "limitDisclosure": true
+    },
+    {
       "path": ["org.iso.18013.5.1", "section2", "certificateForDurationActivity"],
       "limitDisclosure": true
     },
@@ -94,6 +102,10 @@
     },
     {
       "path": ["org.iso.18013.5.1", "section2", "transitionRulesApplyAsEC8832004"],
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section3"],
       "limitDisclosure": true
     },
     {
@@ -149,6 +161,10 @@
       "limitDisclosure": true
     },
     {
+      "path": ["org.iso.18013.5.1", "section4"],
+      "limitDisclosure": true
+    },
+    {
       "path": ["org.iso.18013.5.1", "section4", "employee"],
       "limitDisclosure": true
     },
@@ -181,6 +197,10 @@
       "limitDisclosure": true
     },
     {
+      "path": ["org.iso.18013.5.1", "section5"],
+      "limitDisclosure": true
+    },
+    {
       "path": ["org.iso.18013.5.1", "section5", "noFixedAddress"],
       "limitDisclosure": true
     },
@@ -210,6 +230,10 @@
     },
     {
       "path": ["org.iso.18013.5.1", "section5", "workPlaceNames", null, "seqno"],
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "section6"],
       "limitDisclosure": true
     },
     {

@@ -2,6 +2,12 @@
   "claims": [
     {
       "path": [
+        "section1"
+      ],
+      "limitDisclosure": true
+    },
+    {
+      "path": [
         "section1",
         "dateBirth"
       ],
@@ -140,6 +146,12 @@
     },
     {
       "path": [
+        "section2"
+      ],
+      "limitDisclosure": true
+    },
+    {
+      "path": [
         "section2",
         "certificateForDurationActivity"
       ],
@@ -177,6 +189,12 @@
       "path": [
         "section2",
         "transitionRulesApplyAsEC8832004"
+      ],
+      "limitDisclosure": true
+    },
+    {
+      "path": [
+        "section3"
       ],
       "limitDisclosure": true
     },
@@ -273,6 +291,12 @@
     },
     {
       "path": [
+        "section4"
+      ],
+      "limitDisclosure": true
+    },
+    {
+      "path": [
         "section4",
         "employee"
       ],
@@ -329,6 +353,12 @@
       "path": [
         "section4",
         "selfEmployedActivity"
+      ],
+      "limitDisclosure": true
+    },
+    {
+      "path": [
+        "section5"
       ],
       "limitDisclosure": true
     },
@@ -403,6 +433,12 @@
         "workPlaceNames",
         null,
         "seqno"
+      ],
+      "limitDisclosure": true
+    },
+    {
+      "path": [
+        "section6"
       ],
       "limitDisclosure": true
     },
