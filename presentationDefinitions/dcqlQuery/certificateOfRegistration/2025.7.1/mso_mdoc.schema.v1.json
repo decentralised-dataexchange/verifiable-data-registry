@@ -10,9 +10,6 @@
       "path": ["org.iso.18013.5.1", "activity"]
     },
     {
-      "path": ["org.iso.18013.5.1", "legalForm"]
-    },
-    {
       "path": ["org.iso.18013.5.1", "registrationDate"]
     },
     {
