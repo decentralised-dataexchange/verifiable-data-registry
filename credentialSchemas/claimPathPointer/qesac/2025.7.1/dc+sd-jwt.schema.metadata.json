@@ -1,0 +1,9 @@
+
+{
+  "id": "21a2e708-7472-4845-ad0e-7f30d4dd62c1",
+  "title": "QESAC",
+  "credentialType": "QESAC",
+  "isSdJwt": true,
+  "isJwt": false,
+  "isMsoMdoc": false
+}
