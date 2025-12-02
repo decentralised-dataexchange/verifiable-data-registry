@@ -2,131 +2,89 @@
   "constraints": {
     "fields": [
       {
-        "path": [
-          "$.vc.credentialSubject.customer.first_name"
-        ]
+        "path": ["$.vc.credentialSubject.customer.first_name"]
       },
       {
-        "path": [
-          "$.vc.credentialSubject.customer.last_name"
-        ]
+        "path": ["$.vc.credentialSubject.customer.last_name"]
       },
       {
-        "path": [
-          "$.vc.credentialSubject.customer.nationality"
-        ]
+        "path": ["$.vc.credentialSubject.customer.nationality"]
       },
       {
-        "path": [
-          "$.vc.credentialSubject.customer.address"
-        ]
+        "path": ["$.vc.credentialSubject.customer.address"]
       },
       {
-        "path": [
-          "$.vc.credentialSubject.customer.city"
-        ]
+        "path": ["$.vc.credentialSubject.customer.city"]
       },
       {
-        "path": [
-          "$.vc.credentialSubject.customer.zip_code"
-        ]
+        "path": ["$.vc.credentialSubject.customer.zip_code"]
       },
       {
-        "path": [
-          "$.vc.credentialSubject.customer.phone"
-        ]
+        "path": ["$.vc.credentialSubject.customer.phone"]
       },
       {
-        "path": [
-          "$.vc.credentialSubject.customer.mobile"
-        ]
+        "path": ["$.vc.credentialSubject.customer.mobile"]
       },
       {
-        "path": [
-          "$.vc.credentialSubject.customer.birth_date"
-        ]
+        "path": ["$.vc.credentialSubject.customer.birth_date"]
       },
       {
-        "path": [
-          "$.vc.credentialSubject.customer.email"
-        ]
+        "path": ["$.vc.credentialSubject.customer.email"]
       },
       {
-        "path": [
-          "$.vc.credentialSubject.loyalty_card.issue_date"
-        ]
+        "path": ["$.vc.credentialSubject.loyalty_card.id"]
       },
       {
-        "path": [
-          "$.vc.credentialSubject.loyalty_card.status"
-        ]
+        "path": ["$.vc.credentialSubject.loyalty_card.issue_date"]
       },
       {
-        "path": [
-          "$.vc.credentialSubject.loyalty_card.type"
-        ]
+        "path": ["$.vc.credentialSubject.loyalty_card.status"]
       },
       {
-        "path": [
-          "$.vc.credentialSubject.portfolio.available_points"
-        ]
+        "path": ["$.vc.credentialSubject.loyalty_card.type"]
       },
       {
-        "path": [
-          "$.vc.credentialSubject.portfolio.available_miles"
-        ]
+        "path": ["$.vc.credentialSubject.portfolio.available_points"]
       },
       {
-        "path": [
-          "$.vc.credentialSubject.portfolio.available_wallet"
-        ]
+        "path": ["$.vc.credentialSubject.portfolio.available_miles"]
       },
       {
-        "path": [
-          "$.vc.credentialSubject.portfolio.last_updated"
-        ]
+        "path": ["$.vc.credentialSubject.portfolio.available_wallet"]
       },
       {
-        "path": [
-          "$.vc.credentialSubject.organization.name"
-        ]
+        "path": ["$.vc.credentialSubject.portfolio.last_updated"]
       },
       {
-        "path": [
-          "$.vc.credentialSubject.organization.country"
-        ]
+        "path": ["$.vc.credentialSubject.organization.id"]
       },
       {
-        "path": [
-          "$.vc.credentialSubject.credential.type"
-        ]
+        "path": ["$.vc.credentialSubject.organization.name"]
       },
       {
-        "path": [
-          "$.vc.credentialSubject.credential.issuer"
-        ]
+        "path": ["$.vc.credentialSubject.organization.country"]
       },
       {
-        "path": [
-          "$.vc.credentialSubject.credential.issuance_date"
-        ]
+        "path": ["$.vc.credentialSubject.credential.type"]
       },
       {
-        "path": [
-          "$.vc.credentialSubject.credential.expiry_date"
-        ]
+        "path": ["$.vc.credentialSubject.credential.issuer"]
       },
       {
-        "path": [
-            "$.vc.type"
-        ],
+        "path": ["$.vc.credentialSubject.credential.issuance_date"]
+      },
+      {
+        "path": ["$.vc.credentialSubject.credential.expiry_date"]
+      },
+      {
+        "path": ["$.vc.type"],
         "filter": {
-            "type": "array",
-            "contains": {
-                "const": "LoyaltyCard"
-            }
+          "type": "array",
+          "contains": {
+            "const": "LoyaltyCard"
+          }
         }
-    }
+      }
     ],
     "limit_disclosure": "required"
   }
