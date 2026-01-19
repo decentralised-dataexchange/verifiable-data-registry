@@ -1,0 +1,9 @@
+{
+  "id": "a86eab10-d1b9-4590-98ba-8db36b36f5d0",
+  "title": "Passport",
+  "credentialType": "Passport",
+  "namespace": "Passport",
+  "isSdJwt": false,
+  "isJwt": true,
+  "isMsoMdoc": false
+}

@@ -1,0 +1,52 @@
+{
+  "claims": [
+    {
+      "path": ["org.iso.18013.5.1", "serialNumber"],
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "firstName"],
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "signature"],
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "personalNumber"],
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "id"],
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "image"],
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "birthDate"],
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "lastName"],
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "gender"],
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "expiryDate"],
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "nationality"],
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "issuerAuthority"],
+      "limitDisclosure": true
+    }
+  ]
+}

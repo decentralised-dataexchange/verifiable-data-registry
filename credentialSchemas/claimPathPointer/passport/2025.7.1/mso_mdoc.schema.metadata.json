@@ -1,0 +1,10 @@
+{
+  "id": "425b7bac-df69-446c-ab27-e6c5196359f9",
+  "title": "Passport",
+  "credentialType": "org.iso.18013.5.1.passport",
+  "namespace": "org.iso.18013.5.1",
+  "doctype": "org.iso.18013.5.1.passport",
+  "isSdJwt": false,
+  "isJwt": false,
+  "isMsoMdoc": true
+}

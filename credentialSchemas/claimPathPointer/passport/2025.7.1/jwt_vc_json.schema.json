@@ -1,0 +1,52 @@
+{
+  "claims": [
+    {
+      "path": ["credentialSubject", "serialNumber"],
+      "limitDisclosure": true
+    },
+    {
+      "path": ["credentialSubject", "firstName"],
+      "limitDisclosure": true
+    },
+    {
+      "path": ["credentialSubject", "signature"],
+      "limitDisclosure": true
+    },
+    {
+      "path": ["credentialSubject", "personalNumber"],
+      "limitDisclosure": true
+    },
+    {
+      "path": ["credentialSubject", "id"],
+      "limitDisclosure": true
+    },
+    {
+      "path": ["credentialSubject", "image"],
+      "limitDisclosure": true
+    },
+    {
+      "path": ["credentialSubject", "birthDate"],
+      "limitDisclosure": true
+    },
+    {
+      "path": ["credentialSubject", "lastName"],
+      "limitDisclosure": true
+    },
+    {
+      "path": ["credentialSubject", "gender"],
+      "limitDisclosure": true
+    },
+    {
+      "path": ["credentialSubject", "expiryDate"],
+      "limitDisclosure": true
+    },
+    {
+      "path": ["credentialSubject", "nationality"],
+      "limitDisclosure": true
+    },
+    {
+      "path": ["credentialSubject", "issuerAuthority"],
+      "limitDisclosure": true
+    }
+  ]
+}

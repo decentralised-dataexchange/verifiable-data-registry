@@ -1,0 +1,52 @@
+{
+  "claims": [
+    {
+      "path": ["serialNumber"],
+      "limitDisclosure": true
+    },
+    {
+      "path": ["firstName"],
+      "limitDisclosure": true
+    },
+    {
+      "path": ["signature"],
+      "limitDisclosure": true
+    },
+    {
+      "path": ["personalNumber"],
+      "limitDisclosure": true
+    },
+    {
+      "path": ["id"],
+      "limitDisclosure": true
+    },
+    {
+      "path": ["image"],
+      "limitDisclosure": true
+    },
+    {
+      "path": ["birthDate"],
+      "limitDisclosure": true
+    },
+    {
+      "path": ["lastName"],
+      "limitDisclosure": true
+    },
+    {
+      "path": ["gender"],
+      "limitDisclosure": true
+    },
+    {
+      "path": ["expiryDate"],
+      "limitDisclosure": true
+    },
+    {
+      "path": ["nationality"],
+      "limitDisclosure": true
+    },
+    {
+      "path": ["issuerAuthority"],
+      "limitDisclosure": true
+    }
+  ]
+}
