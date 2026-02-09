@@ -1,0 +1,8 @@
+{
+  "claims": [
+    {
+      "namespace": "io.igrant.authenticator",
+      "claim_name": "email_address"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "claims": [
+    {
+      "path": [
+        "email_address"
+      ],
+      "limitDisclosure": true
+    }
+  ]
+}

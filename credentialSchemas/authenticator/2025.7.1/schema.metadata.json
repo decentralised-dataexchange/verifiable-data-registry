@@ -1,0 +1,9 @@
+{
+  "id": "939989bd-0e52-47a0-b54a-859dce186dec",
+  "title": "iGrant.io Authenticator",
+  "credentialType": "Authenticator",
+  "namespace": "io.igrant.authenticator",
+  "isSdJwt": true,
+  "isJwt": true,
+  "isMsoMdoc": true
+}

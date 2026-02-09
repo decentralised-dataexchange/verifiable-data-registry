@@ -1,0 +1,10 @@
+{
+  "claims": [
+    {
+      "path": [
+        "credentialSubject",
+        "email_address"
+      ]
+    }
+  ]
+}

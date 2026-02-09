@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "email_address": {
+      "type": "string",
+      "limitDisclosure": true
+    }
+  },
+  "required": [
+    "email_address"
+  ]
+}

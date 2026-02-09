@@ -1,0 +1,8 @@
+{
+  "claims": [
+    {
+      "path": ["io.igrant.authenticator", "email_address"],
+      "limitDisclosure": true
+    }
+  ]
+}

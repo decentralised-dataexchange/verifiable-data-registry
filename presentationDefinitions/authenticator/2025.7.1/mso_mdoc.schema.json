@@ -1,0 +1,12 @@
+{
+  "constraints": {
+    "fields": [
+      {
+        "path": [
+          "$['io.igrant.authenticator']['email_address']"
+        ]
+      }
+    ],
+    "limit_disclosure": "required"
+  }
+}

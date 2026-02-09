@@ -1,0 +1,22 @@
+{
+  "constraints": {
+    "fields": [
+      {
+        "path": [
+          "$.vc.type"
+        ],
+        "filter": {
+          "type": "array",
+          "contains": {
+            "const": "Authenticator"
+          }
+        }
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.email_address"
+        ]
+      }
+    ]
+  }
+}
