@@ -2,5 +2,5 @@
   "id": "f645d8ac-5cdd-4fa3-b6a3-9527e8dd5ef0",
   "name": "iGrant.io Authenticator",
   "purpose": "iGrant.io Authenticator",
-  "credentialType": "Authenticator"
+  "credentialType": "io.igrant.authenticator"
 }

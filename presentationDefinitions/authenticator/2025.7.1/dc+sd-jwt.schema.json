@@ -7,7 +7,7 @@
         ],
         "filter": {
           "type": "string",
-          "const": "Authenticator"
+          "const": "io.igrant.authenticator"
         }
       },
       {
