@@ -1,6 +1,6 @@
 {
   "id": "c119e4a7-abd8-450c-b9f5-f87ee5ff0f88",
-  "name": "Payment Wallet Attestation",
-  "purpose": "Payment Wallet Attestation",
+  "name": "Payment Authenticator (v2)",
+  "purpose": "Payment Authenticator (v2)",
   "credentialType": "PaymentWalletAttestation"
 }

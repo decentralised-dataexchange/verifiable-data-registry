@@ -1,6 +1,6 @@
 {
   "id": "e6164d27-fb5a-4fbe-a947-b0dfe30bd67b",
-  "name": "Legal Person Identification Data",
-  "purpose": "Legal Person Identification Data",
+  "name": "Legal Person Identification Data (LPID)",
+  "purpose": "Legal Person Identification Data (LPID)",
   "credentialType": "LegalPersonIdentificationData"
 }
