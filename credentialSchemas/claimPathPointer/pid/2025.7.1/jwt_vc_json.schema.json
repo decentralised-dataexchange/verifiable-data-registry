@@ -1,0 +1,17 @@
+{
+  "claims": [
+    { "path": ["credentialSubject", "address"] },
+    { "path": ["credentialSubject", "address", "country"] },
+    { "path": ["credentialSubject", "address", "locality"] },
+    { "path": ["credentialSubject", "address", "region"] },
+    { "path": ["credentialSubject", "address", "street_address"] },
+    { "path": ["credentialSubject", "birthdate"] },
+    { "path": ["credentialSubject", "email"] },
+    { "path": ["credentialSubject", "family_name"] },
+    { "path": ["credentialSubject", "given_name"] },
+    { "path": ["credentialSubject", "is_over_18"] },
+    { "path": ["credentialSubject", "is_over_21"] },
+    { "path": ["credentialSubject", "is_over_65"] },
+    { "path": ["credentialSubject", "phone_number"] }
+  ]
+}

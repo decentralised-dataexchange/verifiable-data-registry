@@ -1,0 +1,17 @@
+{
+  "claims": [
+    { "namespace": "eu.europa.ec.eudi.pid.1", "claim_name": "age_over_18" },
+    { "namespace": "eu.europa.ec.eudi.pid.1", "claim_name": "age_over_21" },
+    { "namespace": "eu.europa.ec.eudi.pid.1", "claim_name": "age_over_65" },
+    { "namespace": "eu.europa.ec.eudi.pid.1", "claim_name": "birth_date" },
+    { "namespace": "eu.europa.ec.eudi.pid.1", "claim_name": "email" },
+    { "namespace": "eu.europa.ec.eudi.pid.1", "claim_name": "family_name" },
+    { "namespace": "eu.europa.ec.eudi.pid.1", "claim_name": "given_name" },
+    { "namespace": "eu.europa.ec.eudi.pid.1", "claim_name": "phone_number" },
+    { "namespace": "eu.europa.ec.eudi.pid.1", "claim_name": "resident_address" },
+    { "namespace": "eu.europa.ec.eudi.pid.1", "claim_name": "resident_city" },
+    { "namespace": "eu.europa.ec.eudi.pid.1", "claim_name": "resident_country" },
+    { "namespace": "eu.europa.ec.eudi.pid.1", "claim_name": "resident_state" },
+    { "namespace": "eu.europa.ec.eudi.pid.1", "claim_name": "resident_street" }
+  ]
+}

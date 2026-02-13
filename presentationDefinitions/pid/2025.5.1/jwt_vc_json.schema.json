@@ -1,0 +1,58 @@
+{
+  "constraints": {
+    "fields": [
+      {
+        "path": [
+          "$.vc.type"
+        ],
+        "filter": {
+          "type": "array",
+          "contains": {
+            "const": "urn:eu.europa.ec.eudi:pid:1"
+          }
+        }
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.family_name"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.given_name"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.address"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.email"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.is_over_18"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.is_over_21"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.is_over_65"
+        ]
+      },
+      {
+        "path": [
+          "$.vc.credentialSubject.phone_number"
+        ]
+      }
+    ],
+    "limit_disclosure": "required"
+  }
+}

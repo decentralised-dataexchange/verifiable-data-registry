@@ -1,0 +1,67 @@
+{
+  "constraints": {
+    "fields": [
+      {
+        "path": [
+          "$['eu.europa.ec.eudi.pid.1']['family_name']"
+        ]
+      },
+      {
+        "path": [
+          "$['eu.europa.ec.eudi.pid.1']['given_name']"
+        ]
+      },
+      {
+        "path": [
+          "$['eu.europa.ec.eudi.pid.1']['resident_address']"
+        ]
+      },
+      {
+        "path": [
+          "$['eu.europa.ec.eudi.pid.1']['resident_street']"
+        ]
+      },
+      {
+        "path": [
+          "$['eu.europa.ec.eudi.pid.1']['resident_city']"
+        ]
+      },
+      {
+        "path": [
+          "$['eu.europa.ec.eudi.pid.1']['resident_state']"
+        ]
+      },
+      {
+        "path": [
+          "$['eu.europa.ec.eudi.pid.1']['resident_country']"
+        ]
+      },
+      {
+        "path": [
+          "$['eu.europa.ec.eudi.pid.1']['email']"
+        ]
+      },
+      {
+        "path": [
+          "$['eu.europa.ec.eudi.pid.1']['age_over_18']"
+        ]
+      },
+      {
+        "path": [
+          "$['eu.europa.ec.eudi.pid.1']['age_over_21']"
+        ]
+      },
+      {
+        "path": [
+          "$['eu.europa.ec.eudi.pid.1']['age_over_65']"
+        ]
+      },
+      {
+        "path": [
+          "$['eu.europa.ec.eudi.pid.1']['phone_number']"
+        ]
+      }
+    ],
+    "limit_disclosure": "required"
+  }
+}
