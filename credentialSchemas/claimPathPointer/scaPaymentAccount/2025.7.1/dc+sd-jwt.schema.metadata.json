@@ -1,0 +1,9 @@
+{
+  "id": "f41a552d-c465-4172-b806-f38198e7e2b8",
+  "title": "Payment Account Credential",
+  "credentialType": "LegalPersonIdentificationData",
+  "namespace": "org.iso.18013.5.1",
+  "isSdJwt": true,
+  "isJwt": false,
+  "isMsoMdoc": false
+}

@@ -1,0 +1,9 @@
+{
+  "id": "a2ca0179-fcd9-4333-af36-297644305cb0",
+  "title": "Payment Card Credential",
+  "credentialType": "LegalPersonIdentificationData",
+  "namespace": "org.iso.18013.5.1",
+  "isSdJwt": true,
+  "isJwt": false,
+  "isMsoMdoc": false
+}

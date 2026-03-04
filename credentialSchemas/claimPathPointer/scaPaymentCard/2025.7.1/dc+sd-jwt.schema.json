@@ -1,0 +1,22 @@
+{
+  "claims": [
+    {
+      "path": [
+        "pan_last_four"
+      ],
+      "limitDisclosure": true
+    },
+    {
+      "path": [
+        "scheme"
+      ],
+      "limitDisclosure": true
+    },
+    {
+      "path": [
+        "scheme_logo"
+      ],
+      "limitDisclosure": true
+    }
+  ]
+}

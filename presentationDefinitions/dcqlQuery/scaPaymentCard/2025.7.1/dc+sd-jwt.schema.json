@@ -1,0 +1,19 @@
+{
+  "claims": [
+    {
+      "path": [
+        "pan_last_four"
+      ]
+    },
+    {
+      "path": [
+        "scheme"
+      ]
+    },
+    {
+      "path": [
+        "scheme_logo"
+      ]
+    }
+  ]
+}

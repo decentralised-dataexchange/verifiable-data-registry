@@ -1,0 +1,22 @@
+{
+  "claims": [
+    {
+      "path": [
+        "iban"
+      ],
+      "limitDisclosure": true
+    },
+    {
+      "path": [
+        "bic"
+      ],
+      "limitDisclosure": true
+    },
+    {
+      "path": [
+        "currency"
+      ],
+      "limitDisclosure": true
+    }
+  ]
+}
