@@ -2,50 +2,62 @@
   "claims": [
     {
       "path": ["credentialSubject", "serialNumber"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["credentialSubject", "firstName"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["credentialSubject", "signature"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["credentialSubject", "personalNumber"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["credentialSubject", "id"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["credentialSubject", "image"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["credentialSubject", "birthDate"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["credentialSubject", "lastName"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["credentialSubject", "gender"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["credentialSubject", "expiryDate"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["credentialSubject", "nationality"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["credentialSubject", "issuerAuthority"],
+      "mandatory": true,
       "limitDisclosure": true
     }
   ]

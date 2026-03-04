@@ -2,54 +2,67 @@
   "claims": [
     {
       "path": ["org.iso.18013.5.1", "name"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "legalForm"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "activity"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "registrationDate"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "legalStatus"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "registeredAddress"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "registeredAddress", "adminUnitLevel1"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "registeredAddress", "fullAddress"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "registeredAddress", "locatorDesignator"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "registeredAddress", "postCode"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "registeredAddress", "postName"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "registeredAddress", "thoroughFare"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "orgNumber"],
+      "mandatory": true,
       "limitDisclosure": true
     }
   ]

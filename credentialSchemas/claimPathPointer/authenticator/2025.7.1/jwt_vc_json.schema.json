@@ -4,7 +4,8 @@
       "path": [
         "credentialSubject",
         "email_address"
-      ]
+      ],
+      "mandatory": true
     }
   ]
 }

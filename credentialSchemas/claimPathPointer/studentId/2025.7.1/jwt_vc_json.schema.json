@@ -1,52 +1,68 @@
 {
   "claims": [
     {
-      "path": ["credentialSubject", "commonName"]
+      "path": ["credentialSubject", "commonName"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "dateOfBirth"]
+      "path": ["credentialSubject", "dateOfBirth"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "displayName"]
+      "path": ["credentialSubject", "displayName"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "eduPersonAffiliation", null]
+      "path": ["credentialSubject", "eduPersonAffiliation", null],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "eduPersonAssurance", null]
+      "path": ["credentialSubject", "eduPersonAssurance", null],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "eduPersonPrimaryAffiliation"]
+      "path": ["credentialSubject", "eduPersonPrimaryAffiliation"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "eduPersonPrincipalName"]
+      "path": ["credentialSubject", "eduPersonPrincipalName"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "eduPersonScopedAffiliation", null]
+      "path": ["credentialSubject", "eduPersonScopedAffiliation", null],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "familyName"]
+      "path": ["credentialSubject", "familyName"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "firstName"]
+      "path": ["credentialSubject", "firstName"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "id"]
+      "path": ["credentialSubject", "id"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "identifier"]
+      "path": ["credentialSubject", "identifier"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "mail"]
+      "path": ["credentialSubject", "mail"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "schacHomeOrganization"]
+      "path": ["credentialSubject", "schacHomeOrganization"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "schacPersonalUniqueCode", null]
+      "path": ["credentialSubject", "schacPersonalUniqueCode", null],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "schacPersonalUniqueID"]
+      "path": ["credentialSubject", "schacPersonalUniqueID"],
+      "mandatory": true
     }
   ]
 }

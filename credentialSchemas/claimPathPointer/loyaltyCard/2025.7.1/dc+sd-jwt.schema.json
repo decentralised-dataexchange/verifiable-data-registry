@@ -5,6 +5,7 @@
         "credential",
         "expiry_date"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -12,6 +13,7 @@
         "credential",
         "issuance_date"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -19,6 +21,7 @@
         "credential",
         "issuer"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -26,6 +29,7 @@
         "credential",
         "type"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -33,6 +37,7 @@
         "customer",
         "address"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -40,6 +45,7 @@
         "customer",
         "birth_date"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -47,6 +53,7 @@
         "customer",
         "city"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -54,6 +61,7 @@
         "customer",
         "email"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -61,6 +69,7 @@
         "customer",
         "first_name"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -68,6 +77,7 @@
         "customer",
         "last_name"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -75,6 +85,7 @@
         "customer",
         "mobile"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -82,6 +93,7 @@
         "customer",
         "nationality"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -89,6 +101,7 @@
         "customer",
         "phone"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -96,6 +109,7 @@
         "customer",
         "zip_code"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -103,6 +117,7 @@
         "loyalty_card",
         "id"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -110,6 +125,7 @@
         "loyalty_card",
         "issue_date"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -117,6 +133,7 @@
         "loyalty_card",
         "status"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -124,6 +141,7 @@
         "loyalty_card",
         "type"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -131,6 +149,7 @@
         "organization",
         "country"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -138,6 +157,7 @@
         "organization",
         "id"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -145,6 +165,7 @@
         "organization",
         "name"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -152,6 +173,7 @@
         "portfolio",
         "available_miles"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -159,6 +181,7 @@
         "portfolio",
         "available_points"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -166,6 +189,7 @@
         "portfolio",
         "available_wallet"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -173,6 +197,7 @@
         "portfolio",
         "last_updated"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     }
   ]

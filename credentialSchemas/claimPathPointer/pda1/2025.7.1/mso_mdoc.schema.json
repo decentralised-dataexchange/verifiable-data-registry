@@ -2,282 +2,352 @@
   "claims": [
     {
       "path": ["org.iso.18013.5.1", "section1"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section1", "dateBirth"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section1", "forenames"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section1", "nationalities", null],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section1", "personalIdentificationNumber"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section1", "placeBirth", "countryCode"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section1", "placeBirth", "region"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section1", "placeBirth", "town"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section1", "sex"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section1", "stateOfResidenceAddress", "countryCode"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section1", "stateOfResidenceAddress", "postCode"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section1", "stateOfResidenceAddress", "streetNo"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section1", "stateOfResidenceAddress", "town"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section1", "stateOfStayAddress", "countryCode"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section1", "stateOfStayAddress", "postCode"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section1", "stateOfStayAddress", "streetNo"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section1", "stateOfStayAddress", "town"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section1", "surname"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section1", "surnameAtBirth"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section2"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section2", "certificateForDurationActivity"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section2", "determinationProvisional"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section2", "endingDate"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section2", "memberStateWhichLegislationApplies"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section2", "startingDate"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section2", "transitionRulesApplyAsEC8832004"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section3"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section3", "civilAndEmployedSelfEmployed"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section3", "civilServant"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section3", "contractStaff"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section3", "employedAndSelfEmployed"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section3", "employedTwoOrMoreStates"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section3", "exception"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section3", "exceptionDescription"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section3", "flightCrewMember"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section3", "mariner"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section3", "postedEmployedPerson"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section3", "postedSelfEmployedPerson"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section3", "selfEmployedTwoOrMoreStates"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section3", "workingInStateUnder21"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section4"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section4", "employee"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section4", "employerSelfEmployedActivityCodes", null],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section4", "nameBusinessName"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section4", "registeredAddress", "countryCode"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section4", "registeredAddress", "postCode"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section4", "registeredAddress", "streetNo"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section4", "registeredAddress", "town"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section4", "selfEmployedActivity"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section5"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section5", "noFixedAddress"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section5", "workPlaceAddresses", null, "address", "countryCode"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section5", "workPlaceAddresses", null, "address", "postCode"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section5", "workPlaceAddresses", null, "address", "streetNo"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section5", "workPlaceAddresses", null, "address", "town"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section5", "workPlaceAddresses", null, "seqno"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section5", "workPlaceNames", null, "companyNameVesselName"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section5", "workPlaceNames", null, "seqno"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section6"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section6", "address", "countryCode"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section6", "address", "postCode"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section6", "address", "streetNo"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section6", "address", "town"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section6", "date"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section6", "email"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section6", "institutionID"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section6", "name"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section6", "officeFaxNo"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section6", "officePhoneNo"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "section6", "signature"],
+      "mandatory": true,
       "limitDisclosure": true
     }
   ]

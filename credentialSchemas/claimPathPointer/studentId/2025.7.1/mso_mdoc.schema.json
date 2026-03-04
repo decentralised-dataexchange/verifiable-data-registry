@@ -2,66 +2,82 @@
   "claims": [
     {
       "path": ["eu.europa.ec.eudi", "commonName"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "dateOfBirth"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "displayName"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "eduPersonAffiliation", null],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "eduPersonAssurance", null],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "eduPersonPrimaryAffiliation"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "eduPersonPrincipalName"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "eduPersonScopedAffiliation", null],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "familyName"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "firstName"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "id"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "identifier"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "mail"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "schacHomeOrganization"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "schacPersonalUniqueCode", null],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "schacPersonalUniqueID"],
+      "mandatory": true,
       "limitDisclosure": true
     }
   ]

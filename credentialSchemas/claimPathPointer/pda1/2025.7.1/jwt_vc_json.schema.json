@@ -1,28 +1,72 @@
 {
   "claims": [
     {
-      "path": ["credentialSubject", "section1", "dateBirth"]
+      "path": [
+        "credentialSubject",
+        "section1",
+        "dateBirth"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section1", "forenames"]
+      "path": [
+        "credentialSubject",
+        "section1",
+        "forenames"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section1", "nationalities", null]
+      "path": [
+        "credentialSubject",
+        "section1",
+        "nationalities",
+        null
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section1", "personalIdentificationNumber"]
+      "path": [
+        "credentialSubject",
+        "section1",
+        "personalIdentificationNumber"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section1", "placeBirth", "countryCode"]
+      "path": [
+        "credentialSubject",
+        "section1",
+        "placeBirth",
+        "countryCode"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section1", "placeBirth", "region"]
+      "path": [
+        "credentialSubject",
+        "section1",
+        "placeBirth",
+        "region"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section1", "placeBirth", "town"]
+      "path": [
+        "credentialSubject",
+        "section1",
+        "placeBirth",
+        "town"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section1", "sex"]
+      "path": [
+        "credentialSubject",
+        "section1",
+        "sex"
+      ],
+      "mandatory": true
     },
     {
       "path": [
@@ -30,7 +74,8 @@
         "section1",
         "stateOfResidenceAddress",
         "countryCode"
-      ]
+      ],
+      "mandatory": true
     },
     {
       "path": [
@@ -38,7 +83,8 @@
         "section1",
         "stateOfResidenceAddress",
         "postCode"
-      ]
+      ],
+      "mandatory": true
     },
     {
       "path": [
@@ -46,7 +92,8 @@
         "section1",
         "stateOfResidenceAddress",
         "streetNo"
-      ]
+      ],
+      "mandatory": true
     },
     {
       "path": [
@@ -54,7 +101,8 @@
         "section1",
         "stateOfResidenceAddress",
         "town"
-      ]
+      ],
+      "mandatory": true
     },
     {
       "path": [
@@ -62,7 +110,8 @@
         "section1",
         "stateOfStayAddress",
         "countryCode"
-      ]
+      ],
+      "mandatory": true
     },
     {
       "path": [
@@ -70,7 +119,8 @@
         "section1",
         "stateOfStayAddress",
         "postCode"
-      ]
+      ],
+      "mandatory": true
     },
     {
       "path": [
@@ -78,88 +128,193 @@
         "section1",
         "stateOfStayAddress",
         "streetNo"
-      ]
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section1", "stateOfStayAddress", "town"]
+      "path": [
+        "credentialSubject",
+        "section1",
+        "stateOfStayAddress",
+        "town"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section1", "surname"]
+      "path": [
+        "credentialSubject",
+        "section1",
+        "surname"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section1", "surnameAtBirth"]
+      "path": [
+        "credentialSubject",
+        "section1",
+        "surnameAtBirth"
+      ],
+      "mandatory": true
     },
     {
       "path": [
         "credentialSubject",
         "section2",
         "certificateForDurationActivity"
-      ]
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section2", "determinationProvisional"]
+      "path": [
+        "credentialSubject",
+        "section2",
+        "determinationProvisional"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section2", "endingDate"]
+      "path": [
+        "credentialSubject",
+        "section2",
+        "endingDate"
+      ],
+      "mandatory": true
     },
     {
       "path": [
         "credentialSubject",
         "section2",
         "memberStateWhichLegislationApplies"
-      ]
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section2", "startingDate"]
+      "path": [
+        "credentialSubject",
+        "section2",
+        "startingDate"
+      ],
+      "mandatory": true
     },
     {
       "path": [
         "credentialSubject",
         "section2",
         "transitionRulesApplyAsEC8832004"
-      ]
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section3", "civilAndEmployedSelfEmployed"]
+      "path": [
+        "credentialSubject",
+        "section3",
+        "civilAndEmployedSelfEmployed"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section3", "civilServant"]
+      "path": [
+        "credentialSubject",
+        "section3",
+        "civilServant"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section3", "contractStaff"]
+      "path": [
+        "credentialSubject",
+        "section3",
+        "contractStaff"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section3", "employedAndSelfEmployed"]
+      "path": [
+        "credentialSubject",
+        "section3",
+        "employedAndSelfEmployed"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section3", "employedTwoOrMoreStates"]
+      "path": [
+        "credentialSubject",
+        "section3",
+        "employedTwoOrMoreStates"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section3", "exception"]
+      "path": [
+        "credentialSubject",
+        "section3",
+        "exception"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section3", "exceptionDescription"]
+      "path": [
+        "credentialSubject",
+        "section3",
+        "exceptionDescription"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section3", "flightCrewMember"]
+      "path": [
+        "credentialSubject",
+        "section3",
+        "flightCrewMember"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section3", "mariner"]
+      "path": [
+        "credentialSubject",
+        "section3",
+        "mariner"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section3", "postedEmployedPerson"]
+      "path": [
+        "credentialSubject",
+        "section3",
+        "postedEmployedPerson"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section3", "postedSelfEmployedPerson"]
+      "path": [
+        "credentialSubject",
+        "section3",
+        "postedSelfEmployedPerson"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section3", "selfEmployedTwoOrMoreStates"]
+      "path": [
+        "credentialSubject",
+        "section3",
+        "selfEmployedTwoOrMoreStates"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section3", "workingInStateUnder21"]
+      "path": [
+        "credentialSubject",
+        "section3",
+        "workingInStateUnder21"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section4", "employee"]
+      "path": [
+        "credentialSubject",
+        "section4",
+        "employee"
+      ],
+      "mandatory": true
     },
     {
       "path": [
@@ -167,10 +322,16 @@
         "section4",
         "employerSelfEmployedActivityCodes",
         null
-      ]
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section4", "nameBusinessName"]
+      "path": [
+        "credentialSubject",
+        "section4",
+        "nameBusinessName"
+      ],
+      "mandatory": true
     },
     {
       "path": [
@@ -178,22 +339,51 @@
         "section4",
         "registeredAddress",
         "countryCode"
-      ]
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section4", "registeredAddress", "postCode"]
+      "path": [
+        "credentialSubject",
+        "section4",
+        "registeredAddress",
+        "postCode"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section4", "registeredAddress", "streetNo"]
+      "path": [
+        "credentialSubject",
+        "section4",
+        "registeredAddress",
+        "streetNo"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section4", "registeredAddress", "town"]
+      "path": [
+        "credentialSubject",
+        "section4",
+        "registeredAddress",
+        "town"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section4", "selfEmployedActivity"]
+      "path": [
+        "credentialSubject",
+        "section4",
+        "selfEmployedActivity"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section5", "noFixedAddress"]
+      "path": [
+        "credentialSubject",
+        "section5",
+        "noFixedAddress"
+      ],
+      "mandatory": true
     },
     {
       "path": [
@@ -203,7 +393,8 @@
         null,
         "address",
         "countryCode"
-      ]
+      ],
+      "mandatory": true
     },
     {
       "path": [
@@ -213,7 +404,8 @@
         null,
         "address",
         "postCode"
-      ]
+      ],
+      "mandatory": true
     },
     {
       "path": [
@@ -223,7 +415,8 @@
         null,
         "address",
         "streetNo"
-      ]
+      ],
+      "mandatory": true
     },
     {
       "path": [
@@ -233,7 +426,8 @@
         null,
         "address",
         "town"
-      ]
+      ],
+      "mandatory": true
     },
     {
       "path": [
@@ -242,7 +436,8 @@
         "workPlaceAddresses",
         null,
         "seqno"
-      ]
+      ],
+      "mandatory": true
     },
     {
       "path": [
@@ -251,43 +446,110 @@
         "workPlaceNames",
         null,
         "companyNameVesselName"
-      ]
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section5", "workPlaceNames", null, "seqno"]
+      "path": [
+        "credentialSubject",
+        "section5",
+        "workPlaceNames",
+        null,
+        "seqno"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section6", "address", "countryCode"]
+      "path": [
+        "credentialSubject",
+        "section6",
+        "address",
+        "countryCode"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section6", "address", "postCode"]
+      "path": [
+        "credentialSubject",
+        "section6",
+        "address",
+        "postCode"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section6", "address", "streetNo"]
+      "path": [
+        "credentialSubject",
+        "section6",
+        "address",
+        "streetNo"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section6", "address", "town"]
+      "path": [
+        "credentialSubject",
+        "section6",
+        "address",
+        "town"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section6", "date"]
+      "path": [
+        "credentialSubject",
+        "section6",
+        "date"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section6", "email"]
+      "path": [
+        "credentialSubject",
+        "section6",
+        "email"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section6", "institutionID"]
+      "path": [
+        "credentialSubject",
+        "section6",
+        "institutionID"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section6", "name"]
+      "path": [
+        "credentialSubject",
+        "section6",
+        "name"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section6", "officeFaxNo"]
+      "path": [
+        "credentialSubject",
+        "section6",
+        "officeFaxNo"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section6", "officePhoneNo"]
+      "path": [
+        "credentialSubject",
+        "section6",
+        "officePhoneNo"
+      ],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "section6", "signature"]
+      "path": [
+        "credentialSubject",
+        "section6",
+        "signature"
+      ],
+      "mandatory": true
     }
   ]
 }

@@ -1,53 +1,396 @@
 {
   "claims": [
-    { "path": ["credentialSubject", "dtc", "dg_content_info"] },
-    { "path": ["credentialSubject", "dtc", "dtc_dg1"] },
-    { "path": ["credentialSubject", "dtc", "dtc_dg10"] },
-    { "path": ["credentialSubject", "dtc", "dtc_dg11"] },
-    { "path": ["credentialSubject", "dtc", "dtc_dg12"] },
-    { "path": ["credentialSubject", "dtc", "dtc_dg13"] },
-    { "path": ["credentialSubject", "dtc", "dtc_dg14"] },
-    { "path": ["credentialSubject", "dtc", "dtc_dg15"] },
-    { "path": ["credentialSubject", "dtc", "dtc_dg16"] },
-    { "path": ["credentialSubject", "dtc", "dtc_dg2"] },
-    { "path": ["credentialSubject", "dtc", "dtc_dg3"] },
-    { "path": ["credentialSubject", "dtc", "dtc_dg4"] },
-    { "path": ["credentialSubject", "dtc", "dtc_dg5"] },
-    { "path": ["credentialSubject", "dtc", "dtc_dg6"] },
-    { "path": ["credentialSubject", "dtc", "dtc_dg7"] },
-    { "path": ["credentialSubject", "dtc", "dtc_dg8"] },
-    { "path": ["credentialSubject", "dtc", "dtc_dg9"] },
-    { "path": ["credentialSubject", "dtc", "dtc_sod"] },
-    { "path": ["credentialSubject", "dtc", "dtc_version"] },
-    { "path": ["credentialSubject", "iso23220", "age_birth_year"] },
-    { "path": ["credentialSubject", "iso23220", "age_in_years"] },
-    { "path": ["credentialSubject", "iso23220", "age_over_18"] },
-    { "path": ["credentialSubject", "iso23220", "family_name_latin1"] },
-    { "path": ["credentialSubject", "iso23220", "given_name_latin1"] },
-    { "path": ["credentialSubject", "iso23220", "issue_date"] },
-    { "path": ["credentialSubject", "iso23220", "issuing_authority_unicode"] },
-    { "path": ["credentialSubject", "iso23220", "name_at_birth"] },
-    { "path": ["credentialSubject", "iso23220", "nationality"] },
-    { "path": ["credentialSubject", "iso23220", "birthplace"] },
-    { "path": ["credentialSubject", "iso23220", "given_name_unicode"] },
-    { "path": ["credentialSubject", "iso23220", "family_name_unicode"] },
-    { "path": ["credentialSubject", "iso23220", "birth_date"] },
-    { "path": ["credentialSubject", "iso23220", "sex"] },
-    { "path": ["credentialSubject", "iso23220", "portrait"] },
-    { "path": ["credentialSubject", "iso23220", "portrait_capture_date"] },
-    { "path": ["credentialSubject", "iso23220", "resident_address_unicode"] },
-    { "path": ["credentialSubject", "iso23220", "resident_city_unicode"] },
-    { "path": ["credentialSubject", "iso23220", "resident_postal_code"] },
-    { "path": ["credentialSubject", "iso23220", "issuing_country"] },
-    { "path": ["credentialSubject", "iso23220", "expiry_date"] },
-    { "path": ["credentialSubject", "iso23220", "resident_country"] },
-    { "path": ["credentialSubject", "photoid", "birth_city"] },
-    { "path": ["credentialSubject", "photoid", "birth_country"] },
-    { "path": ["credentialSubject", "photoid", "birth_state"] },
-    { "path": ["credentialSubject", "photoid", "travel_document_number"] },
-    { "path": ["credentialSubject", "photoid", "person_id"] },
-    { "path": ["credentialSubject", "photoid", "administrative_number"] },
-    { "path": ["credentialSubject", "photoid", "resident_street"] },
-    { "path": ["credentialSubject", "photoid", "resident_state"] }
+    {
+      "path": [
+        "credentialSubject",
+        "dtc",
+        "dg_content_info"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "dtc",
+        "dtc_dg1"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "dtc",
+        "dtc_dg10"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "dtc",
+        "dtc_dg11"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "dtc",
+        "dtc_dg12"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "dtc",
+        "dtc_dg13"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "dtc",
+        "dtc_dg14"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "dtc",
+        "dtc_dg15"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "dtc",
+        "dtc_dg16"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "dtc",
+        "dtc_dg2"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "dtc",
+        "dtc_dg3"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "dtc",
+        "dtc_dg4"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "dtc",
+        "dtc_dg5"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "dtc",
+        "dtc_dg6"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "dtc",
+        "dtc_dg7"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "dtc",
+        "dtc_dg8"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "dtc",
+        "dtc_dg9"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "dtc",
+        "dtc_sod"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "dtc",
+        "dtc_version"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "iso23220",
+        "age_birth_year"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "iso23220",
+        "age_in_years"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "iso23220",
+        "age_over_18"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "iso23220",
+        "family_name_latin1"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "iso23220",
+        "given_name_latin1"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "iso23220",
+        "issue_date"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "iso23220",
+        "issuing_authority_unicode"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "iso23220",
+        "name_at_birth"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "iso23220",
+        "nationality"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "iso23220",
+        "birthplace"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "iso23220",
+        "given_name_unicode"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "iso23220",
+        "family_name_unicode"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "iso23220",
+        "birth_date"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "iso23220",
+        "sex"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "iso23220",
+        "portrait"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "iso23220",
+        "portrait_capture_date"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "iso23220",
+        "resident_address_unicode"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "iso23220",
+        "resident_city_unicode"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "iso23220",
+        "resident_postal_code"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "iso23220",
+        "issuing_country"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "iso23220",
+        "expiry_date"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "iso23220",
+        "resident_country"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "photoid",
+        "birth_city"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "photoid",
+        "birth_country"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "photoid",
+        "birth_state"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "photoid",
+        "travel_document_number"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "photoid",
+        "person_id"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "photoid",
+        "administrative_number"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "photoid",
+        "resident_street"
+      ],
+      "mandatory": true
+    },
+    {
+      "path": [
+        "credentialSubject",
+        "photoid",
+        "resident_state"
+      ],
+      "mandatory": true
+    }
   ]
 }

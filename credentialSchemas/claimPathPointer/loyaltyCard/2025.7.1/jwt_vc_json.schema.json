@@ -1,79 +1,104 @@
 {
   "claims": [
     {
-      "path": ["credentialSubject", "credential", "expiry_date"]
+      "path": ["credentialSubject", "credential", "expiry_date"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "credential", "issuance_date"]
+      "path": ["credentialSubject", "credential", "issuance_date"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "credential", "issuer"]
+      "path": ["credentialSubject", "credential", "issuer"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "credential", "type"]
+      "path": ["credentialSubject", "credential", "type"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "customer", "address"]
+      "path": ["credentialSubject", "customer", "address"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "customer", "birth_date"]
+      "path": ["credentialSubject", "customer", "birth_date"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "customer", "city"]
+      "path": ["credentialSubject", "customer", "city"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "customer", "email"]
+      "path": ["credentialSubject", "customer", "email"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "customer", "first_name"]
+      "path": ["credentialSubject", "customer", "first_name"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "customer", "last_name"]
+      "path": ["credentialSubject", "customer", "last_name"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "customer", "mobile"]
+      "path": ["credentialSubject", "customer", "mobile"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "customer", "nationality"]
+      "path": ["credentialSubject", "customer", "nationality"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "customer", "phone"]
+      "path": ["credentialSubject", "customer", "phone"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "customer", "zip_code"]
+      "path": ["credentialSubject", "customer", "zip_code"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "loyalty_card", "id"]
+      "path": ["credentialSubject", "loyalty_card", "id"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "loyalty_card", "issue_date"]
+      "path": ["credentialSubject", "loyalty_card", "issue_date"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "loyalty_card", "status"]
+      "path": ["credentialSubject", "loyalty_card", "status"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "loyalty_card", "type"]
+      "path": ["credentialSubject", "loyalty_card", "type"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "organization", "country"]
+      "path": ["credentialSubject", "organization", "country"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "organization", "id"]
+      "path": ["credentialSubject", "organization", "id"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "organization", "name"]
+      "path": ["credentialSubject", "organization", "name"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "portfolio", "available_miles"]
+      "path": ["credentialSubject", "portfolio", "available_miles"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "portfolio", "available_points"]
+      "path": ["credentialSubject", "portfolio", "available_points"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "portfolio", "available_wallet"]
+      "path": ["credentialSubject", "portfolio", "available_wallet"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "portfolio", "last_updated"]
+      "path": ["credentialSubject", "portfolio", "last_updated"],
+      "mandatory": true
     }
   ]
 }

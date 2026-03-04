@@ -2,198 +2,247 @@
   "claims": [
     {
       "path": ["eu.europa.ec.eudi", "dtc", "dg_content_info"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "dtc", "dtc_dg1"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "dtc", "dtc_dg10"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "dtc", "dtc_dg11"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "dtc", "dtc_dg12"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "dtc", "dtc_dg13"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "dtc", "dtc_dg14"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "dtc", "dtc_dg15"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "dtc", "dtc_dg16"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "dtc", "dtc_dg2"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "dtc", "dtc_dg3"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "dtc", "dtc_dg4"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "dtc", "dtc_dg5"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "dtc", "dtc_dg6"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "dtc", "dtc_dg7"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "dtc", "dtc_dg8"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "dtc", "dtc_dg9"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "dtc", "dtc_sod"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "dtc", "dtc_version"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "iso23220", "age_birth_year"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "iso23220", "age_in_years"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "iso23220", "age_over_18"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "iso23220", "family_name_latin1"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "iso23220", "given_name_latin1"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "iso23220", "issue_date"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "iso23220", "issuing_authority_unicode"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "iso23220", "name_at_birth"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "iso23220", "nationality"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "iso23220", "birthplace"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "iso23220", "given_name_unicode"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "iso23220", "family_name_unicode"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "iso23220", "birth_date"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "iso23220", "sex"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "iso23220", "portrait"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "iso23220", "portrait_capture_date"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "iso23220", "resident_address_unicode"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "iso23220", "resident_city_unicode"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "iso23220", "resident_postal_code"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "iso23220", "issuing_country"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "iso23220", "expiry_date"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "iso23220", "resident_country"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "photoid", "birth_city"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "photoid", "birth_country"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "photoid", "birth_state"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "photoid", "travel_document_number"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "photoid", "person_id"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "photoid", "administrative_number"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "photoid", "resident_street"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi", "photoid", "resident_state"],
+      "mandatory": true,
       "limitDisclosure": true
     }
   ]
