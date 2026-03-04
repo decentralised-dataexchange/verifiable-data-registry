@@ -2,6 +2,7 @@
   "claims": [
     {
       "path": ["io.igrant.authenticator", "email_address"],
+      "mandatory": true,
       "limitDisclosure": true
     }
   ]

@@ -2,50 +2,62 @@
   "claims": [
     {
       "path": ["org.iso.18013.5.1", "serialNumber"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "firstName"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "signature"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "personalNumber"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "id"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "image"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "birthDate"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "lastName"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "gender"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "expiryDate"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "nationality"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["org.iso.18013.5.1", "issuerAuthority"],
+      "mandatory": true,
       "limitDisclosure": true
     }
   ]

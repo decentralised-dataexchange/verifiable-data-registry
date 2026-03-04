@@ -5,6 +5,7 @@
         "fundingSource",
         "aliasId"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -12,6 +13,7 @@
         "fundingSource",
         "currency"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -19,6 +21,7 @@
         "fundingSource",
         "icon"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -26,6 +29,7 @@
         "fundingSource",
         "iin"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -33,6 +37,7 @@
         "fundingSource",
         "panLastFour"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -40,6 +45,7 @@
         "fundingSource",
         "parLastFour"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -47,6 +53,7 @@
         "fundingSource",
         "scheme"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -54,6 +61,7 @@
         "fundingSource",
         "type"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     }
   ]

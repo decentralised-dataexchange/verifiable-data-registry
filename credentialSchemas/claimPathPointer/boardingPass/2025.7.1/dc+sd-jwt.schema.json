@@ -4,84 +4,98 @@
         "path": [
           "arrivalDate"
         ],
+        "mandatory": true,
         "limitDisclosure": true
       },
       {
         "path": [
           "arrivalPort"
         ],
+        "mandatory": true,
         "limitDisclosure": true
       },
       {
         "path": [
           "arrivalTime"
         ],
+        "mandatory": true,
         "limitDisclosure": true
       },
       {
         "path": [
           "departureDate"
         ],
+        "mandatory": true,
         "limitDisclosure": true
       },
       {
         "path": [
           "departureTime"
         ],
+        "mandatory": true,
         "limitDisclosure": true
       },
       {
         "path": [
           "firstName"
         ],
+        "mandatory": true,
         "limitDisclosure": true
       },
       {
         "path": [
           "identifier"
         ],
+        "mandatory": true,
         "limitDisclosure": true
       },
       {
         "path": [
           "lastName"
         ],
+        "mandatory": true,
         "limitDisclosure": true
       },
       {
         "path": [
           "seatNumber"
         ],
+        "mandatory": true,
         "limitDisclosure": true
       },
       {
         "path": [
           "seatType"
         ],
+        "mandatory": true,
         "limitDisclosure": true
       },
       {
         "path": [
           "ticketLet"
         ],
+        "mandatory": true,
         "limitDisclosure": true
       },
       {
         "path": [
           "ticketNumber"
         ],
+        "mandatory": true,
         "limitDisclosure": true
       },
       {
         "path": [
           "ticketQR"
         ],
+        "mandatory": true,
         "limitDisclosure": true
       },
       {
         "path": [
           "vesselDescription"
         ],
+        "mandatory": true,
         "limitDisclosure": true
       }
     ]

@@ -3,7 +3,8 @@
       {
         "path": [
             "credentialId"
-        ]
+        ],
+        "mandatory": true
       }
   ]
 }

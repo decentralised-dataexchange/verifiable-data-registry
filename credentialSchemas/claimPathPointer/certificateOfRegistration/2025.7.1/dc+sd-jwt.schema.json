@@ -1,56 +1,101 @@
 {
   "claims": [
     {
-      "path": ["name"],
+      "path": [
+        "name"
+      ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
-      "path": ["legalForm"],
-      "limitDisclosure": true
+      "path": [
+        "legalForm"
+      ],
+      "limitDisclosure": true,
+      "mandatory": true
     },
     {
-      "path": ["activity"],
-      "limitDisclosure": true
+      "path": [
+        "activity"
+      ],
+      "limitDisclosure": true,
+      "mandatory": true
     },
     {
-      "path": ["registrationDate"],
-      "limitDisclosure": true
+      "path": [
+        "registrationDate"
+      ],
+      "limitDisclosure": true,
+      "mandatory": true
     },
     {
-      "path": ["legalStatus"],
-      "limitDisclosure": true
+      "path": [
+        "legalStatus"
+      ],
+      "limitDisclosure": true,
+      "mandatory": true
     },
     {
-      "path": ["registeredAddress"],
-      "limitDisclosure": true
+      "path": [
+        "registeredAddress"
+      ],
+      "limitDisclosure": true,
+      "mandatory": true
     },
     {
-      "path": ["registeredAddress", "adminUnitLevel1"],
-      "limitDisclosure": true
+      "path": [
+        "registeredAddress",
+        "adminUnitLevel1"
+      ],
+      "limitDisclosure": true,
+      "mandatory": true
     },
     {
-      "path": ["registeredAddress", "fullAddress"],
-      "limitDisclosure": true
+      "path": [
+        "registeredAddress",
+        "fullAddress"
+      ],
+      "limitDisclosure": true,
+      "mandatory": true
     },
     {
-      "path": ["registeredAddress", "locatorDesignator"],
-      "limitDisclosure": true
+      "path": [
+        "registeredAddress",
+        "locatorDesignator"
+      ],
+      "limitDisclosure": true,
+      "mandatory": true
     },
     {
-      "path": ["registeredAddress", "postCode"],
-      "limitDisclosure": true
+      "path": [
+        "registeredAddress",
+        "postCode"
+      ],
+      "limitDisclosure": true,
+      "mandatory": true
     },
     {
-      "path": ["registeredAddress", "postName"],
-      "limitDisclosure": true
+      "path": [
+        "registeredAddress",
+        "postName"
+      ],
+      "limitDisclosure": true,
+      "mandatory": true
     },
     {
-      "path": ["registeredAddress", "thoroughFare"],
-      "limitDisclosure": true
+      "path": [
+        "registeredAddress",
+        "thoroughFare"
+      ],
+      "limitDisclosure": true,
+      "mandatory": true
     },
     {
-      "path": ["orgNumber"],
-      "limitDisclosure": true
+      "path": [
+        "orgNumber"
+      ],
+      "limitDisclosure": true,
+      "mandatory": true
     }
   ]
 }

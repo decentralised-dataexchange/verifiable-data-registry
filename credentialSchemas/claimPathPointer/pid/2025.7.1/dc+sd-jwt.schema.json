@@ -2,54 +2,67 @@
   "claims": [
     {
       "path": ["address"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["address", "country"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["address", "locality"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["address", "region"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["address", "street_address"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["birthdate"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["email"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["family_name"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["given_name"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["is_over_18"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["is_over_21"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["is_over_65"],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["phone_number"],
+      "mandatory": true,
       "limitDisclosure": true
     }
   ]

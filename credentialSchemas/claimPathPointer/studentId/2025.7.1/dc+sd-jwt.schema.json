@@ -4,18 +4,21 @@
       "path": [
         "commonName"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": [
         "dateOfBirth"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": [
         "displayName"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -23,6 +26,7 @@
         "eduPersonAffiliation",
         null
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -30,18 +34,21 @@
         "eduPersonAssurance",
         null
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": [
         "eduPersonPrimaryAffiliation"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": [
         "eduPersonPrincipalName"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -49,42 +56,49 @@
         "eduPersonScopedAffiliation",
         null
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": [
         "familyName"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": [
         "firstName"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": [
         "id"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": [
         "identifier"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": [
         "mail"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": [
         "schacHomeOrganization"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -92,12 +106,14 @@
         "schacPersonalUniqueCode",
         null
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": [
         "schacPersonalUniqueID"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     }
   ]

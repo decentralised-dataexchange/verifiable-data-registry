@@ -1,43 +1,56 @@
 {
   "claims": [
     {
-      "path": ["credentialSubject", "name"]
+      "path": ["credentialSubject", "name"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "legalForm"]
+      "path": ["credentialSubject", "legalForm"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "activity"]
+      "path": ["credentialSubject", "activity"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "registrationDate"]
+      "path": ["credentialSubject", "registrationDate"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "legalStatus"]
+      "path": ["credentialSubject", "legalStatus"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "registeredAddress"]
+      "path": ["credentialSubject", "registeredAddress"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "registeredAddress", "adminUnitLevel1"]
+      "path": ["credentialSubject", "registeredAddress", "adminUnitLevel1"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "registeredAddress", "fullAddress"]
+      "path": ["credentialSubject", "registeredAddress", "fullAddress"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "registeredAddress", "locatorDesignator"]
+      "path": ["credentialSubject", "registeredAddress", "locatorDesignator"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "registeredAddress", "postCode"]
+      "path": ["credentialSubject", "registeredAddress", "postCode"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "registeredAddress", "postName"]
+      "path": ["credentialSubject", "registeredAddress", "postName"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "registeredAddress", "thoroughFare"]
+      "path": ["credentialSubject", "registeredAddress", "thoroughFare"],
+      "mandatory": true
     },
     {
-      "path": ["credentialSubject", "orgNumber"]
+      "path": ["credentialSubject", "orgNumber"],
+      "mandatory": true
     }
   ]
 }

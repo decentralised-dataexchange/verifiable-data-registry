@@ -4,13 +4,15 @@
       "path": [
         "credentialSubject",
         "identifier"
-      ]
+      ],
+      "mandatory": true
     },
     {
       "path": [
         "credentialSubject",
         "legalName"
-      ]
+      ],
+      "mandatory": true
     }
   ]
 }

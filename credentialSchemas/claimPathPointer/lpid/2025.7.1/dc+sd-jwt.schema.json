@@ -4,12 +4,14 @@
       "path": [
         "identifier"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": [
         "legalName"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     }
   ]
