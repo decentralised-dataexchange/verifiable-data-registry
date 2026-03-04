@@ -1,9 +1,9 @@
 {
   "id": "357b680d-8cfb-4301-88a6-be5cd4ad9f0d",
   "title": "Payment User Credential",
-  "credentialType": "LegalPersonIdentificationData",
-  "namespace": "org.iso.18013.5.1",
+  "credentialType": "{baseUrl}/service/vct-metadata/payment_service_user",
   "isSdJwt": true,
   "isJwt": false,
-  "isMsoMdoc": false
+  "isMsoMdoc": false,
+  "isScaCredential": true
 }

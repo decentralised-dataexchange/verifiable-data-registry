@@ -4,18 +4,21 @@
       "path": [
         "pan_last_four"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": [
         "scheme"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": [
         "scheme_logo"
       ],
+      "mandatory": true,
       "limitDisclosure": true
     }
   ]

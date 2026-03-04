@@ -2,5 +2,6 @@
   "id": "f55614ac-a38f-4909-8c20-90775e8f0741",
   "name": "Payment Card Credential",
   "purpose": "Payment Card Credential",
-  "credentialType": "LegalPersonIdentificationData"
+  "credentialType": "{baseUrl}/service/vct-metadata/card",
+  "isScaCredential": true
 }
