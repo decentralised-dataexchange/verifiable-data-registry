@@ -1,0 +1,7 @@
+{
+  "id": "dd223065-8773-41ac-9002-9f750b6caffb",
+  "name": "Payment Account Credential",
+  "purpose": "Payment Account Credential",
+  "credentialType": "{baseUrl}/service/vct-metadata/payment_account",
+  "isScaCredential": true
+}

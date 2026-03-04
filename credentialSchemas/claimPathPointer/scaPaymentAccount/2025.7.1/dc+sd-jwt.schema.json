@@ -1,0 +1,25 @@
+{
+  "claims": [
+    {
+      "path": [
+        "iban"
+      ],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": [
+        "bic"
+      ],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": [
+        "currency"
+      ],
+      "mandatory": true,
+      "limitDisclosure": true
+    }
+  ]
+}

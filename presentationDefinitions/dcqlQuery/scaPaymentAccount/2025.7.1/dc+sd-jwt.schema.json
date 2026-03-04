@@ -1,0 +1,19 @@
+{
+  "claims": [
+    {
+      "path": [
+        "iban"
+      ]
+    },
+    {
+      "path": [
+        "bic"
+      ]
+    },
+    {
+      "path": [
+        "currency"
+      ]
+    }
+  ]
+}
