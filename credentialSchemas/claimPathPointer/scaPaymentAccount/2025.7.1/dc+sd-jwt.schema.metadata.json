@@ -1,6 +1,6 @@
 {
   "id": "f41a552d-c465-4172-b806-f38198e7e2b8",
-  "title": "Payment Account Credential",
+  "title": "Payment Account Credential (TS12)",
   "credentialType": "{baseUrl}/service/vct-metadata/payment_account",
   "isSdJwt": true,
   "isJwt": false,
