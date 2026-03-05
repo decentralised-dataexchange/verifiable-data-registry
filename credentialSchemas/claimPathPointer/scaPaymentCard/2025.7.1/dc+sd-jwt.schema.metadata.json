@@ -1,6 +1,6 @@
 {
   "id": "a2ca0179-fcd9-4333-af36-297644305cb0",
-  "title": "Payment Card Credential",
+  "title": "Payment Card Credential (TS12)",
   "credentialType": "{baseUrl}/service/vct-metadata/card",
   "isSdJwt": true,
   "isJwt": false,

@@ -1,6 +1,6 @@
 {
   "id": "f55614ac-a38f-4909-8c20-90775e8f0741",
-  "name": "Payment Card Credential",
+  "name": "Payment Card Credential (TS12)",
   "purpose": "Payment Card Credential",
   "credentialType": "{baseUrl}/service/vct-metadata/card",
   "isScaCredential": true

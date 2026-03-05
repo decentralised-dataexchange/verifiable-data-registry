@@ -1,6 +1,6 @@
 {
   "id": "e3152daf-b847-4c60-a4af-07423593f693",
-  "name": "Payment User Credential",
+  "name": "Payment User Credential (TS12)",
   "purpose": "Payment User Credential",
   "credentialType": "{baseUrl}/service/vct-metadata/payment_service_user",
   "isScaCredential": true
