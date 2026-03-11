@@ -21,11 +21,6 @@
       "limitDisclosure": true
     },
     {
-      "path": ["id"],
-      "mandatory": true,
-      "limitDisclosure": true
-    },
-    {
       "path": ["image"],
       "mandatory": true,
       "limitDisclosure": true
