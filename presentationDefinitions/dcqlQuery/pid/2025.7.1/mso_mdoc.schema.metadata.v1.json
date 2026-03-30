@@ -2,5 +2,5 @@
   "id": "fad127aa-06f5-4bc6-9814-2c3eb6d66e37",
   "name": "Person Identification Data (PID)",
   "purpose": "Person Identification Data (PID)",
-  "credentialType": "urn:eu.europa.ec.eudi:pid:1"
+  "credentialType": "eu.europa.ec.eudi.pid.1"
 }
