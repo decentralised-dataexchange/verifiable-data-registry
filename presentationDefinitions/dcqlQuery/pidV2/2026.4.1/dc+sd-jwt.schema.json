@@ -1,0 +1,29 @@
+{
+  "claims": [
+    { "path": ["address"] },
+    { "path": ["address", "country"] },
+    { "path": ["address", "formatted"] },
+    { "path": ["address", "house_number"] },
+    { "path": ["address", "locality"] },
+    { "path": ["address", "postal_code"] },
+    { "path": ["address", "region"] },
+    { "path": ["address", "street_address"] },
+    { "path": ["birthdate"] },
+    { "path": ["date_of_expiry"] },
+    { "path": ["date_of_issuance"] },
+    { "path": ["document_number"] },
+    { "path": ["email"] },
+    { "path": ["family_name"] },
+    { "path": ["given_name"] },
+    { "path": ["issuing_authority"] },
+    { "path": ["issuing_country"] },
+    { "path": ["issuing_jurisdiction"] },
+    { "path": ["nationalities"] },
+    { "path": ["phone_number"] },
+    { "path": ["place_of_birth"] },
+    { "path": ["place_of_birth", "country"] },
+    { "path": ["place_of_birth", "locality"] },
+    { "path": ["place_of_birth", "region"] },
+    { "path": ["sex"] }
+  ]
+}

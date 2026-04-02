@@ -1,0 +1,129 @@
+{
+  "claims": [
+    {
+      "path": ["org.iso.18013.5.1", "administrative_number"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "age_birth_year"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "age_in_years"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "age_over_18"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "age_over_21"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "birth_date"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "birth_place"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "document_number"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "driving_privileges"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "expiry_date"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "eye_colour"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "family_name"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "given_name"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "hair_colour"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "height"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "issue_date"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "issuing_authority"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "issuing_country"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "issuing_jurisdiction"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "portrait"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "portrait_capture_date"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "resident_address"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "sex"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "un_distinguishing_sign"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["org.iso.18013.5.1", "weight"],
+      "mandatory": true,
+      "limitDisclosure": true
+    }
+  ]
+}

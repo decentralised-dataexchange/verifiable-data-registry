@@ -1,0 +1,29 @@
+{
+  "claims": [
+    { "path": ["eu.europa.ec.eudi.pid.1", "birth_date"] },
+    { "path": ["eu.europa.ec.eudi.pid.1", "document_number"] },
+    { "path": ["eu.europa.ec.eudi.pid.1", "email_address"] },
+    { "path": ["eu.europa.ec.eudi.pid.1", "expiry_date"] },
+    { "path": ["eu.europa.ec.eudi.pid.1", "family_name"] },
+    { "path": ["eu.europa.ec.eudi.pid.1", "family_name_birth"] },
+    { "path": ["eu.europa.ec.eudi.pid.1", "given_name"] },
+    { "path": ["eu.europa.ec.eudi.pid.1", "given_name_birth"] },
+    { "path": ["eu.europa.ec.eudi.pid.1", "issuance_date"] },
+    { "path": ["eu.europa.ec.eudi.pid.1", "issuing_authority"] },
+    { "path": ["eu.europa.ec.eudi.pid.1", "issuing_country"] },
+    { "path": ["eu.europa.ec.eudi.pid.1", "issuing_jurisdiction"] },
+    { "path": ["eu.europa.ec.eudi.pid.1", "mobile_phone_number"] },
+    { "path": ["eu.europa.ec.eudi.pid.1", "nationality"] },
+    { "path": ["eu.europa.ec.eudi.pid.1", "personal_administrative_number"] },
+    { "path": ["eu.europa.ec.eudi.pid.1", "place_of_birth"] },
+    { "path": ["eu.europa.ec.eudi.pid.1", "portrait"] },
+    { "path": ["eu.europa.ec.eudi.pid.1", "resident_address"] },
+    { "path": ["eu.europa.ec.eudi.pid.1", "resident_city"] },
+    { "path": ["eu.europa.ec.eudi.pid.1", "resident_country"] },
+    { "path": ["eu.europa.ec.eudi.pid.1", "resident_house_number"] },
+    { "path": ["eu.europa.ec.eudi.pid.1", "resident_postal_code"] },
+    { "path": ["eu.europa.ec.eudi.pid.1", "resident_state"] },
+    { "path": ["eu.europa.ec.eudi.pid.1", "resident_street"] },
+    { "path": ["eu.europa.ec.eudi.pid.1", "sex"] }
+  ]
+}

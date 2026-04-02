@@ -1,0 +1,29 @@
+{
+  "claims": [
+    { "path": ["org.iso.18013.5.1", "administrative_number"] },
+    { "path": ["org.iso.18013.5.1", "age_birth_year"] },
+    { "path": ["org.iso.18013.5.1", "age_in_years"] },
+    { "path": ["org.iso.18013.5.1", "age_over_18"] },
+    { "path": ["org.iso.18013.5.1", "age_over_21"] },
+    { "path": ["org.iso.18013.5.1", "birth_date"] },
+    { "path": ["org.iso.18013.5.1", "birth_place"] },
+    { "path": ["org.iso.18013.5.1", "document_number"] },
+    { "path": ["org.iso.18013.5.1", "driving_privileges"] },
+    { "path": ["org.iso.18013.5.1", "expiry_date"] },
+    { "path": ["org.iso.18013.5.1", "eye_colour"] },
+    { "path": ["org.iso.18013.5.1", "family_name"] },
+    { "path": ["org.iso.18013.5.1", "given_name"] },
+    { "path": ["org.iso.18013.5.1", "hair_colour"] },
+    { "path": ["org.iso.18013.5.1", "height"] },
+    { "path": ["org.iso.18013.5.1", "issue_date"] },
+    { "path": ["org.iso.18013.5.1", "issuing_authority"] },
+    { "path": ["org.iso.18013.5.1", "issuing_country"] },
+    { "path": ["org.iso.18013.5.1", "issuing_jurisdiction"] },
+    { "path": ["org.iso.18013.5.1", "portrait"] },
+    { "path": ["org.iso.18013.5.1", "portrait_capture_date"] },
+    { "path": ["org.iso.18013.5.1", "resident_address"] },
+    { "path": ["org.iso.18013.5.1", "sex"] },
+    { "path": ["org.iso.18013.5.1", "un_distinguishing_sign"] },
+    { "path": ["org.iso.18013.5.1", "weight"] }
+  ]
+}
