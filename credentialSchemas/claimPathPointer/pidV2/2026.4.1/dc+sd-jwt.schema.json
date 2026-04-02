@@ -1,0 +1,129 @@
+{
+  "claims": [
+    {
+      "path": ["address"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["address", "country"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["address", "formatted"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["address", "house_number"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["address", "locality"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["address", "postal_code"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["address", "region"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["address", "street_address"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["birthdate"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["date_of_expiry"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["date_of_issuance"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["document_number"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["email"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["family_name"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["given_name"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["issuing_authority"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["issuing_country"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["issuing_jurisdiction"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["nationalities"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["phone_number"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["place_of_birth"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["place_of_birth", "country"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["place_of_birth", "locality"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["place_of_birth", "region"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["sex"],
+      "mandatory": true,
+      "limitDisclosure": true
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "claims": [
+    {
+      "path": ["eu.europa.ec.av.1", "age_over_14"]
+    },
+    {
+      "path": ["eu.europa.ec.av.1", "age_over_16"]
+    },
+    {
+      "path": ["eu.europa.ec.av.1", "age_over_18"]
+    },
+    {
+      "path": ["eu.europa.ec.av.1", "age_over_21"]
+    },
+    {
+      "path": ["eu.europa.ec.av.1", "age_over_65"]
+    }
+  ]
+}

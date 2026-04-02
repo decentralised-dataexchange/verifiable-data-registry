@@ -1,0 +1,29 @@
+{
+  "claims": [
+    {
+      "path": ["eu.europa.ec.av.1", "age_over_14"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["eu.europa.ec.av.1", "age_over_16"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["eu.europa.ec.av.1", "age_over_18"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["eu.europa.ec.av.1", "age_over_21"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["eu.europa.ec.av.1", "age_over_65"],
+      "mandatory": true,
+      "limitDisclosure": true
+    }
+  ]
+}

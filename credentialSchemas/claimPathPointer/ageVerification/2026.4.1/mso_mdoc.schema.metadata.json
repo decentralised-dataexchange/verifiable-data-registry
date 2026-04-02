@@ -1,0 +1,10 @@
+{
+  "id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
+  "title": "Age Verification",
+  "credentialType": "eu.europa.ec.av.1",
+  "namespace": "eu.europa.ec.av.1",
+  "doctype": "eu.europa.ec.av.1",
+  "isSdJwt": false,
+  "isJwt": false,
+  "isMsoMdoc": true
+}

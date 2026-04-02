@@ -1,0 +1,9 @@
+{
+  "id": "e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8091",
+  "title": "Person Identification Data (PID) (EU ARF 2.8.0)",
+  "credentialType": "eu.europa.ec.eudi.pid.1",
+  "namespace": "urn:eudi",
+  "isSdJwt": true,
+  "isJwt": false,
+  "isMsoMdoc": false
+}
