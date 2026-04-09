@@ -6,5 +6,6 @@
   "namespace": "eu.europa.ec.eudi.studentid.1",
   "isSdJwt": false,
   "isJwt": true,
-  "isMsoMdoc": false
+  "isMsoMdoc": false,
+  "versionSupported": ["draft-15","draft-17","v1.0","v1.0-20260301"]
 }

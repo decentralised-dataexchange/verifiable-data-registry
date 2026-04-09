@@ -5,5 +5,6 @@
   "isSdJwt": true,
   "isJwt": false,
   "isMsoMdoc": false,
-  "isScaCredential": true
+  "isScaCredential": true,
+  "versionSupported": ["draft-15","draft-17","v1.0","v1.0-20260301"]
 }
