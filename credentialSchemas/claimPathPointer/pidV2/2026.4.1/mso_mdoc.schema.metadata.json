@@ -6,5 +6,6 @@
   "doctype": "eu.europa.ec.eudi.pid.1",
   "isSdJwt": false,
   "isJwt": false,
-  "isMsoMdoc": true
+  "isMsoMdoc": true,
+  "versionSupported": ["v1.0","v1.0-20260301"]
 }

@@ -6,5 +6,6 @@
   "doctype": "eu.europa.ec.eudi.photoid.1",
   "isSdJwt": false,
   "isJwt": false,
-  "isMsoMdoc": true
+  "isMsoMdoc": true,
+  "versionSupported": ["draft-15","draft-17","v1.0","v1.0-20260301"]
 }
