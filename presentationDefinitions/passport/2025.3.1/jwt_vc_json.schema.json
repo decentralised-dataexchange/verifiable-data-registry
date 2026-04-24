@@ -34,11 +34,6 @@
       },
       {
         "path": [
-          "$.vc.credentialSubject.id"
-        ]
-      },
-      {
-        "path": [
           "$.vc.credentialSubject.image"
         ]
       },

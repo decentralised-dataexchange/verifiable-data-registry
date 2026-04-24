@@ -4,7 +4,6 @@
     { "namespace": "org.iso.18013.5.1", "claim_name": "firstName" },
     { "namespace": "org.iso.18013.5.1", "claim_name": "signature" },
     { "namespace": "org.iso.18013.5.1", "claim_name": "personalNumber" },
-    { "namespace": "org.iso.18013.5.1", "claim_name": "id" },
     { "namespace": "org.iso.18013.5.1", "claim_name": "image" },
     { "namespace": "org.iso.18013.5.1", "claim_name": "birthDate" },
     { "namespace": "org.iso.18013.5.1", "claim_name": "lastName" },
