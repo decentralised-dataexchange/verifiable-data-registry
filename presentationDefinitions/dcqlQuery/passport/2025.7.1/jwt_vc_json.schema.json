@@ -4,7 +4,6 @@
     { "path": ["credentialSubject", "firstName"] },
     { "path": ["credentialSubject", "signature"] },
     { "path": ["credentialSubject", "personalNumber"] },
-    { "path": ["credentialSubject", "id"] },
     { "path": ["credentialSubject", "image"] },
     { "path": ["credentialSubject", "birthDate"] },
     { "path": ["credentialSubject", "lastName"] },

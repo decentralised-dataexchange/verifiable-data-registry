@@ -23,11 +23,6 @@
       },
       {
         "path": [
-          "$['org.iso.18013.5.1.passport']['id']"
-        ]
-      },
-      {
-        "path": [
           "$['org.iso.18013.5.1.passport']['image']"
         ]
       },
