@@ -66,7 +66,7 @@
       "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi.pid.1", "nationality"],
+      "path": ["eu.europa.ec.eudi.pid.1", "nationalities"],
       "mandatory": true,
       "limitDisclosure": true
     },
@@ -77,6 +77,21 @@
     },
     {
       "path": ["eu.europa.ec.eudi.pid.1", "place_of_birth"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["eu.europa.ec.eudi.pid.1", "place_of_birth", "country"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["eu.europa.ec.eudi.pid.1", "place_of_birth", "locality"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["eu.europa.ec.eudi.pid.1", "place_of_birth", "region"],
       "mandatory": true,
       "limitDisclosure": true
     },
