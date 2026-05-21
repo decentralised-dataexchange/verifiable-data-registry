@@ -12,17 +12,17 @@
     },
     {
       "path": ["eu.europa.ec.eudi.pid.1", "document_number"],
-      "mandatory": true,
+      "mandatory": false,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi.pid.1", "email_address"],
-      "mandatory": true,
+      "mandatory": false,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi.pid.1", "expiry_date"],
-      "mandatory": true,
+      "mandatory": false,
       "limitDisclosure": true
     },
     {
@@ -32,7 +32,7 @@
     },
     {
       "path": ["eu.europa.ec.eudi.pid.1", "family_name_birth"],
-      "mandatory": true,
+      "mandatory": false,
       "limitDisclosure": true
     },
     {
@@ -42,32 +42,32 @@
     },
     {
       "path": ["eu.europa.ec.eudi.pid.1", "given_name_birth"],
-      "mandatory": true,
+      "mandatory": false,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi.pid.1", "issuance_date"],
-      "mandatory": true,
+      "mandatory": false,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi.pid.1", "issuing_authority"],
-      "mandatory": true,
+      "mandatory": false,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi.pid.1", "issuing_country"],
-      "mandatory": true,
+      "mandatory": false,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi.pid.1", "issuing_jurisdiction"],
-      "mandatory": true,
+      "mandatory": false,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi.pid.1", "mobile_phone_number"],
-      "mandatory": true,
+      "mandatory": false,
       "limitDisclosure": true
     },
     {
@@ -77,72 +77,72 @@
     },
     {
       "path": ["eu.europa.ec.eudi.pid.1", "personal_administrative_number"],
-      "mandatory": true,
+      "mandatory": false,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi.pid.1", "place_of_birth"],
-      "mandatory": true,
+      "mandatory": false,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi.pid.1", "place_of_birth", "country"],
-      "mandatory": true,
+      "mandatory": false,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi.pid.1", "place_of_birth", "locality"],
-      "mandatory": true,
+      "mandatory": false,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi.pid.1", "place_of_birth", "region"],
-      "mandatory": true,
+      "mandatory": false,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi.pid.1", "portrait"],
-      "mandatory": true,
+      "mandatory": false,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi.pid.1", "resident_address"],
-      "mandatory": true,
+      "mandatory": false,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi.pid.1", "resident_city"],
-      "mandatory": true,
+      "mandatory": false,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi.pid.1", "resident_country"],
-      "mandatory": true,
+      "mandatory": false,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi.pid.1", "resident_house_number"],
-      "mandatory": true,
+      "mandatory": false,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi.pid.1", "resident_postal_code"],
-      "mandatory": true,
+      "mandatory": false,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi.pid.1", "resident_state"],
-      "mandatory": true,
+      "mandatory": false,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi.pid.1", "resident_street"],
-      "mandatory": true,
+      "mandatory": false,
       "limitDisclosure": true
     },
     {
       "path": ["eu.europa.ec.eudi.pid.1", "sex"],
-      "mandatory": true,
+      "mandatory": false,
       "limitDisclosure": true
     },
     {
