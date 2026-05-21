@@ -8,6 +8,9 @@
     { "path": ["address", "postal_code"] },
     { "path": ["address", "region"] },
     { "path": ["address", "street_address"] },
+    { "path": ["attestation_legal_category"] },
+    { "path": ["birth_family_name"] },
+    { "path": ["birth_given_name"] },
     { "path": ["birthdate"] },
     { "path": ["date_of_expiry"] },
     { "path": ["date_of_issuance"] },
@@ -19,11 +22,14 @@
     { "path": ["issuing_country"] },
     { "path": ["issuing_jurisdiction"] },
     { "path": ["nationalities"] },
+    { "path": ["personal_administrative_number"] },
     { "path": ["phone_number"] },
+    { "path": ["picture"] },
     { "path": ["place_of_birth"] },
     { "path": ["place_of_birth", "country"] },
     { "path": ["place_of_birth", "locality"] },
     { "path": ["place_of_birth", "region"] },
-    { "path": ["sex"] }
+    { "path": ["sex"] },
+    { "path": ["trust_anchor"] }
   ]
 }

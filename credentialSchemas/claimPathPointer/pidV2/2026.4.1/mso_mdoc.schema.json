@@ -1,6 +1,11 @@
 {
   "claims": [
     {
+      "path": ["eu.europa.ec.eudi.pid.1", "attestation_legal_category"],
+      "mandatory": false,
+      "limitDisclosure": true
+    },
+    {
       "path": ["eu.europa.ec.eudi.pid.1", "birth_date"],
       "mandatory": true,
       "limitDisclosure": true
@@ -138,6 +143,11 @@
     {
       "path": ["eu.europa.ec.eudi.pid.1", "sex"],
       "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["eu.europa.ec.eudi.pid.1", "trust_anchor"],
+      "mandatory": false,
       "limitDisclosure": true
     }
   ]

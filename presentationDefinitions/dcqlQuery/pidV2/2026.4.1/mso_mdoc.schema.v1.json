@@ -1,5 +1,6 @@
 {
   "claims": [
+    { "path": ["eu.europa.ec.eudi.pid.1", "attestation_legal_category"] },
     { "path": ["eu.europa.ec.eudi.pid.1", "birth_date"] },
     { "path": ["eu.europa.ec.eudi.pid.1", "document_number"] },
     { "path": ["eu.europa.ec.eudi.pid.1", "email_address"] },
@@ -27,6 +28,7 @@
     { "path": ["eu.europa.ec.eudi.pid.1", "resident_postal_code"] },
     { "path": ["eu.europa.ec.eudi.pid.1", "resident_state"] },
     { "path": ["eu.europa.ec.eudi.pid.1", "resident_street"] },
-    { "path": ["eu.europa.ec.eudi.pid.1", "sex"] }
+    { "path": ["eu.europa.ec.eudi.pid.1", "sex"] },
+    { "path": ["eu.europa.ec.eudi.pid.1", "trust_anchor"] }
   ]
 }

@@ -41,6 +41,21 @@
       "limitDisclosure": true
     },
     {
+      "path": ["attestation_legal_category"],
+      "mandatory": false,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["birth_family_name"],
+      "mandatory": false,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["birth_given_name"],
+      "mandatory": false,
+      "limitDisclosure": true
+    },
+    {
       "path": ["birthdate"],
       "mandatory": true,
       "limitDisclosure": true
@@ -96,8 +111,18 @@
       "limitDisclosure": true
     },
     {
+      "path": ["personal_administrative_number"],
+      "mandatory": false,
+      "limitDisclosure": true
+    },
+    {
       "path": ["phone_number"],
       "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["picture"],
+      "mandatory": false,
       "limitDisclosure": true
     },
     {
@@ -123,6 +148,11 @@
     {
       "path": ["sex"],
       "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["trust_anchor"],
+      "mandatory": false,
       "limitDisclosure": true
     }
   ]
