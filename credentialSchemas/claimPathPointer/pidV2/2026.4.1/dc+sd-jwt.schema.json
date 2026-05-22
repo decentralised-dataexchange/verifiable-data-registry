@@ -62,7 +62,7 @@
     },
     {
       "path": ["date_of_expiry"],
-      "mandatory": false,
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -92,12 +92,12 @@
     },
     {
       "path": ["issuing_authority"],
-      "mandatory": false,
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["issuing_country"],
-      "mandatory": false,
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
@@ -127,22 +127,22 @@
     },
     {
       "path": ["place_of_birth"],
-      "mandatory": false,
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["place_of_birth", "country"],
-      "mandatory": false,
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["place_of_birth", "locality"],
-      "mandatory": false,
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
       "path": ["place_of_birth", "region"],
-      "mandatory": false,
+      "mandatory": true,
       "limitDisclosure": true
     },
     {
