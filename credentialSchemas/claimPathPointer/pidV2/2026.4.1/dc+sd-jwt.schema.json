@@ -106,7 +106,7 @@
       "limitDisclosure": true
     },
     {
-      "path": ["nationalities"],
+      "path": ["nationalities", null],
       "mandatory": true,
       "limitDisclosure": true
     },

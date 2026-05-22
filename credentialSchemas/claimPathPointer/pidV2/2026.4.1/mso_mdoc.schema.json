@@ -71,7 +71,7 @@
       "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi.pid.1", "nationality"],
+      "path": ["eu.europa.ec.eudi.pid.1", "nationality", null],
       "mandatory": true,
       "limitDisclosure": true
     },
