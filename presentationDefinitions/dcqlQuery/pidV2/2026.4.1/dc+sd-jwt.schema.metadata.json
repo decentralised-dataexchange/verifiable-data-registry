@@ -2,5 +2,5 @@
   "id": "f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f809102",
   "name": "Person Identification Data (PID) (EU ARF 2.8.0)",
   "purpose": "Person Identification Data (PID) (EU ARF 2.8.0)",
-  "credentialType": "eu.europa.ec.eudi.pid.1"
+  "credentialType": "urn:eudi:pid:1"
 }
