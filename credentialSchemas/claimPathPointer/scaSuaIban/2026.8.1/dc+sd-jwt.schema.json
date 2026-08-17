@@ -1,0 +1,53 @@
+{
+  "claims": [
+    {
+      "path": [
+        "masked_iban"
+      ],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": [
+        "iban"
+      ],
+      "mandatory": false,
+      "limitDisclosure": true
+    },
+    {
+      "path": [
+        "national_bank_code"
+      ],
+      "mandatory": false,
+      "limitDisclosure": true
+    },
+    {
+      "path": [
+        "bic"
+      ],
+      "mandatory": false,
+      "limitDisclosure": true
+    },
+    {
+      "path": [
+        "scheme_identifier"
+      ],
+      "mandatory": false,
+      "limitDisclosure": true
+    },
+    {
+      "path": [
+        "display_name"
+      ],
+      "mandatory": false,
+      "limitDisclosure": true
+    },
+    {
+      "path": [
+        "currency"
+      ],
+      "mandatory": false,
+      "limitDisclosure": true
+    }
+  ]
+}

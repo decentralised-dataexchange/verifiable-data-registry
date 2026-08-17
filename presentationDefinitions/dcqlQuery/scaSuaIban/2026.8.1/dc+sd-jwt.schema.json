@@ -1,0 +1,14 @@
+{
+  "claims": [
+    {
+      "path": [
+        "masked_iban"
+      ]
+    },
+    {
+      "path": [
+        "iban"
+      ]
+    }
+  ]
+}

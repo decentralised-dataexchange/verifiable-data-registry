@@ -1,0 +1,10 @@
+{
+  "id": "3910fe71-2cfd-471a-9213-d510d61d1710",
+  "title": "SUA User Credential (WE BUILD TS12)",
+  "credentialType": "{baseUrl}/service/vct-metadata/sua_user",
+  "isSdJwt": true,
+  "isJwt": false,
+  "isMsoMdoc": false,
+  "isScaCredential": true,
+  "versionSupported": ["draft_15", "draft_17", "version_01", "v1.0-20260301"]
+}

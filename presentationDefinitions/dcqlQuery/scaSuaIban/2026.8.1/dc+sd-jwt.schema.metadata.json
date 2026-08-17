@@ -1,0 +1,7 @@
+{
+  "id": "f35176f2-d54f-4c30-bc37-4c4991e44dd4",
+  "name": "SUA IBAN Credential (WE BUILD TS12)",
+  "purpose": "SUA IBAN Credential (WE BUILD TS12)",
+  "credentialType": "{baseUrl}/service/vct-metadata/sua_iban",
+  "isScaCredential": true
+}
