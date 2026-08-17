@@ -1,0 +1,7 @@
+{
+  "id": "8f5c7618-8cca-4d90-97ba-331cdc3ce7e3",
+  "name": "SUA User Credential (WE BUILD TS12)",
+  "purpose": "SUA User Credential (WE BUILD TS12)",
+  "credentialType": "{baseUrl}/service/vct-metadata/sua_user",
+  "isScaCredential": true
+}

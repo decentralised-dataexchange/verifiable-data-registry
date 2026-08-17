@@ -1,0 +1,11 @@
+{
+  "claims": [
+    {
+      "path": [
+        "masked_psu_id"
+      ],
+      "mandatory": false,
+      "limitDisclosure": false
+    }
+  ]
+}

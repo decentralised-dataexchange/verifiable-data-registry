@@ -1,0 +1,10 @@
+{
+  "id": "afc254c5-87e0-405e-8829-a758e954bea9",
+  "title": "SUA IBAN Credential (WE BUILD TS12)",
+  "credentialType": "{baseUrl}/service/vct-metadata/sua_iban",
+  "isSdJwt": true,
+  "isJwt": false,
+  "isMsoMdoc": false,
+  "isScaCredential": true,
+  "versionSupported": ["draft_15", "draft_17", "version_01", "v1.0-20260301"]
+}
