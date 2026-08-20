@@ -21,7 +21,6 @@
     { "path": ["eu.europa.ec.eudi.pid.1", "resident_address"] },
     { "path": ["eu.europa.ec.eudi.pid.1", "resident_city"] },
     { "path": ["eu.europa.ec.eudi.pid.1", "resident_country"] },
-    { "path": ["eu.europa.ec.eudi.pid.1", "resident_house_number"] },
     { "path": ["eu.europa.ec.eudi.pid.1", "resident_postal_code"] },
     { "path": ["eu.europa.ec.eudi.pid.1", "resident_state"] },
     { "path": ["eu.europa.ec.eudi.pid.1", "resident_street"] },

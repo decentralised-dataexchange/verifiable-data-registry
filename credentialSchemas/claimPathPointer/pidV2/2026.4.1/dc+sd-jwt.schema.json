@@ -62,7 +62,7 @@
     },
     {
       "path": ["date_of_expiry"],
-      "mandatory": true,
+      "mandatory": false,
       "limitDisclosure": true
     },
     {
@@ -132,17 +132,17 @@
     },
     {
       "path": ["place_of_birth", "country"],
-      "mandatory": true,
+      "mandatory": false,
       "limitDisclosure": true
     },
     {
       "path": ["place_of_birth", "locality"],
-      "mandatory": true,
+      "mandatory": false,
       "limitDisclosure": true
     },
     {
       "path": ["place_of_birth", "region"],
-      "mandatory": true,
+      "mandatory": false,
       "limitDisclosure": true
     },
     {

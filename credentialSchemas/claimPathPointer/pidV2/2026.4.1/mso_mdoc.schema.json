@@ -22,7 +22,7 @@
     },
     {
       "path": ["eu.europa.ec.eudi.pid.1", "expiry_date"],
-      "mandatory": true,
+      "mandatory": false,
       "limitDisclosure": true
     },
     {
@@ -71,7 +71,7 @@
       "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi.pid.1", "nationality", null],
+      "path": ["eu.europa.ec.eudi.pid.1", "nationality"],
       "mandatory": true,
       "limitDisclosure": true
     },
@@ -82,21 +82,6 @@
     },
     {
       "path": ["eu.europa.ec.eudi.pid.1", "place_of_birth"],
-      "mandatory": true,
-      "limitDisclosure": true
-    },
-    {
-      "path": ["eu.europa.ec.eudi.pid.1", "place_of_birth", "country"],
-      "mandatory": true,
-      "limitDisclosure": true
-    },
-    {
-      "path": ["eu.europa.ec.eudi.pid.1", "place_of_birth", "locality"],
-      "mandatory": true,
-      "limitDisclosure": true
-    },
-    {
-      "path": ["eu.europa.ec.eudi.pid.1", "place_of_birth", "region"],
       "mandatory": true,
       "limitDisclosure": true
     },
@@ -117,11 +102,6 @@
     },
     {
       "path": ["eu.europa.ec.eudi.pid.1", "resident_country"],
-      "mandatory": false,
-      "limitDisclosure": true
-    },
-    {
-      "path": ["eu.europa.ec.eudi.pid.1", "resident_house_number"],
       "mandatory": false,
       "limitDisclosure": true
     },
