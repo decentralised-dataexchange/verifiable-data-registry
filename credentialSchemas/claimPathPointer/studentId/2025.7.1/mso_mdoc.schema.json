@@ -1,82 +1,82 @@
 {
   "claims": [
     {
-      "path": ["eu.europa.ec.eudi", "commonName"],
+      "path": ["eu.europa.ec.eudi.studentid.1", "commonName"],
       "mandatory": true,
       "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "dateOfBirth"],
+      "path": ["eu.europa.ec.eudi.studentid.1", "dateOfBirth"],
       "mandatory": true,
       "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "displayName"],
+      "path": ["eu.europa.ec.eudi.studentid.1", "displayName"],
       "mandatory": true,
       "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "eduPersonAffiliation", null],
+      "path": ["eu.europa.ec.eudi.studentid.1", "eduPersonAffiliation", null],
       "mandatory": true,
       "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "eduPersonAssurance", null],
+      "path": ["eu.europa.ec.eudi.studentid.1", "eduPersonAssurance", null],
       "mandatory": true,
       "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "eduPersonPrimaryAffiliation"],
+      "path": ["eu.europa.ec.eudi.studentid.1", "eduPersonPrimaryAffiliation"],
       "mandatory": true,
       "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "eduPersonPrincipalName"],
+      "path": ["eu.europa.ec.eudi.studentid.1", "eduPersonPrincipalName"],
       "mandatory": true,
       "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "eduPersonScopedAffiliation", null],
+      "path": ["eu.europa.ec.eudi.studentid.1", "eduPersonScopedAffiliation", null],
       "mandatory": true,
       "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "familyName"],
+      "path": ["eu.europa.ec.eudi.studentid.1", "familyName"],
       "mandatory": true,
       "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "firstName"],
+      "path": ["eu.europa.ec.eudi.studentid.1", "firstName"],
       "mandatory": true,
       "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "id"],
+      "path": ["eu.europa.ec.eudi.studentid.1", "id"],
       "mandatory": true,
       "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "identifier"],
+      "path": ["eu.europa.ec.eudi.studentid.1", "identifier"],
       "mandatory": true,
       "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "mail"],
+      "path": ["eu.europa.ec.eudi.studentid.1", "mail"],
       "mandatory": true,
       "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "schacHomeOrganization"],
+      "path": ["eu.europa.ec.eudi.studentid.1", "schacHomeOrganization"],
       "mandatory": true,
       "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "schacPersonalUniqueCode", null],
+      "path": ["eu.europa.ec.eudi.studentid.1", "schacPersonalUniqueCode", null],
       "mandatory": true,
       "limitDisclosure": true
     },
     {
-      "path": ["eu.europa.ec.eudi", "schacPersonalUniqueID"],
+      "path": ["eu.europa.ec.eudi.studentid.1", "schacPersonalUniqueID"],
       "mandatory": true,
       "limitDisclosure": true
     }
