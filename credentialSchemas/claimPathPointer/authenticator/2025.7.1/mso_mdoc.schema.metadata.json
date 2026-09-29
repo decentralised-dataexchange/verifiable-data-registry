@@ -1,6 +1,6 @@
 {
   "id": "21f369f9-5c6c-4102-8669-ae31b4500a43",
-  "title": "iGrant.io Authenticator",
+  "title": "Authenticator",
   "credentialType": "io.igrant.authenticator",
   "namespace": "io.igrant.authenticator",
   "doctype": "io.igrant.authenticator",
