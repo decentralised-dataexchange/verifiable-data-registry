@@ -1,6 +1,6 @@
 {
   "id": "a7b8c9d0-e1f2-4a3b-4c5d-6e7f80910213",
-  "title": "Person Identification Data (PID) (EU ARF 2.8.0)",
+  "title": "Person Identification Data (PID Rulebook v1.7)",
   "credentialType": "eu.europa.ec.eudi.pid.1",
   "namespace": "eu.europa.ec.eudi.pid.1",
   "doctype": "eu.europa.ec.eudi.pid.1",
