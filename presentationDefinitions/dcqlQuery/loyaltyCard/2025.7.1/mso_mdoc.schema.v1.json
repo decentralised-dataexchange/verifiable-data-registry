@@ -1,9 +1,9 @@
 {
   "claims": [
-    { "path": ["eu.europa.ec.eudi", "customer"] },
-    { "path": ["eu.europa.ec.eudi", "loyalty_card"] },
-    { "path": ["eu.europa.ec.eudi", "portfolio"] },
-    { "path": ["eu.europa.ec.eudi", "organization"] },
-    { "path": ["eu.europa.ec.eudi", "credential"] }
+    { "path": ["eu.europa.ec.eudi.loyaltycard", "customer"] },
+    { "path": ["eu.europa.ec.eudi.loyaltycard", "loyalty_card"] },
+    { "path": ["eu.europa.ec.eudi.loyaltycard", "portfolio"] },
+    { "path": ["eu.europa.ec.eudi.loyaltycard", "organization"] },
+    { "path": ["eu.europa.ec.eudi.loyaltycard", "credential"] }
   ]
 }
