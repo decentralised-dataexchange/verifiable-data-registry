@@ -1,7 +1,7 @@
 {
   "claims": [
-    { "namespace": "eu.europa.ec.eudi", "claim_name": "dtc" },
-    { "namespace": "eu.europa.ec.eudi", "claim_name": "iso23220" },
-    { "namespace": "eu.europa.ec.eudi", "claim_name": "photoid" }
+    { "namespace": "eu.europa.ec.eudi.photoid.1", "claim_name": "dtc" },
+    { "namespace": "eu.europa.ec.eudi.photoid.1", "claim_name": "iso23220" },
+    { "namespace": "eu.europa.ec.eudi.photoid.1", "claim_name": "photoid" }
   ]
 }

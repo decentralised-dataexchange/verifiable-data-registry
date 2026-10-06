@@ -1,7 +1,7 @@
 {
   "claims": [
-    { "path": ["eu.europa.ec.eudi", "dtc"] },
-    { "path": ["eu.europa.ec.eudi", "iso23220"] },
-    { "path": ["eu.europa.ec.eudi", "photoid"] }
+    { "path": ["eu.europa.ec.eudi.photoid.1", "dtc"] },
+    { "path": ["eu.europa.ec.eudi.photoid.1", "iso23220"] },
+    { "path": ["eu.europa.ec.eudi.photoid.1", "photoid"] }
   ]
 }
