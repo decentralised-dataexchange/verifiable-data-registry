@@ -1,0 +1,159 @@
+{
+  "claims": [
+    {
+      "path": ["address"],
+      "mandatory": false,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["address", "country"],
+      "mandatory": false,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["address", "formatted"],
+      "mandatory": false,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["address", "house_number"],
+      "mandatory": false,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["address", "locality"],
+      "mandatory": false,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["address", "postal_code"],
+      "mandatory": false,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["address", "region"],
+      "mandatory": false,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["address", "street_address"],
+      "mandatory": false,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["attestation_legal_category"],
+      "mandatory": false,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["birth_family_name"],
+      "mandatory": false,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["birth_given_name"],
+      "mandatory": false,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["birthdate"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["date_of_expiry"],
+      "mandatory": false,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["date_of_issuance"],
+      "mandatory": false,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["document_number"],
+      "mandatory": false,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["email"],
+      "mandatory": false,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["family_name"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["given_name"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["issuing_authority"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["issuing_country"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["issuing_jurisdiction"],
+      "mandatory": false,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["nationalities", null],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["personal_administrative_number"],
+      "mandatory": false,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["phone_number"],
+      "mandatory": false,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["picture"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["place_of_birth"],
+      "mandatory": true,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["place_of_birth", "country"],
+      "mandatory": false,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["place_of_birth", "locality"],
+      "mandatory": false,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["place_of_birth", "region"],
+      "mandatory": false,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["sex"],
+      "mandatory": false,
+      "limitDisclosure": true
+    },
+    {
+      "path": ["trust_anchor"],
+      "mandatory": false,
+      "limitDisclosure": true
+    }
+  ]
+}

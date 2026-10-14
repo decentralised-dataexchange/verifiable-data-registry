@@ -1,0 +1,11 @@
+{
+  "id": "ed8f36e1-7a31-4ef9-b4c4-699a05a8d31f",
+  "title": "Person Identification Data (PID Rulebook v1.7) v2",
+  "credentialType": "eu.europa.ec.eudi.pid.1",
+  "namespace": "eu.europa.ec.eudi.pid.1",
+  "doctype": "eu.europa.ec.eudi.pid.1",
+  "isSdJwt": false,
+  "isJwt": false,
+  "isMsoMdoc": true,
+  "versionSupported": ["version_01","v1.0-20260301"]
+}
